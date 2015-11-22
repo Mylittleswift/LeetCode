@@ -18,3 +18,8 @@
 * Dijkstra's shortest paths
 * String sorts
 * Tries
+
+
+##Other Swift Algorithms Repo
+* [SwiftGraph](https://github.com/davecom/SwiftGraph)
+* [Swift Algorithms Classroom](https://github.com/gmertk/SwiftAlgorithmsClassroom)
