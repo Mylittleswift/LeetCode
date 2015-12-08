@@ -224,6 +224,26 @@ public class QuickSort<T: Comparable> {
         sort(&array, low: 0, high: array.count - 1)
         
     }
+    
+    private class func ThreeWaySort(inout a:[T], low: Int, high: Int) {
+        guard high > low else {
+            return
+        }
+        
+        var lt = low, i = low + 1, gt = high
+        let v = a[low]
+        while i <= gt {
+            if a[i] < v {
+                exchange(&a, lt++, i++)
+            } else {
+                i++
+            }
+        }
+        sort(&a, low: low, high: lt - 1)
+        sort(&a, low:gt + 1, high: high)
+    }
+    
+    
     private class func sort(inout a:[T], low: Int, high: Int) {
         
         guard high > low else {
