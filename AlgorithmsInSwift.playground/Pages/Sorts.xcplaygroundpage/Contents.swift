@@ -192,9 +192,88 @@ MergeSort.sort(&arrayOfString_mergeSort)
 arrayOfString_mergeSort
 
 
+//Quick Sort
+
+extension CollectionType {
+    /// Return a copy of `self` with its elements shuffled
+    func shuffle() -> [Generator.Element] {
+        var list = Array(self)
+        list.shuffleInPlace()
+        return list
+    }
+}
+
+extension MutableCollectionType where Index == Int {
+    /// Shuffle the elements of `self` in-place.
+    mutating func shuffleInPlace() {
+        // empty and single-element collections don't shuffle
+        if count < 2 { return }
+        
+        for i in 0..<count - 1 {
+            let j = Int(arc4random_uniform(UInt32(count - i))) + i
+            guard i != j else { continue }
+            swap(&self[i], &self[j])
+        }
+    }
+}
+
+public class QuickSort<T: Comparable> {
+    public class func sort(inout array: [T]) {
+        //shuffling is needed for performance guarantee.
+        array.shuffle()
+        sort(&array, low: 0, high: array.count - 1)
+        
+    }
+    private class func sort(inout a:[T], low: Int, high: Int) {
+        
+        guard high > low else {
+            return
+        }
+        let j = partition(&a, low: low, high: high)
+        sort(&a, low:low, high:j - 1)
+        sort(&a, low:j+1, high:high)
+    
+    }
+    
+    private class func partition(inout a:[T], low:Int, high: Int) -> Int{
+        var i = low, j = high + 1
+        while true {
+            while (a[++i] < a[low]) {
+                if i == high {
+                    break
+                }
+            }
+            
+            while (a[low] < a[--j]) {
+                if j == low {
+                    break
+                }
+            }
+            
+            if i >= j {
+                break
+            }
+            exchange(&a, i, j)
+        }
+        exchange(&a, low, j)
+        return j
+    }
+    
+    private class func exchange<T:Comparable>(inout array: [T], _ i: Int, _ j: Int)
+    {
+        let temp = array[j]
+        array[j] = array[i]
+        array[i] = temp
+    }
+}
 
 
 
+var arrayOfInt_quickSort = [3,5,7,1,0,100,234,156,31]
+QuickSort.sort(&arrayOfInt_quickSort)
+arrayOfInt_quickSort
 
-
+var arrayOfString_quickSort = ["s","o","r","t","e","x","a","m","p","l","e"]
+QuickSort.sort(&arrayOfString_quickSort)
+arrayOfString_quickSort
 
