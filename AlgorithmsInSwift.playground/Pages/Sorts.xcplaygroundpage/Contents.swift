@@ -297,3 +297,53 @@ var arrayOfString_quickSort = ["s","o","r","t","e","x","a","m","p","l","e"]
 QuickSort.sort(&arrayOfString_quickSort)
 arrayOfString_quickSort
 
+
+
+//sorts a[1] to a[N]
+//heapsort NLogN in place sort, not stable
+final public class HeapSort<T: Comparable> {
+    public final class func sort(inout a:[T]) {
+        
+        var N = a.count
+        //heap construction
+        for (var k = N/2; k>=1; k--) {
+            sink(&a, k: k, len: N)
+        }
+        while N > 1 {
+            exchange(&a, 1, N--)
+            sink(&a, k: 1, len: N)
+        }
+    }
+    
+    private class final func sink(inout a:[T], var k: Int, len: Int) {
+        
+        while (2*k <= len) {
+            var j = 2*k
+            if (j < len && less(a, j, j+1)) {
+                j++
+            }
+            if (!less(a, k, j)) {
+                break
+            }
+            exchange(&a, k, j)
+            k = j
+        }
+    }
+    
+    private class final func less(a: [T], _ i: Int, _ j: Int) -> Bool {
+        return a[i-1] < a[j-1]
+    }
+    
+    private class final func exchange<T:Comparable>(inout array: [T], _ i: Int, _ j: Int)
+    {
+        let temp = array[j-1]
+        array[j-1] = array[i-1]
+        array[i-1] = temp
+    }
+}
+
+var arrayOfString_HeapSort = ["","s","o","r","t","e","x","a","m","p","l","e"]
+HeapSort.sort(&arrayOfString_HeapSort)
+arrayOfString_HeapSort
+
+
