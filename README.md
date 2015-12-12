@@ -8,8 +8,8 @@
 * Elementary Sorts: Selection Sort, Insertion Sort, ShellSort -- Done.
 * Mergesort -- Done.
 * Quicksort -- Done.
-* Priority Queues --> Doing.
-* Symbol Tables
+* Priority Queues -- Done.
+* Symbol Tables --> Doing.
 * Balanced Search Trees
 * Hash Table
 * Undirected Graphs
