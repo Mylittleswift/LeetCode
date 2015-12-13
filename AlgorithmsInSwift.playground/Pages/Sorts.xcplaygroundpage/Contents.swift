@@ -300,7 +300,11 @@ arrayOfString_quickSort
 
 
 //sorts a[1] to a[N]
-//heapsort NLogN in place sort, not stable
+//In-place sorting algorithm with NLo`gN worst-case
+//bottom line:
+//* Inner loop longer than quicksort's
+//* Makes poor use of cache memory
+//* Not Stable
 final public class HeapSort<T: Comparable> {
     public final class func sort(inout a:[T]) {
         
