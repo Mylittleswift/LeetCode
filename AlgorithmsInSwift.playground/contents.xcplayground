@@ -5,5 +5,6 @@
         <page name='LinkedList'/>
         <page name='Union and Find'/>
         <page name='Sorts'/>
+        <page name='Symbol Tables'/>
     </pages>
 </playground>
