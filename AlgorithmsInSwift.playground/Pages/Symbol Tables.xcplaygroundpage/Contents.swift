@@ -136,7 +136,7 @@ public final class BinarySearchTree <Key:Comparable, Value>
             }
             
             if node?.right == nil {
-                return node?.right
+                return node?.left
             }
             
             let tmp = node
