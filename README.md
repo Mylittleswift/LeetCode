@@ -23,6 +23,8 @@
 ##Other Swift Algorithms Repo
 * [SwiftGraph](https://github.com/davecom/SwiftGraph)
 * [Swift Algorithms Classroom](https://github.com/gmertk/SwiftAlgorithmsClassroom)
+* [Swift Sorts](https://github.com/jessesquires/swift-sorts)
+* [Swift Data Structures and Algorithms](https://github.com/stupidfive/SwiftDataStructuresAndAlgorithms)
 
 ##Resources
 * [Know Thy Complexities!](http://bigocheatsheet.com/)
