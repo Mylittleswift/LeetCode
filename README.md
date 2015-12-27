@@ -9,8 +9,8 @@
 * Mergesort -- Done.
 * Quicksort -- Done.
 * Priority Queues -- Done.
-* Symbol Tables --> Doing.
-* Balanced Search Trees
+* BST(Binary Search Tree) -- Done.
+* Balanced Search Trees --> Doing.
 * Hash Table
 * Undirected Graphs
 * Directed Graphs
