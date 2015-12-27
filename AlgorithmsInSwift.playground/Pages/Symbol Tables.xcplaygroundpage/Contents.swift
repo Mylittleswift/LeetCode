@@ -7,7 +7,7 @@ public final class TreeNode<Key: Comparable, Value>{
     var value: Value
     var left: TreeNode?
     var right: TreeNode?
-    var size: UInt
+    var size: UInt //nodes in subtree rooted here
     
     init(key:Key, value:Value, size: UInt) {
         self.key = key
