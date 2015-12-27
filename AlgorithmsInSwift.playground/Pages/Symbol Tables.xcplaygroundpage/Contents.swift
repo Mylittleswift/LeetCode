@@ -96,5 +96,11 @@ bst.put(1, value: "second")
 bst.size()
 bst.get(1)
 
+let bst1 = BinarySearchTree<String, String>()
+bst1.put("0", value: "first_str")
+bst1.put("1", value: "second_str")
+bst1.size()
+bst1.get("0")
+
 
 
