@@ -87,6 +87,66 @@ public final class BinarySearchTree <Key:Comparable, Value>
             return Node(key: key, value: value, size: 1)
         }
     }
+    
+    public func min() -> Key? {
+        return self.min(self.root)?.key
+    }
+    
+    private func min(node:Node?) -> Node? {
+        if let left = node?.left {
+            return self.min(left)
+        } else {
+            return node?.left
+        }
+    }
+    
+    public func deleteMin() {
+        self.root = self.deleteMin(root)
+    }
+    
+    private func deleteMin(node: Node?) -> Node?{
+        if let node = node?.left {
+            node.left = self.deleteMin(node.left)
+        } else {
+            return node?.right
+        }
+        node?.size = self.size(node?.left) + self.size(node?.right) + 1
+        return node
+    }
+    
+    public func delete(key:Key) {
+        self.root = self.delete(self.root, key: key)
+    }
+    
+    private func delete(n:Node?, key:Key) -> Node? {
+        
+        var node = n
+        
+        if node == nil {
+            return nil
+        }
+        
+        if key < node?.key {
+            node?.left = self.delete(node?.left, key: key)
+        } else if key > node?.key {
+            node?.right = self.delete(node?.right, key: key)
+        } else {
+            if node?.left == nil {
+                return node?.right
+            }
+            
+            if node?.right == nil {
+                return node?.right
+            }
+            
+            let tmp = node
+            node = self.min(tmp?.right)
+            node?.right = self.deleteMin(tmp?.right)
+            node?.left = tmp?.left
+        }
+        node?.size = self.size(node?.left) + self.size(node?.right) + 1
+        return node
+    }
 }
 
 let bst = BinarySearchTree<Int, String>()
@@ -95,12 +155,25 @@ bst.put(0, value: "first")
 bst.put(1, value: "second")
 bst.size()
 bst.get(1)
+bst.deleteMin()
+bst.size()
+bst.get(5)
+
+
 
 let bst1 = BinarySearchTree<String, String>()
-bst1.put("0", value: "first_str")
-bst1.put("1", value: "second_str")
+bst1.put("a", value: "a")
+bst1.put("c", value: "c")
+bst1.put("e", value: "e")
+bst1.put("r", value: "r")
+bst1.put("h", value: "h")
+bst1.put("m", value: "m")
+bst1.put("s", value: "s")
+bst1.put("x", value: "x")
+
 bst1.size()
-bst1.get("0")
+bst1.delete("e")
+bst1.get("s")
 
 
 
