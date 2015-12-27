@@ -107,11 +107,11 @@ public final class BinarySearchTree <Key:Comparable, Value>
     private func deleteMin(node: Node?) -> Node?{
         if let node = node?.left {
             node.left = self.deleteMin(node.left)
+            node.size = self.size(node.left) + self.size(node.right) + 1
+            return node
         } else {
             return node?.right
         }
-        node?.size = self.size(node?.left) + self.size(node?.right) + 1
-        return node
     }
     
     public func delete(key:Key) {
