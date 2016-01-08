@@ -285,7 +285,8 @@ public final class RedBlackBST <Key:Comparable, Value>
     }
     
     private func rotateLeft(h: Node) -> Node {
-        
+        assert(isRed(h.right))
+
         let x = h.right!
         h.right = x.left
         x.left = h
@@ -297,6 +298,9 @@ public final class RedBlackBST <Key:Comparable, Value>
     }
     
     private func rotateRight(h: Node) -> Node {
+        
+        assert(isRed(h.left))
+        
         let x = h.left!
         h.left = x.right
         x.right = h
