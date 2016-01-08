@@ -312,6 +312,11 @@ public final class RedBlackBST <Key:Comparable, Value>
     }
     
     private func flipColors(node: Node) {
+        
+        assert(!isRed(node))
+        assert(isRed(node.left))
+        assert(isRed(node.right))
+        
         node.color = RED
         node.left?.color = BLACK
         node.right?.color = BLACK
