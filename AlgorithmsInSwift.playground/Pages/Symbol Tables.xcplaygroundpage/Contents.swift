@@ -176,4 +176,141 @@ bst1.delete("e")
 bst1.get("s")
 
 
+public final class RBTreeNode<Key: Comparable, Value>{
+    let key: Key
+    var value: Value
+    var left: RBTreeNode?
+    var right: RBTreeNode?
+    var size: UInt //nodes in subtree rooted here
+    var color: Bool //color of link from parent to this node
+    
+    init(key:Key, value:Value, size: UInt, color: Bool) {
+        self.key = key
+        self.value = value
+        self.size = size
+        self.color = color
+    }
+}
+
+
+public final class RedBlackBST <Key:Comparable, Value>
+{
+    typealias Node = RBTreeNode<Key, Value>
+    private let RED = true
+    private let BLACK = false
+    
+    private var root: Node?
+    
+    init () {
+        self.root = nil
+    }
+    
+    public func size() -> UInt {
+        return self.size(root)
+    }
+    
+    private func size(node: Node?) -> UInt {
+        if let node = node {
+            return node.size
+        } else {
+            return 0
+        }
+    }
+    
+    public func get(key:Key) -> Value? {
+        return self.get(root, key: key)
+    }
+    
+    //Return value associated with key in the subtree rooted at node;
+    //return nil if key not present in subtree rooted at node.
+    private func get(node:Node?, key:Key) -> Value?{
+        if let node = node {
+            if key < node.key {
+                return self.get(node.left, key: key)
+            } else if key > node.key {
+                return self.get(node.right, key: key)
+            } else {
+                return node.value
+            }
+        } else {
+            return nil
+        }
+    }
+    
+    //Search for key. Update value if found; grow table if new.
+    public func put(key:Key, value:Value) {
+        self.root = self.put(self.root, key: key, value: value)
+        self.root?.color = BLACK
+    }
+    
+    //Change key's value if key in subtree rooted at node.
+    //Otherwise, add new node to subtree associating key with value.
+    private func put(node:Node?, key:Key, value:Value) -> Node? {
+        
+        if var node = node {
+            if key < node.key {
+                node.left = self.put(node.left, key: key, value: value)
+            } else if key > node.key {
+                node.right = self.put(node.right, key: key, value: value)
+            } else {
+                node.value = value
+            }
+            
+            if isRed(node.right) && !isRed(node.left) {
+                node = rotateLeft(node)
+            }
+            
+            if isRed(node.left) && isRed(node.left?.left) {
+                node = rotateRight(node)
+            }
+            
+            if isRed(node.left) && isRed(node.right) {
+                flipColors(node)
+            }
+            
+            //update tree size
+            node.size = self.size(node.left) + self.size(node.right) + 1
+            return node
+        } else {
+            return Node(key: key, value: value, size: 1, color: RED)
+        }
+    }
+    
+    private func isRed(node: Node?) -> Bool {
+        if let node = node {
+            return node.color == RED
+        } else {
+            return false
+        }
+    }
+    
+    private func rotateLeft(h: Node) -> Node {
+        
+        let x = h.right!
+        h.right = x.left
+        x.left = h
+        x.color = h.color
+        h.color = RED
+        x.size = h.size
+        h.size = 1 + size(h.left) + size(h.right)
+        return x
+    }
+    
+    private func rotateRight(h: Node) -> Node {
+        let x = h.left!
+        h.left = x.right
+        x.right = h
+        x.color = h.color
+        h.color = RED
+        x.size = h.size
+        h.size = 1 + size(h.left) + size(h.right)
+        return x
+    }
+    
+    private func flipColors(node: Node) {
+        node.color = RED
+        node.left?.color = BLACK
+        node.right?.color = BLACK
+    }
+}
 
