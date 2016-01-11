@@ -10,7 +10,7 @@
 * Quicksort -- Done.
 * Priority Queues -- Done.
 * BST(Binary Search Tree) -- Done.
-* Balanced Search Trees --> Doing.
+* Left-Leaning Red Black Tree(LLRB) --> Done.
 * Hash Table
 * Undirected Graphs
 * Directed Graphs
