@@ -25,6 +25,7 @@
 * [Swift Algorithms Classroom](https://github.com/gmertk/SwiftAlgorithmsClassroom)
 * [Swift Sorts](https://github.com/jessesquires/swift-sorts)
 * [Swift Data Structures and Algorithms](https://github.com/stupidfive/SwiftDataStructuresAndAlgorithms)
+* [BTree](https://github.com/lorentey/BTree): Fast ordered collections for Swift using in-memory B-trees
 
 ##Resources
 * [Know Thy Complexities!](http://bigocheatsheet.com/)
