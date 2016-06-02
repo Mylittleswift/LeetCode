@@ -26,6 +26,7 @@
 * [Swift Sorts](https://github.com/jessesquires/swift-sorts)
 * [Swift Data Structures and Algorithms](https://github.com/stupidfive/SwiftDataStructuresAndAlgorithms)
 * [BTree](https://github.com/lorentey/BTree): Fast ordered collections for Swift using in-memory B-trees
+* [LeetCode Solutions in Swift](https://github.com/diwu/LeetCode-Solutions-in-Swift)
 
 ##Resources
 * [Know Thy Complexities!](http://bigocheatsheet.com/)
