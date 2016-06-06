@@ -30,3 +30,4 @@
 
 ##Resources
 * [Know Thy Complexities!](http://bigocheatsheet.com/)
+* [Computing optimal road trips on a limited budget](http://www.randalolson.com/2016/06/05/computing-optimal-road-trips-on-a-limited-budget)
