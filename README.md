@@ -21,6 +21,7 @@
 
 
 ##Other Swift Algorithms Repo
+* [swift-algorithm-club](https://github.com/raywenderlich/swift-algorithm-club): Algorithms and data structures in Swift, with explanations!
 * [SwiftGraph](https://github.com/davecom/SwiftGraph)
 * [Swift Algorithms Classroom](https://github.com/gmertk/SwiftAlgorithmsClassroom)
 * [Swift Sorts](https://github.com/jessesquires/swift-sorts)
