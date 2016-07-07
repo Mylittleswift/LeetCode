@@ -30,5 +30,6 @@
 * [LeetCode Solutions in Swift](https://github.com/diwu/LeetCode-Solutions-in-Swift)
 
 ##Resources
+* [Design and Analysis of Algorithms](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/lecture-videos/)
 * [Know Thy Complexities!](http://bigocheatsheet.com/)
 * [Computing optimal road trips on a limited budget](http://www.randalolson.com/2016/06/05/computing-optimal-road-trips-on-a-limited-budget)
