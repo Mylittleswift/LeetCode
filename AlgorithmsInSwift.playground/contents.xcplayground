@@ -6,5 +6,8 @@
         <page name='Union and Find'/>
         <page name='Sorts'/>
         <page name='Symbol Tables'/>
+        <page name='3Sum'/>
+        <page name='2Sum'/>
+        <page name='Move Zeroes'/>
     </pages>
 </playground>
