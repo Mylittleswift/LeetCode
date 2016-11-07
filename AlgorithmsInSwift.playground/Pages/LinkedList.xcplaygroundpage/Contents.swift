@@ -20,7 +20,7 @@ public class LinkedStack<T: Equatable> {
         return first?.item == nil
     }
      
-    public func push(item: T) {
+    public func push(_ item: T) {
         
         let current: Node<T>? = first
         first = Node<T>()
@@ -65,7 +65,7 @@ public class LinkedQueue <T: Equatable> {
         return first?.item == nil
     }
     
-    public func enqueue(item: T) -> Void{
+    public func enqueue(_ item: T) -> Void{
         let oldlast: Node? = last
         last = Node<T>()
         last!.item = item

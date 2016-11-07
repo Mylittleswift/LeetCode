@@ -15,4 +15,4 @@ func binarySearch(array: [Int], key: Int) -> Int {
 }
 
 let a = [1,2,3,4,5,6,7,8,9,22,46,67,223,6756,2346]
-binarySearch(a, key: 8)
+binarySearch(array: a, key: 8)
