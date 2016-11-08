@@ -102,16 +102,18 @@ public struct StackInLinkedList<T>: StackType {
     }
 }
 
-//extension StackInLinkedList : CustomDebugStringConvertible {
-//    public var debugDescription: String {
-//        var node = self._top
-//        while let value = node?.value {
-//            node = node?.next
-//            print("\(value)")
-//        }
-//        return ""
-//    }
-//}
+extension StackInLinkedList : CustomDebugStringConvertible {
+    public var debugDescription: String {
+        var s = "["
+        var node = self._top
+        while node != nil {
+            s.append("\(node!.value)")
+            node = node!.next
+            if node != nil { s += ", " }
+        }
+        return s + "]"
+    }
+}
 
 var linkedlist = StackInLinkedList<Int>()
 linkedlist.push(1)
