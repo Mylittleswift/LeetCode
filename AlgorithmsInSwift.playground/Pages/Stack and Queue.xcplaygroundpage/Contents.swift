@@ -146,6 +146,95 @@ linkedlist.isEmpty
 
 linkedlist.pop()
 
+//Queue implementations
+public protocol QueueType {
+    associatedtype Item
+    var isEmpty: Bool { get }
+    var size: UInt { get }
+    mutating func enqueue(_ item: Item)
+    mutating func dequeue() -> Item?
+}
+
+public struct QueueInArray<T>: QueueType {
+    
+    fileprivate var _array = [T]()
+    public var isEmpty: Bool { return _array.count == 0 }
+    public var size: UInt { return UInt(_array.count) }
+    
+    public mutating func enqueue(_ item: T) {
+        _array.append(item)
+    }
+    
+    public mutating func dequeue() -> T? {
+        if isEmpty { return nil }
+        return _array.removeFirst()
+    }
+}
+
+var qArray = QueueInArray<Int>()
+qArray.enqueue(1)
+qArray.enqueue(2)
+qArray.enqueue(3)
+qArray.dequeue()
+qArray.dequeue()
+qArray.dequeue()
+qArray.isEmpty
+qArray.size
+qArray.enqueue(4)
+qArray.dequeue()
+qArray.dequeue()
+qArray.dequeue()
+qArray.dequeue()
+qArray.enqueue(5)
+qArray.size
+qArray.dequeue()
+
+public struct QueueInLinkedList<T>: QueueType {
+    
+    fileprivate var _size: UInt = 0
+    fileprivate var _head: Node<T>? = nil
+    fileprivate var _tail: Node<T>? = nil
+    
+    public var isEmpty: Bool { return _size == 0 }
+    public var size: UInt { return _size }
+    
+    public mutating func enqueue(_ item: T) {
+
+        let oldTail = _tail
+        _tail = Node(value: item, next: nil)
+        if (isEmpty) { _head = _tail }
+        else { oldTail?.next = _tail }
+        _size = _size + 1
+    }
+    
+    public mutating func dequeue() -> T? {
+        let value = _head?.value
+        _head = _head?.next
+        if (isEmpty) { _tail = nil }
+        else { _size = _size - 1 }
+        return value
+    }
+}
+
+var qlinklist = QueueInLinkedList<Int>()
+qlinklist.enqueue(1)
+qlinklist.enqueue(2)
+qlinklist.enqueue(3)
+qlinklist.dequeue()
+qlinklist.dequeue()
+qlinklist.dequeue()
+qlinklist.isEmpty
+qlinklist.size
+qlinklist.enqueue(4)
+qlinklist.dequeue()
+qlinklist.dequeue()
+qlinklist.dequeue()
+qlinklist.dequeue()
+qlinklist.enqueue(5)
+qlinklist.size
+qlinklist.dequeue()
+
+
 
 
 
