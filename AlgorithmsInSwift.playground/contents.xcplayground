@@ -11,5 +11,6 @@
         <page name='Move Zeroes'/>
         <page name='Add Binary'/>
         <page name='Stack and Queue'/>
+        <page name='Binary Search Tree'/>
     </pages>
 </playground>

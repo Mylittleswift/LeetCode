@@ -62,7 +62,6 @@ print(numbers)
 numbers.count
 numbers.isEmpty
 
-// stack implementation in linkedList
 class Node<T> {
     let value: T
     var next: Node<T>?
@@ -73,6 +72,7 @@ class Node<T> {
     }
 }
 
+// stack implementation in linkedList
 public struct StackInLinkedList<T>: StackType {
     
     private var _count: Int = 0
