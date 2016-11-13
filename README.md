@@ -38,3 +38,4 @@
 Lectures](http://www3.cs.stonybrook.edu/~algorith/video-lectures/)
 * [Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
 * [Get that job at Facebook](https://www.facebook.com/notes/facebook-engineering/get-that-job-at-facebook/10150964382448920)
+* [big o cheat sheet](http://bigocheatsheet.com/)
