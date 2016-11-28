@@ -30,6 +30,7 @@
 * [LeetCode Solutions in Swift](https://github.com/diwu/LeetCode-Solutions-in-Swift)
 * [JXSort](https://github.com/JiongXing/JXSort)
 * [stanfordacm](https://github.com/jaehyunp/stanfordacm): Stanford ACM-ICPC related materials
+* [Google Interview University](https://github.com/jwasham/google-interview-university)
 
 ##Resources
 * [Design and Analysis of Algorithms](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/lecture-videos/)
