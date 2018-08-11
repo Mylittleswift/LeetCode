@@ -12,5 +12,6 @@
         <page name='Add Binary'/>
         <page name='Stack and Queue'/>
         <page name='Binary Search Tree'/>
+        <page name='724. Find Pivot Index'/>
     </pages>
 </playground>
