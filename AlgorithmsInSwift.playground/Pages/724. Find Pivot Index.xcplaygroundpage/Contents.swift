@@ -1,5 +1,9 @@
 //: Playground - noun: a place where people can play
 
+
+//https://leetcode.com/articles/find-pivot-index/
+
+
 class Solution {
     func pivotIndex(_ nums: [Int]) -> Int {
         

@@ -6,12 +6,13 @@
         <page name='Union and Find'/>
         <page name='Sorts'/>
         <page name='Symbol Tables'/>
-        <page name='3Sum'/>
-        <page name='2Sum'/>
-        <page name='Move Zeroes'/>
-        <page name='Add Binary'/>
+        <page name='15. 3Sum'/>
+        <page name='1. 2Sum'/>
+        <page name='283. Move Zeroes'/>
+        <page name='67. Add Binary'/>
         <page name='Stack and Queue'/>
         <page name='Binary Search Tree'/>
         <page name='724. Find Pivot Index'/>
+        <page name='747. Largest Number At Least Twice of Others'/>
     </pages>
 </playground>
