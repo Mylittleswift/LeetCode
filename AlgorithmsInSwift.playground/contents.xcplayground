@@ -14,5 +14,6 @@
         <page name='Binary Search Tree'/>
         <page name='724. Find Pivot Index'/>
         <page name='747. Largest Number At Least Twice of Others'/>
+        <page name='66. Plus One'/>
     </pages>
 </playground>
