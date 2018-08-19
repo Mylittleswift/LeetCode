@@ -16,5 +16,7 @@
         <page name='747. Largest Number At Least Twice of Others'/>
         <page name='66. Plus One'/>
         <page name='498. Diagonal Traverse'/>
+        <page name='54. Spiral Matrix'/>
+        <page name='59. Spiral Matrix II'/>
     </pages>
 </playground>
