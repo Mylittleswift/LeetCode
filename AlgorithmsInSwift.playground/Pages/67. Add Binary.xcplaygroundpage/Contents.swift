@@ -12,125 +12,70 @@ Return "100".
 https://leetcode.com/problems/add-binary/
 */
 
-func addBinary(_ a: String, _ b: String) -> String {
-    var addOne = false
-    var result = ""
-    
-    let lengthOfA = a.characters.count
-    let lengthOfB = b.characters.count
-    var max = 0
-    var min = 0
-    
-    if lengthOfA == 0,
-        lengthOfB == 0 {
-        return "0"
-    }
-    
-    //check input
-    if lengthOfA > 0, lengthOfB == 0 {
-        return a
-    }
-    
-    if lengthOfB > 0, lengthOfA == 0 {
-        return b
-    }
-    
-    var first = ""
-    var second = ""
-    if lengthOfA >= lengthOfB {
-        first = a
-        second = b
-        max = lengthOfA
-        min = lengthOfB
+class Solution {
+    func addBinary(_ a: String, _ b: String) -> String {
         
-    } else {
-        first = b
-        second = a
-        max = lengthOfB
-        min = lengthOfA
-    }
-    
-    for _ in (0 ..< min).reversed() {
-        let f = first.characters.popLast()!
-        let s = second.characters.popLast()!
-        //both 1
-        if f == "1" && s == "1" {
-            if addOne == true {
-                result.append("1")
-            } else {
-                result.append("0")
+        let la = a.count, lb = b.count
+        var va = a, vb = b
+        var carry = false
+        //补齐位数
+        if la > lb {
+            for _ in 0..<(la - lb) {
+                vb.insert("0", at: va.startIndex)
             }
-            addOne = true
-        } else if f == "1" || s == "1" { //has 1
-            if addOne == true {
-                result.append("0")
-                addOne = true
-            } else {
-                result.append("1")
-                addOne = false
-            }
-        } else {//both 0
-            if addOne == true {
-                result.append("1")
-            } else {
-                result.append("0")
-            }
-            addOne = false
-        }
-    }
-    
-    for _ in min ..< max {
-        let f = first.characters.popLast()!
-        if f == "1" {
-            if addOne == true {
-                result.append("0")
-                addOne = true
-            } else {
-                result.append("1")
-                addOne = false
-            }
-        } else {
-            if addOne == true {
-                result.append("1")
-                addOne = false
-            } else {
-                result.append("0")
-                addOne = false
+        } else if la < lb {
+            for _ in 0..<(lb - la) {
+                va.insert("0", at: vb.startIndex)
             }
         }
+        //swift String相关操作太他妈恶心了，转成Array，在转成String
+        //这地方真的恶心🤢到我了
+        var aa = Array(va).compactMap { c -> Int? in
+            return Int(String(c))
+        }
+        var ab = Array(vb).compactMap { c -> Int? in
+            return Int(String(c))
+        }
+
+        for i in (0 ..< va.count).reversed() {
+            let ia = ab[i], ib = aa[i]
+            var ic = ia + ib
+            
+            if carry {
+                ic += 1
+                carry = false
+            }
+            
+            if ic >= 2 {
+                ic -= 2
+                carry = true
+            }
+            aa[i] = ic
+        }
+        
+        if carry {
+            aa.insert(1, at: 0)
+        }
+        
+        var result = ""
+        for i in 0 ..< aa.count {
+            result += String(aa[i])
+        }
+        return result
     }
-    
-    if addOne == true {
-        result.append("1")
-    }
-    
-    return String(result.characters.reversed())
 }
 
+let s = Solution()
+
 //test cases
-addBinary("1", "0")
-addBinary("0", "0")
-addBinary("11", "0")
-addBinary("11", "1")
-addBinary("1", "11")
-addBinary("1", "10")
-addBinary("11", "11")
-addBinary("111", "1")
-addBinary("111", "10")
-addBinary("1010", "1011")
-addBinary("110010", "10111")
-
-0 ^ 1
-0 ^ 0
-1 ^ 0
-1 ^ 1
-
-0 & 0
-1 & 0
-0 & 1
-1 & 1
-
-0 | 0
-1 | 0
-0 | 1
-1 | 1
+s.addBinary("0", "1")
+s.addBinary("0", "0")
+s.addBinary("11", "0")
+s.addBinary("11", "1")
+s.addBinary("1", "11")
+s.addBinary("1", "10")
+s.addBinary("11", "11")
+s.addBinary("111", "1")
+s.addBinary("111", "10")
+s.addBinary("1010", "1011")
+s.addBinary("110010", "10111")
