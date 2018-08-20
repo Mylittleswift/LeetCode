@@ -20,5 +20,6 @@
         <page name='59. Spiral Matrix II'/>
         <page name='118. Pascal&apos;s Triangle'/>
         <page name='119. Pascal&apos;s Triangle II'/>
+        <page name='28. Implement strStr()'/>
     </pages>
 </playground>
