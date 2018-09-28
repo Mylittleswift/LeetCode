@@ -37,6 +37,7 @@
 * [Grandyang](https://www.cnblogs.com/grandyang/p/4606334.html): leetcode题目解析
 * [LeetCode-Solutions](https://github.com/xta0/LeetCode-Solutions): Solutions for LeetCode Problems
 * [LeetCode Solutions in Swift](https://github.com/diwu/LeetCode-Solutions-in-Swift)
+* [awesome algorithm](https://github.com/apachecn/awesome-algorithm): Leetcode 题解 (跟随思路一步一步撸出代码) 及经典算法实现
 * [LeetCode Swfit](https://github.com/zhubofei/LeetCode-Swift)
 * [Design and Analysis of Algorithms](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/lecture-videos/)
 * [Know Thy Complexities!](http://bigocheatsheet.com/)
