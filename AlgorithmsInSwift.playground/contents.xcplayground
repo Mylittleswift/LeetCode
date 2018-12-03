@@ -21,5 +21,6 @@
         <page name='118. Pascal&apos;s Triangle'/>
         <page name='119. Pascal&apos;s Triangle II'/>
         <page name='28. Implement strStr()'/>
+        <page name='14. Longest Common Prefix'/>
     </pages>
 </playground>
