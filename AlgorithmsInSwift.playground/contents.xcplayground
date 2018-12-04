@@ -23,5 +23,6 @@
         <page name='28. Implement strStr()'/>
         <page name='14. Longest Common Prefix'/>
         <page name='344.Reverse String'/>
+        <page name='561.Array Partition I'/>
     </pages>
 </playground>
