@@ -25,5 +25,6 @@
         <page name='344.Reverse String'/>
         <page name='561.Array Partition I'/>
         <page name='167.Two Sum II - Input array is sorted'/>
+        <page name='27.Remove Element'/>
     </pages>
 </playground>
