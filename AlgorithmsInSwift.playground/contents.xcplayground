@@ -24,5 +24,6 @@
         <page name='14. Longest Common Prefix'/>
         <page name='344.Reverse String'/>
         <page name='561.Array Partition I'/>
+        <page name='167.Two Sum II - Input array is sorted'/>
     </pages>
 </playground>
