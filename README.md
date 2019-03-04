@@ -35,6 +35,7 @@
 * [Leetcode](https://github.com/Cee/Leetcode)
 * [Stanford Algorithms](https://lagunita.stanford.edu/courses/course-v1:Engineering+Algorithms1+SelfPaced/info)
 * [左耳朵耗子的leetcode](https://github.com/haoel/leetcode)
+* [leetcode](https://github.com/soulmachine/leetcode): LeetCode题解，151道题完整版
 * [Grandyang](https://www.cnblogs.com/grandyang/p/4606334.html): leetcode题目解析
 * [LeetCode-Solutions](https://github.com/xta0/LeetCode-Solutions): Solutions for LeetCode Problems
 * [LeetCode Solutions in Swift](https://github.com/diwu/LeetCode-Solutions-in-Swift)
