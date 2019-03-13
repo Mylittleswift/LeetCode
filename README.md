@@ -1,23 +1,12 @@
 # Algorithms In Swift
 用Swift去实现一些经典算法，在实现算法的过程中学习相关算法和Swift语法。
 
-## Progress:
-* Binary Search --Done
-* Union and Find --Done
-* LinkedList -- queue Done, stack Done.
-* Elementary Sorts: Selection Sort, Insertion Sort, ShellSort -- Done.
-* Mergesort -- Done.
-* Quicksort -- Done.
-* Priority Queues -- Done.
-* BST(Binary Search Tree) -- Done.
-* Left-Leaning Red Black Tree(LLRB) --> Done.
-* Hash Table
-* Undirected Graphs
-* Directed Graphs
-* Minimum Spanning Trees
-* Dijkstra's shortest paths
-* String sorts
-* Tries
+Algorithms in Java 中为Algorithms书中一些算法的Java实现。
+
+
+
+## Algorithms
+![Algorithms](Algorithms-MindNode.png)
 
 
 ## Other Swift Algorithms Repo
