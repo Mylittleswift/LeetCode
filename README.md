@@ -22,7 +22,6 @@ Algorithms in Java 中为Algorithms书中一些算法的Java实现。
 
 ## Leetcode
 * [Leetcode](https://github.com/Cee/Leetcode)
-* [Stanford Algorithms](https://lagunita.stanford.edu/courses/course-v1:Engineering+Algorithms1+SelfPaced/info)
 * [左耳朵耗子的leetcode](https://github.com/haoel/leetcode)
 * [leetcode](https://github.com/soulmachine/leetcode): LeetCode题解，151道题完整版
 * [Grandyang](https://www.cnblogs.com/grandyang/p/4606334.html): leetcode题目解析
@@ -58,6 +57,8 @@ Algorithms in Java 中为Algorithms书中一些算法的Java实现。
 
 * [MIT Design and Analysis of Algorithms](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/lecture-videos/)
 
-[Planet](https://github.com/xiexiexx/Planet): 算法时空课程代码
+* [Stanford Algorithms](https://lagunita.stanford.edu/courses/course-v1:Engineering+Algorithms1+SelfPaced/info)
+
+* [Planet](https://github.com/xiexiexx/Planet): 算法时空课程代码
 
 
