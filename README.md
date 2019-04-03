@@ -19,6 +19,7 @@ Algorithms in Java 中为Algorithms书中一些算法的Java实现。
 * [JXSort](https://github.com/JiongXing/JXSort)
 * [stanfordacm](https://github.com/jaehyunp/stanfordacm): Stanford ACM-ICPC related materials
 * [Google Interview University](https://github.com/jwasham/google-interview-university)
+* [Top 20 dynamic programming interview questions](https://www.geeksforgeeks.org/top-20-dynamic-programming-interview-questions/)
 
 ## Leetcode
 * [Leetcode](https://github.com/Cee/Leetcode)
