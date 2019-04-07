@@ -10,7 +10,7 @@ Algorithms in Java 中为Algorithms书中一些算法的Java实现。
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/) | [Swift](./algorithms/swift/2Sum/2Sum.swift)|Easy|
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Swift](./algorithms/swift/addTwoNumbers/addTwoNumbers.swift)|Medium|
-|14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [java](./algorithms/java/longestCommonPrefix/longestCommonPrefix.swift)|Easy|
+|14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Java](./algorithms/java/longestCommonPrefix/longestCommonPrefix.swift)|Easy|
 |15|[3Sum](https://leetcode.com/problems/3sum/) | [Swift](./algorithms/swift/3Sum/3Sum.swift)|Medium|
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Java](./algorithms/java/removeNthNodeFromEndOfList/removeNthNodeFromEndOfList.java)|Medium|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Swift](./algorithms/java/mergeTwoSortedList/mergeTwoSortedList.java)|Easy|
