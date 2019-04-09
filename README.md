@@ -1,9 +1,3 @@
-# Algorithms In Swift
-用Swift去实现一些经典算法，在实现算法的过程中学习相关算法和Swift语法。
-
-Algorithms in Java 中为Algorithms书中一些算法的Java实现。
-
-
 ## My Leetcode Solutions
 
 | # | Title | Solution | Difficulty |
