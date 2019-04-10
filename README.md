@@ -23,7 +23,7 @@
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Java](./algorithms/java/intersectionOfTwoLinkedList/intersectionOfTwoLinkedList.java)|Easy|
 |167|[Two Sum II - input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Swift](./algorithms/swift/2SumII/2SumII.swift)|Easy|
 |203|[Remove Linked List Element](https://leetcode.com/problems/remove-linked-list-elements/) | [Java](./algorithms/java/removeLinkedListElements/removeLinkedListElements.java)|Easy|
-|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Java](./algorithms/java/reverseLinkedList/reverseLinkedList.java)|Easy|
+|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Java](./algorithms/java/reverseLinkedList/reverseLinkedList.java), [Swift](./algorithms/swift/reverseLinkedList/reverseLinkedList1.swift)|Easy|
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Java](./algorithms/java/palindromeLinkedList/palindromeLinkedList.java)|Easy|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Swift](./algorithms/swift/moveZeroes/moveZeroes.swift)|Easy|
 |328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [Java](./algorithms/java/oddEvenLinkedList/oddEvenLinkedList.java)|Medium|
