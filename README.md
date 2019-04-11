@@ -56,13 +56,11 @@
 
 ## Leetcode
 * [Leetcode](https://github.com/Cee/Leetcode)
-* [左耳朵耗子的leetcode](https://github.com/haoel/leetcode)
 * [LeetCode-Swift](https://github.com/soapyigu/LeetCode-Swift): Solutions to LeetCode by Swift
+* [左耳朵耗子的leetcode](https://github.com/haoel/leetcode)
 * [leetcode](https://github.com/soulmachine/leetcode): LeetCode题解，151道题完整版
 * [Grandyang](https://www.cnblogs.com/grandyang/p/4606334.html): leetcode题目解析
 * [LeetCode-Solutions](https://github.com/xta0/LeetCode-Solutions): Solutions for LeetCode Problems
-* [LeetCode Solutions in Swift](https://github.com/diwu/LeetCode-Solutions-in-Swift)
-
 
 ## Blogs
 * [Know Thy Complexities!](http://bigocheatsheet.com/)
