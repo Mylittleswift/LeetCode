@@ -19,7 +19,7 @@
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Swift](./algorithms/swift/pascalsTriangle/pascalsTriangle.swift)|Easy|
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | [Swift](./algorithms/swift/pascalsTriangleII/pascalsTriangleII.swift)|Easy|
 |138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Java](./algorithms/java/copyListWithRandomPointer/copyListWithRandomPointer.java)|Medium|
-|141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Java](./algorithms/java/copyListWithRandomPointer/copyListWithRandomPointer.java)|Easy|
+|141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Java](./algorithms/java/linkedListCycle/linkedListCycle.java), [Swift](./algorithms/swift/linkedListCycle/linkedListCycle.swift)|Easy|
 |142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [Java](./algorithms/java/linkedListCycleII/linkedListCycleII.java)|Medium|
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Java](./algorithms/java/intersectionOfTwoLinkedList/intersectionOfTwoLinkedList.java)|Easy|
 |167|[Two Sum II - input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Swift](./algorithms/swift/2SumII/2SumII.swift)|Easy|
