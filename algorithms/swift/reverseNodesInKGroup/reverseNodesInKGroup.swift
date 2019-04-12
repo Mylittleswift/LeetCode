@@ -30,14 +30,12 @@ func reverseKGroup(_ head: ListNode?, _ k: Int) -> ListNode? {
 }
 
 func divide(head: ListNode?, length: Int) -> (ListNode?, ListNode?) {
-    let first = head
     var last = head
     for _ in 1..<length {
-        let temp = last?.next
-        last = temp
-        if temp == nil { break }
+        last = last?.next
+        if last == nil { break }
     }
-    return (first, last)
+    return (head, last)
 }
 
 func reverse(head: ListNode?, tail: ListNode?) -> (ListNode?, ListNode?) {
