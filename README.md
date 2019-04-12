@@ -9,6 +9,7 @@
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Java](./algorithms/java/removeNthNodeFromEndOfList/removeNthNodeFromEndOfList.java)|Medium|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Swift](./algorithms/java/mergeTwoSortedList/mergeTwoSortedList.java)|Easy|
 |24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | [Swift](./algorithms/swift/swapNodesInPairs/swapNodesInPairs.swift)|Medium|
+|25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Swift](./algorithms/swift/reverseNodesInKGroup/reverseNodesInKGroup.swift)|Hard|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/) | [Swift](./algorithms/swift/removeElement/removeElement.swift)|Easy|
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Swift](./algorithms/swift/implementStrStr/implementStrStr().swift)|Easy|
 |54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Swift](./algorithms/swift/spiralMatrix/spiralMatrix.swift)|Medium|
