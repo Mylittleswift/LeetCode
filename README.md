@@ -7,6 +7,7 @@
 |14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Java](./algorithms/java/longestCommonPrefix/longestCommonPrefix.swift)|Easy|
 |15|[3Sum](https://leetcode.com/problems/3sum/) | [Swift](./algorithms/swift/3Sum/3Sum.swift)|Medium|
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Java](./algorithms/java/removeNthNodeFromEndOfList/removeNthNodeFromEndOfList.java)|Medium|
+|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | [Swift](./algorithms/swift/validParentheses/validParentheses.swift)|Easy|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Swift](./algorithms/java/mergeTwoSortedList/mergeTwoSortedList.java)|Easy|
 |24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | [Swift](./algorithms/swift/swapNodesInPairs/swapNodesInPairs.swift)|Medium|
 |25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Swift](./algorithms/swift/reverseNodesInKGroup/reverseNodesInKGroup.swift)|Hard|
