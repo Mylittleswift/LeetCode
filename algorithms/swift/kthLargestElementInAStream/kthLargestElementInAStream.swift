@@ -1,3 +1,4 @@
+
 /*
 Design a class to find the kth largest element in a stream. Note that it is the kth largest element in the sorted order, not the kth distinct element.
 
@@ -11,12 +12,12 @@ class KthLargest {
 
     private let minHeap: MinHeap
     init(_ k: Int, _ nums: [Int]) {
-        minHeap = MinHeap(max: k)
+        minHeap = MinHeap(capacity: k)
         for i in nums {
             minHeap.insert(i)
         }
     }
-    
+
     func add(_ val: Int) -> Int {
         minHeap.insert(val)
         return minHeap.min()
@@ -26,20 +27,20 @@ class KthLargest {
 final class MinHeap {
     private var pq: [Int]
     private let MAX: Int
-    
-    public init(max: Int) {
+
+    public init(capacity: Int) {
         pq = [Int]()
-        MAX = max + 1
+        MAX = capacity + 1
+        //insert fake head,
+        //heap index from 1
+        //so that we can calculate index easily
         pq.append(0)
     }
-    
+
     public func insert(_ k: Int) {
-        
-        guard pq.count > 1 else {
-            pq.append(k)
-            return
-        }
-        
+
+        // when heap is full,
+        // only insert when k is greater than min()
         if pq.count == MAX {
             if k > min() {
                 deleteMin()
@@ -47,11 +48,13 @@ final class MinHeap {
                 swim(pq.count-1)
             }
         } else {
+            // when heap is not full
+            // insert k, and swim
             pq.append(k)
             swim(pq.count-1)
         }
     }
-    
+
     public func min() -> Int {
         return pq[1]
     }
@@ -62,7 +65,7 @@ final class MinHeap {
         sink(1)
         return min
     }
-    
+
     //
     private func sink(_ index: Int) {
         var index = index
@@ -76,7 +79,7 @@ final class MinHeap {
             index = j
         }
     }
-    
+
     private func swim(_ index: Int) {
         var index = index
         while index > 1 && pq[index/2] > pq[index] {
@@ -84,7 +87,7 @@ final class MinHeap {
             index = index / 2
         }
     }
-    
+
     private func exchange(_ i: Int, _ j: Int) {
         let temp = pq[i]
         pq[i] = pq[j]
