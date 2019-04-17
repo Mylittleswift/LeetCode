@@ -53,11 +53,11 @@ final class MaxHeap {
         return pq[1]
     }
     public func deleteMax() -> Int {
-        let min = pq[1]
+        let max = pq[1]
         exchange(1, pq.count-1)
         pq.removeLast()
         sink(1)
-        return min
+        return max
     }
 
     //
