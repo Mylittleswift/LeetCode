@@ -30,7 +30,7 @@
 |225|[Implement Stack using Queue](https://leetcode.com/problems/implement-stack-using-queues/) | [Swift](./algorithms/swift/implementStackUsingQueue/implementStackUsingQueue.swift), [Swift](./algorithms/swift/reverseLinkedList/reverseLinkedList1.swift)|Easy|
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks) | [Swift](./algorithms/swift/implementQueueUsingStack/implementQueueUsingStack.swift)|Easy|
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Java](./algorithms/java/palindromeLinkedList/palindromeLinkedList.java)|Easy|
-|239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | [Swift](./algorithms/swift/slidingWindowMaximum/slidingWindowMaximum.swift), [Swift](./algorithms/swift/slidingWindowMaximum/slidingWindowMaximumII.swift)|Hard|
+|239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | [Swift](./algorithms/swift/slidingWindowMaximum/slidingWindowMaximum.swift), [Swift](./algorithms/swift/slidingWindowMaximum/slidingWindowMaximumII.swift),[Swift](./algorithms/swift/slidingWindowMaximum/slidingWindowMaximumIII.swift)|Hard|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Swift](./algorithms/swift/moveZeroes/moveZeroes.swift)|Easy|
 |328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [Java](./algorithms/java/oddEvenLinkedList/oddEvenLinkedList.java)|Medium|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/) | [Swift](./algorithms/swift/reverseString/reverseString.swift)|Easy|
