@@ -19,13 +19,15 @@ import Foundation
 
 
 func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
-    var dic = [Int:Int]()
-    for i in 0 ..< nums.count {
-        let complement = target - nums[i]
-        if dic[complement] != nil {
-            return [dic[complement]!, i]
+    guard nums.count > 1 else { return [0,0] } //edge case
+    var indexDic = [Int:Int]() // value: index
+    for i in 0..<nums.count {
+        let current = nums[i]
+        let find = target - current
+        if let index = indexDic[find] {
+            return [index, i]
         }
-        dic[nums[i]] = i
+        indexDic[current] = i
     }
-    return [0,0]
+    return [0, 0] //not found
 }
