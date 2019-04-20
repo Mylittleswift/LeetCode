@@ -26,15 +26,16 @@ import Foundation
 
 
 func threeSum(_ nums: [Int]) -> [[Int]] {
-    if nums.count < 3 {
-        return []
-    }
+
+    guard nums.count > 3 else { return [] }
+
     let sortedNums = nums.sorted()
     var result = [[Int]]()
     let count = sortedNums.count
     for i in 0 ..< count - 2 {
+
         if i == 0 || (i > 0 && sortedNums[i] != sortedNums[i-1]) {
-            var lo = i+1, hi = count-1, sum = 0-sortedNums[i]
+            var lo = i+1, hi = count-1, sum = 0 - sortedNums[i]
             while lo < hi {
                 if sortedNums[lo] + sortedNums[hi] == sum {
                     result.append([sortedNums[i], sortedNums[lo], sortedNums[hi]])
