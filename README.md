@@ -18,7 +18,7 @@
 |61|[Rotate List](https://leetcode.com/problems/rotate-list/) | [Java](./algorithms/java/rotateList/rotateList.java)|Medium|
 |66|[Plus One](https://leetcode.com/problems/plus-one) | [Swift](./algorithms/swift/plusOne/plusOne.swift)|Easy|
 |67|[Add Binary](https://leetcode.com/problems/add-binary/) | [Swift](./algorithms/swift/addBinary/addBinary.swift)|Easy|
-|98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Swift](./algorithms/swift/validateBinarySearchTree/validateBinarySearchTree.swift)|Medium|
+|98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Swift](./algorithms/swift/validateBinarySearchTree/validateBinarySearchTree.swift), [Python](./algorithms/python/validateBinarySearchTree/validateBinarySearchTree.py) |Medium|
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Swift](./algorithms/swift/pascalsTriangle/pascalsTriangle.swift)|Easy|
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | [Swift](./algorithms/swift/pascalsTriangleII/pascalsTriangleII.swift)|Easy|
 |138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Java](./algorithms/java/copyListWithRandomPointer/copyListWithRandomPointer.java)|Medium|
