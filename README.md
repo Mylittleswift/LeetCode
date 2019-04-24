@@ -13,6 +13,7 @@
 |25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Swift](./algorithms/swift/reverseNodesInKGroup/reverseNodesInKGroup.swift)|Hard|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/) | [Swift](./algorithms/swift/removeElement/removeElement.swift)|Easy|
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Swift](./algorithms/swift/implementStrStr/implementStrStr().swift)|Easy|
+|50|[Pow(x,n)](https://leetcode.com/problems/powx-n/) | [Swift](./algorithms/swift/pow/pow.swift)|Medium|
 |54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Swift](./algorithms/swift/spiralMatrix/spiralMatrix.swift)|Medium|
 |59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | [Swift](./algorithms/swift/spiralMatrixII/spiralMatrixII.swift)|Medium|
 |61|[Rotate List](https://leetcode.com/problems/rotate-list/) | [Java](./algorithms/java/rotateList/rotateList.java)|Medium|
