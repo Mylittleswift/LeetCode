@@ -30,8 +30,6 @@
  */
 class Solution {
 
-    var queue = [TreeNode]()
-
     func levelOrder(_ root: TreeNode?) -> [[Int]] {
 
         guard let root = root else { return [] }
