@@ -79,3 +79,37 @@ func checkParentheses(_ string: String) -> Bool {
 
 checkParentheses(testString1) // should be true
 //checkParentheses(testString2) // should be false
+
+
+var queue = [TreeNode]()
+
+
+func levelOrder(_ root: TreeNode?) -> [[Int]] {
+    
+    guard let root = root else { return [[]] }
+    
+    var result = [[Int]]()
+    var temp = [Int?]()
+    queue.append = root
+    
+    temp.append(root.val)
+    
+    while !queue.isEmpty {
+        let node = queue.removeFrist()
+        
+        if let left = node.left {
+            queue.append(left)
+        }
+        
+        if let right = node.right {
+            queue.append(right)
+        }
+        
+        temp.append(node.left)
+        temp.append(node.right)
+        
+    }
+    
+    return result
+}
+
