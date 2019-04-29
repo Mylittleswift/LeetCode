@@ -39,25 +39,13 @@ class Solution {
 
     func dfs(_ node: TreeNode, _ level: Int) -> Int {
 
-        // terminal case
+        // child node
         if node.left == nil && node.right == nil { return level }
-
         // dfs left
-        if node.right == nil && node.left != nil {
-            return dfs(node.left!, level+1)
-        }
+        guard let right = node.right else { return dfs(node.left!, level+1) }
         // dfs right
-        if node.left == nil && node.right != nil {
-            return dfs(node.right!, level+1)
-        }
-
+        guard let left = node.left else { return dfs(node.right!, level+1) }
         // dfs both sides
-        var ll = level
-        var lr = level
-
-        if let left = node.left { ll = dfs(left, level+1) }
-        if let right = node.right { lr = dfs(right, level+1) }
-
-        return min(ll, lr)
+        return min(dfs(left, level+1), dfs(right, level+1))
     }
 }
