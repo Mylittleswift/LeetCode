@@ -42,14 +42,15 @@ class Solution {
         }
 
         for i in 0..<n {
-            if let s = findSolution(board: solution, flags: flags, row:0, col:i) {
+            let s = findSolution(board: solution, flags: flags, row:0, col:i)
+            if s.count > 0 {
                 result.append(contentsOf: s)
             }
         }
         return result
     }
 
-    func findSolution(board: [[String]], flags:[[Bool]], row: Int, col: Int) -> [[String]]? {
+    func findSolution(board: [[String]], flags:[[Bool]], row: Int, col: Int) -> [[String]] {
 
         var s = board
         var f = flags
@@ -74,7 +75,8 @@ class Solution {
         f = updateFlags(f, row: row, col: col)
         for i in 0..<n {
             if f[row+1][i] {
-                if let s = findSolution(board: s, flags: f, row: row+1, col: i) {
+                let s = findSolution(board: s, flags: f, row: row+1, col: i)
+                if s.count > 0 {
                     tmpSol.append(contentsOf: s)
                 }
             }
