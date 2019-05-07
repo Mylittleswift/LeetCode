@@ -23,12 +23,15 @@
  */
 
 class Solution {
-
+       
     var flags = [[Bool]]()
     var solution = [[String]]()
     var result = [[String]]()
-
+    
     func solveNQueens(_ n: Int) -> [[String]] {
+
+        if n == 1 { return [["Q"]] }
+        guard n > 3 else { return [] }
 
         for _ in 0..<n {
             let t0 = Array(repeating: true, count: n)
@@ -39,43 +42,45 @@ class Solution {
         }
 
         for i in 0..<n {
-            let s = findSolution(board: solution, flags: flags, row:0, col:i)
-            if s.count > 0 {result.append(contentsOf: s)}
-
+            if let s = findSolution(board: solution, flags: flags, row:0, col:i) {
+                result.append(contentsOf: s)
+            }
         }
-
         return result
     }
 
-    func findSolution(board: [[String]], flags:[[Bool]], row: Int, col: Int) -> [[String]] {
-
+    func findSolution(board: [[String]], flags:[[Bool]], row: Int, col: Int) -> [[String]]? {
 
         var s = board
         var f = flags
+        let n = board.count
 
-        var tmp_sol = [[String]]()
+        var tmpSol = [[String]]()
 
         s[row][col] = "Q"
         f[row][col] = false
 
+        //terminate condition
+        //if current index is last row index, then we found a solution
+        guard row + 1 != n else {
+            let string = s.map { array in
+                array.joined()
+            }
+
+            tmpSol.append(string)
+            return tmpSol
+        }
 
         f = updateFlags(f, row: row, col: col)
-
-        for i in 0..<s.count {
-            tmp_sol = [[String]]()
-            if row + 1 < s.count {
-                if f[row+1][i] {
-                    let t = findSolution(board: s, flags: f, row: row+1, col: i)
-                    let s = t.map { array in
-                        array.joined()
-                    }
-                    if t.count>0 {result.append(s)}
+        for i in 0..<n {
+            if f[row+1][i] {
+                if let s = findSolution(board: s, flags: f, row: row+1, col: i) {
+                    tmpSol.append(contentsOf: s)
                 }
-            } else {
-                tmp_sol.append(contentsOf: s)
             }
         }
-        return tmp_sol
+
+        return tmpSol
     }
 
     func updateFlags(_ flags:[[Bool]], row: Int, col: Int) -> [[Bool]] {
@@ -106,5 +111,4 @@ class Solution {
 
         return _flags
     }
-
 }
