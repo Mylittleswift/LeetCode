@@ -15,7 +15,8 @@
 |27|[Remove Element](https://leetcode.com/problems/remove-element/) | [Swift](./algorithms/swift/removeElement/removeElement.swift)|Easy|
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Swift](./algorithms/swift/implementStrStr/implementStrStr().swift)|Easy|
 |50|[Pow(x,n)](https://leetcode.com/problems/powx-n/) | [Swift](./algorithms/swift/pow/pow.swift), [Python](./algorithms/python/pow/pow.py)|Medium|
-|51|[N-Queens](https://leetcode.com/problems/n-queens/) | [Swift](./algorithms/swift/pow/pow.swift), [Python](./algorithms/python/pow/pow.py)|Hard|
+|51|[N-Queens](https://leetcode.com/problems/n-queens/) | [Swift](./algorithms/swift/nQueens/nQueens.swift) |Hard|
+|52|[N-Queens II](https://leetcode.com/problems/n-queens/) | [Swift](./algorithms/swift/nQueensII/nQueensII.swift)|Hard|
 |54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Swift](./algorithms/swift/spiralMatrix/spiralMatrix.swift)|Medium|
 |59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | [Swift](./algorithms/swift/spiralMatrixII/spiralMatrixII.swift)|Medium|
 |61|[Rotate List](https://leetcode.com/problems/rotate-list/) | [Java](./algorithms/java/rotateList/rotateList.java)|Medium|
