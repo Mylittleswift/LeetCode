@@ -102,6 +102,8 @@
 
 * [BTree](https://github.com/attaswift/BTree): Fast sorted collections for Swift using in-memory B-trees
 
+* [Origin of Quake3's Fast InvSqrt()](https://www.beyond3d.com/content/articles/8/)
+
 ## Courses
 
 * [Skiena's Algorithms Lectures](http://www3.cs.stonybrook.edu/~algorith/video-lectures/)
