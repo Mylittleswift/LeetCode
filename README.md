@@ -24,7 +24,7 @@
 |61|[Rotate List](https://leetcode.com/problems/rotate-list/) | [Java](./algorithms/java/rotateList/rotateList.java)|Medium|
 |66|[Plus One](https://leetcode.com/problems/plus-one) | [Swift](./algorithms/swift/plusOne/plusOne.swift)|Easy|
 |67|[Add Binary](https://leetcode.com/problems/add-binary/) | [Swift](./algorithms/swift/addBinary/addBinary.swift)|Easy|
-|69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Swift](./algorithms/swift/sqrtx/sqrtx.swift)|Easy|
+|69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Swift](./algorithms/swift/sqrtx/sqrtx.swift), [Swift](./algorithms/swift/sqrtx/sqrtxII.swift)|Easy|
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Swift](./algorithms/swift/validateBinarySearchTree/validateBinarySearchTree.swift), [Python](./algorithms/python/validateBinarySearchTree/validateBinarySearchTree.py) |Medium|
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Swift](./algorithms/swift/binaryTreeLevelOrderTraversal/binaryTreeLevelOrderTraversal.swift), [Python](./algorithms/python/binaryTreeLevelOrderTraversal/binaryTreeLevelOrderTraversal.py), [Python](./algorithms/python/binaryTreeLevelOrderTraversal/binaryTreeLevelOrderTraversalII.py)|Medium|
 |104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Swift](./algorithms/swift/maximumDepthOfBinaryTree/maximumDepthOfBinaryTree.swift)|Easy|
