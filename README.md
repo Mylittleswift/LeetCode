@@ -15,7 +15,7 @@
 |27|[Remove Element](https://leetcode.com/problems/remove-element/) | [Swift](./algorithms/swift/removeElement/removeElement.swift)|Easy|
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Swift](./algorithms/swift/implementStrStr/implementStrStr().swift)|Easy|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Swift](./algorithms/swift/validSudoku/validSudoku.swift)|Medium|
-|37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [Swift](./algorithms/swift/sudokuSolver/sudokuSolver.swift)|Medium|
+|37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [Swift](./algorithms/swift/sudokuSolver/sudokuSolver.swift)|Hard|
 |50|[Pow(x,n)](https://leetcode.com/problems/powx-n/) | [Swift](./algorithms/swift/pow/pow.swift), [Python](./algorithms/python/pow/pow.py)|Medium|
 |51|[N-Queens](https://leetcode.com/problems/n-queens/) | [Swift](./algorithms/swift/nQueens/nQueens.swift),[Swift](./algorithms/swift/nQueens/nQueensII.swift), [Python](./algorithms/python/nQueens/nQueens.py) |Hard|
 |52|[N-Queens II](https://leetcode.com/problems/n-queens/) | [Swift](./algorithms/swift/nQueensII/nQueensII.swift)|Hard|
