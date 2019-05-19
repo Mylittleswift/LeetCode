@@ -15,7 +15,7 @@
 |27|[Remove Element](https://leetcode.com/problems/remove-element/) | [Swift](./algorithms/swift/removeElement/removeElement.swift)|Easy|
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Swift](./algorithms/swift/implementStrStr/implementStrStr().swift)|Easy|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Swift](./algorithms/swift/validSudoku/validSudoku.swift)|Medium|
-|37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [Swift](./algorithms/swift/sudokuSolver/sudokuSolver.swift)|Hard|
+|37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [Swift](./algorithms/swift/sudokuSolver/sudokuSolver.swift)|Medium|
 |50|[Pow(x,n)](https://leetcode.com/problems/powx-n/) | [Swift](./algorithms/swift/pow/pow.swift), [Python](./algorithms/python/pow/pow.py)|Medium|
 |51|[N-Queens](https://leetcode.com/problems/n-queens/) | [Swift](./algorithms/swift/nQueens/nQueens.swift),[Swift](./algorithms/swift/nQueens/nQueensII.swift), [Python](./algorithms/python/nQueens/nQueens.py) |Hard|
 |52|[N-Queens II](https://leetcode.com/problems/n-queens/) | [Swift](./algorithms/swift/nQueensII/nQueensII.swift)|Hard|
@@ -25,6 +25,7 @@
 |66|[Plus One](https://leetcode.com/problems/plus-one) | [Swift](./algorithms/swift/plusOne/plusOne.swift)|Easy|
 |67|[Add Binary](https://leetcode.com/problems/add-binary/) | [Swift](./algorithms/swift/addBinary/addBinary.swift)|Easy|
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Swift](./algorithms/swift/sqrtx/sqrtx.swift), [Swift](./algorithms/swift/sqrtx/sqrtxII.swift)|Easy|
+|79|[Word Search](https://leetcode.com/problems/word-search/) | [Swift](./algorithms/swift/wordSearch/wordSearch.swift)|Medium|
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Swift](./algorithms/swift/validateBinarySearchTree/validateBinarySearchTree.swift), [Python](./algorithms/python/validateBinarySearchTree/validateBinarySearchTree.py) |Medium|
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Swift](./algorithms/swift/binaryTreeLevelOrderTraversal/binaryTreeLevelOrderTraversal.swift), [Python](./algorithms/python/binaryTreeLevelOrderTraversal/binaryTreeLevelOrderTraversal.py), [Python](./algorithms/python/binaryTreeLevelOrderTraversal/binaryTreeLevelOrderTraversalII.py)|Medium|
 |104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Swift](./algorithms/swift/maximumDepthOfBinaryTree/maximumDepthOfBinaryTree.swift)|Easy|
