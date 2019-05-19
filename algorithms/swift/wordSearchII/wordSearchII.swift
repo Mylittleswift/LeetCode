@@ -69,8 +69,6 @@ class Solution {
         let row = board.count
         let col = board[0].count
 
-        //    let cWords:[[Character]] = words.map{Array($0)}
-
 
         for word in words {
             trie.insert(word)
@@ -79,10 +77,7 @@ class Solution {
         for i in 0..<row {
             for j in 0..<col {
                 if let node = trie.root.children[board[i][j]] {
-                    if let word = match(board, i, j, node, [Character]()) {
-                        if !result.contains(word) {result.append(word)}
-                    }
-                }
+                    match(board, i, j, node, [Character]())
             }
         }
 
