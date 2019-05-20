@@ -107,6 +107,7 @@
 * [BTree](https://github.com/attaswift/BTree): Fast sorted collections for Swift using in-memory B-trees
 
 * [Origin of Quake3's Fast InvSqrt()](https://www.beyond3d.com/content/articles/8/)
+* [Swift Bitwise Operators](https://docs.swift.org/swift-book/LanguageGuide/AdvancedOperators.html)
 
 ## Courses
 
