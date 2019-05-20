@@ -45,6 +45,7 @@
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Swift](./algorithms/swift/implementTrie/implementTrie.swift)|Medium|
 |212|[Word Search II](https://leetcode.com/problems/word-search-ii/) | [Swift](./algorithms/swift/wordSearchII/wordSearchII.swift)|Hard|
 |225|[Implement Stack using Queue](https://leetcode.com/problems/implement-stack-using-queues/) | [Swift](./algorithms/swift/implementStackUsingQueue/implementStackUsingQueue.swift), [Swift](./algorithms/swift/reverseLinkedList/reverseLinkedList1.swift)|Easy|
+|231|[Power of Two](https://leetcode.com/problems/power-of-two/) | [Swift](./algorithms/swift/powerOfTwo/powerOfTwo.swift)|Easy|
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks) | [Swift](./algorithms/swift/implementQueueUsingStack/implementQueueUsingStack.swift)|Easy|
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Java](./algorithms/java/palindromeLinkedList/palindromeLinkedList.java)|Easy|
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Swift](./algorithms/swift/lowestCommonAncestorOfABinarySearchTree/lowestCommonAncestorOfABinarySearchTree.swift), [Java](./algorithms/java/lowestCommonAncestorOfABinarySearchTree/lowestCommonAncestorOfABinarySearchTree.java)|Easy|
