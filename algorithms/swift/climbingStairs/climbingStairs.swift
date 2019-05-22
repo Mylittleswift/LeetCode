@@ -37,5 +37,5 @@ func climbStairs(_ n: Int) -> Int {
         memo[i] = memo[i-1]! + memo[i-2]!
     }
 
-    return memo[n-1]! + memo[n-2]!
+    return memo[n]!
 }
