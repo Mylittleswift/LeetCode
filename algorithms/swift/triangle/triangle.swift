@@ -25,30 +25,29 @@ struct Position: Hashable {
     let col: Int
 }
 
-var memo = [Position: Int]()
-
 func minimumTotal(_ triangle: [[Int]]) -> Int {
 
-    guard triangle.count > 1 else { return triangle[0][0] }
-
-    let head = triangle[0][0]
-    return head + min(_helper(triangle,1,0), _helper(triangle,1,1))
-}
-
-func _helper(_ triangle: [[Int]], _ row: Int, _ col: Int) -> Int {
-
-    let pos = Position(row: row, col: col)
     let n = triangle.count
+    guard n > 1 else { return triangle[0][0] }
 
-    guard row != n-1 else {
-        memo[pos] = triangle[row][col]
+    var memo = [Position: Int]()
+
+    func _helper(_ row: Int, _ col: Int) -> Int {
+
+        let pos = Position(row: row, col: col)
+
+        //not last row
+        guard row != n-1 else {
+            memo[pos] = triangle[row][col]
+            return memo[pos]!
+        }
+
+        if let val = memo[pos] { return val }
+
+        memo[pos] = min(_helper(row+1, col), _helper(row+1, col+1)) + triangle[row][col]
         return memo[pos]!
     }
 
-    if let val = memo[pos] {
-        return val
-    }
-
-    memo[pos] = min(_helper(triangle, row+1, col), _helper(triangle, row+1, col+1)) + triangle[row][col]
-    return memo[pos]!
+    return triangle[0][0] + min(_helper(1,0), _helper(1,1))
 }
+
