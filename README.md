@@ -33,6 +33,7 @@
 |111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [Swift](./algorithms/swift/minimumDepthOfBinaryTree/minimumDepthOfBinaryTree.swift)|Easy|
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Swift](./algorithms/swift/pascalsTriangle/pascalsTriangle.swift)|Easy|
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | [Swift](./algorithms/swift/pascalsTriangleII/pascalsTriangleII.swift)|Easy|
+|120|[Triangle](https://leetcode.com/problems/triangle/) | [Swift](./algorithms/swift/triangle/triangle.swift)|Medium|
 |122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Swift](./algorithms/swift/bestTimeToBuyAndSellStockII/bestTimeToBuyAndSellStockII.swift), [Swift](./algorithms/swift/bestTimeToBuyAndSellStockII/bestTimeToBuyAndSellStockII-II.swift)|Easy|
 |138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Java](./algorithms/java/copyListWithRandomPointer/copyListWithRandomPointer.java)|Medium|
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Java](./algorithms/java/linkedListCycle/linkedListCycle.java), [Swift](./algorithms/swift/linkedListCycle/linkedListCycle.swift)|Easy|
