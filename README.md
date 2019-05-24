@@ -38,6 +38,7 @@
 |138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Java](./algorithms/java/copyListWithRandomPointer/copyListWithRandomPointer.java)|Medium|
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Java](./algorithms/java/linkedListCycle/linkedListCycle.java), [Swift](./algorithms/swift/linkedListCycle/linkedListCycle.swift)|Easy|
 |142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [Java](./algorithms/java/linkedListCycleII/linkedListCycleII.java), [Swift](./algorithms/swift/linkedListCycleII/linkedListCycleII.swift)|Medium|
+|152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [Swift](./algorithms/swift/maximumProductSubArray/maximumProductSubArray.swift)|Medium|
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Java](./algorithms/java/intersectionOfTwoLinkedList/intersectionOfTwoLinkedList.java)|Easy|
 |167|[Two Sum II - input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Swift](./algorithms/swift/2SumII/2SumII.swift)|Easy|
 |169|[Majority Element](https://leetcode.com/problems/majority-element/) | [Swift](./algorithms/swift/majorityElement/majorityElement.swift)|Easy|
