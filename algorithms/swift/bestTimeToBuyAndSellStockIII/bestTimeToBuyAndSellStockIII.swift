@@ -29,10 +29,6 @@
 
 func maxProfit(_ prices: [Int]) -> Int {
 
-    let sorted = prices.sorted { $0 > $1 }
-    guard prices != sorted else { return 0 }
-    guard prices != sorted.reversed() else { return prices.last! - prices[0] }
-
     let n = prices.count
     guard n > 1 else { return 0 }
 
