@@ -96,6 +96,7 @@
 * [leetcode](https://github.com/soulmachine/leetcode): LeetCode题解，151道题完整版
 * [Grandyang](https://www.cnblogs.com/grandyang/p/4606334.html): leetcode题目解析
 * [LeetCode-Solutions](https://github.com/xta0/LeetCode-Solutions): Solutions for LeetCode Problems
+* [LeetCode-Go](https://github.com/halfrost/LeetCode-Go)
 
 ## Blogs
 * [Know Thy Complexities!](http://bigocheatsheet.com/)
