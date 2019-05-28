@@ -27,7 +27,7 @@ func lengthOfLIS(_ nums: [Int]) -> Int {
     for i in 1..<nums.count {
         var maxCount = 0
         var maxIndex = 0
-        for j in (0..<i).reversed() {
+        for j in 0..<i {
             if nums[i] > nums[j] {
                 if dp[j].count > maxCount {
                     maxCount = dp[j].count
