@@ -27,11 +27,11 @@ func coinChange(_ coins: [Int], _ amount: Int) -> Int {
     for c in coins where c <= amount { dp[c] = 1 }
 
     for i in 1..<amount+1 {
-        for j in 0..<coins.count where i >= coins[j] {
-           if dp[i-coins[j]] != Int.max {
-                dp[i] = min(dp[i], dp[i-coins[j]]+1)
-           }
+        for j in 0..<coins.count
+            where i >= coins[j] && dp[i-coins[j]] != Int.max {
+            dp[i] = min(dp[i], dp[i-coins[j]]+1)
         }
     }
     return dp[amount] == Int.max ? -1 : dp[amount]
 }
+
