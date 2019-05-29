@@ -23,16 +23,18 @@ func coinChange(_ coins: [Int], _ amount: Int) -> Int {
     guard amount > 0 else { return amount }
     var dp = Array(repeating: Int.max, count: amount+1)
 
+    for c in coins {
+        if c <= amount {
+            dp[c] = 1
+        }
+    }
+
     for i in 1..<amount+1 {
         for j in 0..<coins.count {
+
             if i >= coins[j] {
-                if coins.contains(i) {
-                    dp[i] = 1
-                    continue
-                } else {
-                    if dp[i-coins[j]] != Int.max {
-                        dp[i] = min(dp[i], dp[i-coins[j]]+1)
-                    }
+                if dp[i-coins[j]] != Int.max {
+                    dp[i] = min(dp[i], dp[i-coins[j]]+1)
                 }
             }
         }
