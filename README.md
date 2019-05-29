@@ -59,6 +59,7 @@
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Swift](./algorithms/swift/validAnagram/validAnagram.swift), [Swift](./algorithms/swift/validAnagram/validAnagramII.swift),|Easy|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Swift](./algorithms/swift/moveZeroes/moveZeroes.swift)|Easy|
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Swift](./algorithms/swift/longestIncreasingSubsequence/longestIncreasingSubsequence.swift), [Swift](./algorithms/swift/longestIncreasingSubsequence/longestIncreasingSubsequence-II.swift)| Medium |
+|322|[Coin Change](https://leetcode.com/problems/coin-change/) | [Swift](./algorithms/swift/coinChange/coinChange.swift)|Medium|
 |328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [Java](./algorithms/java/oddEvenLinkedList/oddEvenLinkedList.java)|Medium|
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/) | [Swift](./algorithms/swift/countingBits/countingBits.swift)|Medium|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/) | [Swift](./algorithms/swift/reverseString/reverseString.swift)|Easy|
