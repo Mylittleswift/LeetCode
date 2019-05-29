@@ -1,5 +1,5 @@
 ## Note
-Please feel free to send **Pull Request**, **Issue** or give this repo a big **Star** to support, thank you!
+Please feel free to send **Pull Request**, **Issue** or give this repo a big **Star**, thank you!
 
 ## My Leetcode Solutions
 
