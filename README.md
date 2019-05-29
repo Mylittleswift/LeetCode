@@ -1,3 +1,6 @@
+## Note
+Please feel free to send **Pull Request** and give one **Star** to support this repo, thank you!
+
 ## My Leetcode Solutions
 
 | # | Title | Solution | Difficulty |
