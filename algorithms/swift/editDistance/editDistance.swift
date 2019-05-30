@@ -53,8 +53,8 @@ func minDistance(_ word1: String, _ word2: String) -> Int {
                 dp[i][j] = dp[i-1][j-1]
             } else {
                 dp[i][j] = min(
-                  dp[i][j-1] + 1,  //insert
-                  dp[i-1][j] + 1,  //delete
+                  dp[i][j-1] + 1,  //delete
+                  dp[i-1][j] + 1,  //insert
                   dp[i-1][j-1] + 1 //replace
                 )
             }
