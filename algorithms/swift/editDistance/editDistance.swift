@@ -32,12 +32,15 @@
 
 func minDistance(_ word1: String, _ word2: String) -> Int {
 
-    if word1 == word2 { return 0 }
+    guard word1 != word2 else { return 0 }
 
     let w1 = Array(word1)
     let w2 = Array(word2)
 
     var dp = Array(repeating: Array(repeating: Int.max, count: w2.count+1), count: w1.count+1)
+
+    //i, j DO NOT MEANS Character at i or j
+    //i, j MEANS the first i or j characters
 
     // init dp value
     for i in 0..<w1.count+1 { dp[i][0] = i }
@@ -46,7 +49,7 @@ func minDistance(_ word1: String, _ word2: String) -> Int {
     for i in 1..<w1.count+1 {
         for j in 1..<w2.count+1 {
             if w1[i-1] == w2[j-1]  {
-                // we do nothing here
+                // we do nothing extra here
                 dp[i][j] = dp[i-1][j-1]
             } else {
                 dp[i][j] = min(
