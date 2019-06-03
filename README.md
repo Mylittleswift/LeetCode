@@ -49,6 +49,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |167|[Two Sum II - input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Swift](./algorithms/swift/2SumII/2SumII.swift)|Easy|
 |169|[Majority Element](https://leetcode.com/problems/majority-element/) | [Swift](./algorithms/swift/majorityElement/majorityElement.swift)|Easy|
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [Java](./algorithms/java/numberOf1Bits/numberOf1Bits.java), [Swift](./algorithms/swift/numberOf1Bits/numberOf1Bits.swift)|Easy|
+|200|[Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Swift](./algorithms/swift/numberOfIslands/numberOfIslands.swift)| Medium |
 |203|[Remove Linked List Element](https://leetcode.com/problems/remove-linked-list-elements/) | [Java](./algorithms/java/removeLinkedListElements/removeLinkedListElements.java)|Easy|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Java](./algorithms/java/reverseLinkedList/reverseLinkedList.java), [Swift](./algorithms/swift/reverseLinkedList/reverseLinkedList1.swift)|Easy|
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Swift](./algorithms/swift/implementTrie/implementTrie.swift)|Medium|
