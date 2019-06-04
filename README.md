@@ -71,6 +71,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | [Swift](./algorithms/swift/validPerfectSquare/validPerfectSquare.swift)|Easy|
 |430|[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [Java](./algorithms/java/flattenAMultilevelDoublyLinkedList/flattenAMultilevelDoublyLinkedList.java)|Medium|
 |498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | [Swift](./algorithms/swift/diagonalTraverse/diagonalTraverse.swift)|Medium|
+|547|[Friend Circles](https://leetcode.com/problems/friend-circles/) | [Swift](./algorithms/swift/friendCircles/friendCircles.swift)| Medium |
 |561|[Array Partition I](https://leetcode.com/problems/array-partition-i/) | [Swift](./algorithms/swift/arrayPartitionI/arrayPartitionI.swift)|Easy|
 |703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [Swift](./algorithms/swift/kthLargestElementInAStream/kthLargestElementInAStream.swift)|Easy|
 |707|[Design Linked List](https://leetcode.com/problems/design-linked-list/) | [Java](./algorithms/java/designLinkedList/designLinkedList.java)|Easy|
