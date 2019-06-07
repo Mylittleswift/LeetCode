@@ -29,13 +29,15 @@ func findShortestSubArray(_ nums: [Int]) -> Int {
     var dic = [Int:[Int]]()
     var max = 0
     for i in 0..<nums.count {
+        var count = 1
         if var array = dic[nums[i]] {
             array.append(i)
+            count = array.count
             dic[nums[i]] = array
         } else {
             dic[nums[i]] = [i]
         }
-        if dic[nums[i]]!.count > max { max = dic[nums[i]]!.count }
+        if count > max { max = count }
     }
     var min = Int.max
     for v in dic.values {
