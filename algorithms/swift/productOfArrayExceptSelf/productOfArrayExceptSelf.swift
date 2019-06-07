@@ -16,22 +16,21 @@ Could you solve it with constant space complexity?
 */
 
 func productExceptSelf(_ nums: [Int]) -> [Int] {
-    var left = [nums[0]]
-    var right = [nums.last!]
+    
+    var output = [nums[0]]
     let n = nums.count
-
+ 
     for i in 1..<n {
-        left.append(left[i-1]*nums[i])
-        right.append(right[i-1]*nums[n-i-1])
+        output.append(output[i-1]*nums[i])
     }
     
-    right = right.reversed()
-
-    var output = [right[1]]
-    for i in 1..<n-1 {
-        output.append(left[i-1]*right[i+1])
+    var rightProduct = nums[n-1]
+    output[n-1] = output[n-2]
+    for i in (1..<n-1).reversed() {
+        output[i] = output[i-1] * rightProduct
+        rightProduct = rightProduct * nums[i]
     }
-    output.append(left[n-2])
+    output[0] = rightProduct
     
     return output
 }
