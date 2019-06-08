@@ -31,18 +31,20 @@ func calculate(_ s: String) -> Int {
     
     var operators = [String]() // operator stack
     var nums = [Int]() // numbers stack
-    var current: String = ""
+    var current: Int = -1
+    
     
     for i in 0..<ss.count { // numbers
-        if let _ = Int(ss[i]) {
-            current.append(ss[i])
+        if let n = Int(ss[i]) {
+            if current == -1 { current = n}
+            else { current = current * 10 + n }
             
         } else if ss[i] == " " {
             continue
         } else {// operators
-            if !current.isEmpty {
-                nums.append(Int(current)!)
-                current = ""
+            if current != -1 {
+                nums.append(current)
+                current = -1
             }
             
             // calculate
@@ -60,7 +62,7 @@ func calculate(_ s: String) -> Int {
         }
     }
     
-    if !current.isEmpty { nums.append(Int(current)!) }
+    if current != -1 { nums.append(current) }
     if operators.count > 0 {
         if let op = operators.last {
             operators.popLast()
@@ -84,6 +86,7 @@ func eval(_ a: Int, _ b: Int, _ op: String) -> Int {
     }
     return result
 }
+
 
 
 // Test Cases
