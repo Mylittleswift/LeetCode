@@ -43,3 +43,15 @@ func maxDistToClosest(_ seats: [Int]) -> Int {
     }
     return max(m, seats.count-1-taken.last!)
 }
+
+
+
+// Test Cases
+maxDistToClosest([1,0,0,0,1,0,1])//2
+maxDistToClosest([1,0,0,0])//3
+maxDistToClosest([0,1])//1
+maxDistToClosest([1,0,0,1])//1
+maxDistToClosest([0,0,1,0,1,1])//2
+maxDistToClosest([0,1,0,0,0,0])//4
+maxDistToClosest([0,1,1,1,0,0,1,0,0])//2
+maxDistToClosest([1,1,0,0,0,1,1,0,0,1,0])//2
