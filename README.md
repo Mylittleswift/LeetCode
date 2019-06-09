@@ -2,6 +2,7 @@
 Please feel free to send **Pull Request**, **Issue** or give this repo a big **Star**, thank you!
 
 ## My Leetcode Solutions
+**bold** num means I DO NOT come up a solution by myself...
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
