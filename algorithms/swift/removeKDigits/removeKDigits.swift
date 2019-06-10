@@ -58,3 +58,12 @@ func removeKdigits(_ num: String, _ k: Int) -> String {
     }
     return index == digits ? "0" : String(stack[index..<digits])
 }
+
+
+// Test Cases
+removeKdigits("1432219", 3)//1219
+removeKdigits("10200", 1)//200
+removeKdigits("112", 1)//11
+removeKdigits("10", 2)//0
+removeKdigits("10", 1)//0
+removeKdigits("1111111", 3)//1111
