@@ -26,13 +26,17 @@ Explanation: Remove all the digits from the number and it is left with nothing w
 */
 
 func removeKdigits(_ num: String, _ k: Int) -> String {
-    
+
     guard k > 0 else { return num }
     let num:[Character] = Array(num)
     let digits = num.count - k
     var stack = [Character]()
     var k = k
     var top = 0
+    // k keeps track of how many characters we can remove
+    // if the previous character in stack is larger than the current one
+    // then removing it will get a smaller number
+    // but we can only do so when k is larger than 0
     for i in 0..<num.count {
         let c = num[i]
         while top > 0 && stack[top-1] > c && k > 0 {
@@ -47,8 +51,8 @@ func removeKdigits(_ num: String, _ k: Int) -> String {
         top = top + 1
     }
 
+    // find the index of first non-zero digi
     var index = 0
-    
     while index < digits && stack[index] == "0" {
         index = index + 1
     }
