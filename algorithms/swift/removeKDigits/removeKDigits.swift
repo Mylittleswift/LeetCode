@@ -51,7 +51,7 @@ func removeKdigits(_ num: String, _ k: Int) -> String {
         top = top + 1
     }
 
-    // find the index of first non-zero digi
+    // find the index of first non-zero digit
     var index = 0
     while index < digits && stack[index] == "0" {
         index = index + 1
