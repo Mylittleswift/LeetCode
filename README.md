@@ -54,11 +54,11 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [Java](./algorithms/java/numberOf1Bits/numberOf1Bits.java), [Swift](./algorithms/swift/numberOf1Bits/numberOf1Bits.swift)|Easy|
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Swift](./algorithms/swift/numberOfIslands/numberOfIslands.swift)| Medium |
 |203|[Remove Linked List Element](https://leetcode.com/problems/remove-linked-list-elements/) | [Java](./algorithms/java/removeLinkedListElements/removeLinkedListElements.java)|Easy|
-|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Java](./algorithms/java/reverseLinkedList/reverseLinkedList.java), [Swift](./algorithms/swift/reverseLinkedList/reverseLinkedList1.swift)|Easy|
+|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Java](./algorithms/java/reverseLinkedList/reverseLinkedList.java), [Swift](./algorithms/swift/reverseLinkedList/reverseLinkedList1.swift), [Swift](./algorithms/swift/reverseLinkedList/reverseLinkedList0.swift)|Easy|
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Swift](./algorithms/swift/implementTrie/implementTrie.swift)|Medium|
 |212|[Word Search II](https://leetcode.com/problems/word-search-ii/) | [Swift](./algorithms/swift/wordSearchII/wordSearchII.swift)|Hard|
 |224|[Basic Calculator](https://leetcode.com/problems/basic-calculator/) | [Swift](./algorithms/swift/basicCalculator/basicCalculator.swift) |Hard|
-|225|[Implement Stack using Queue](https://leetcode.com/problems/implement-stack-using-queues/) | [Swift](./algorithms/swift/implementStackUsingQueue/implementStackUsingQueue.swift), [Swift](./algorithms/swift/reverseLinkedList/reverseLinkedList1.swift)|Easy|
+|225|[Implement Stack using Queue](https://leetcode.com/problems/implement-stack-using-queues/) | [Swift](./algorithms/swift/implementStackUsingQueue/implementStackUsingQueue.swift)|Easy|
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/) | [Swift](./algorithms/swift/powerOfTwo/powerOfTwo.swift)|Easy|
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks) | [Swift](./algorithms/swift/implementQueueUsingStack/implementQueueUsingStack.swift)|Easy|
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Java](./algorithms/java/palindromeLinkedList/palindromeLinkedList.java)|Easy|
