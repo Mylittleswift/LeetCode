@@ -23,47 +23,14 @@
   4.pushed and popped have distinct values.
   */
 func validateStackSequences(_ pushed: [Int], _ popped: [Int]) -> Bool {
-
-    guard pushed.count > 0, popped.count > 0 else { return true }
-    guard pushed != popped else { return true }
-    guard pushed.count == popped.count else { return false }
-
     var stack = [Int]()
-    var popped = popped
-    var pushed = pushed
-
-    // init stack
-    while let push = pushed.first,
-        let pop = popped.first,
-        push != pop {
-            // push to stack
-            stack.append(pushed.removeFirst())
-    }
-
-    while !pushed.isEmpty {
-        if let toPush = pushed.first, let toPop = popped.first {
-            if toPop == toPush {
-                pushed.removeFirst()
-                popped.removeFirst()
-            } else if let top = stack.last, top == toPop {
-                //pop
-                stack.removeLast()
-                popped.removeFirst()
-            } else {
-                stack.append(toPush)
-                pushed.removeFirst()
-            }
+    var j = 0
+    for i in pushed {
+        stack.append(i)
+        while !stack.isEmpty && j < pushed.count && stack.last! == popped[j] {
+            stack.removeLast()
+            j = j + 1
         }
     }
-
-    while !popped.isEmpty {
-        let toPop = popped.removeFirst()
-        let top = stack.removeLast()
-
-        if toPop != top {
-            return false
-        }
-    }
-
-    return true
+    return j == pushed.count
 }
