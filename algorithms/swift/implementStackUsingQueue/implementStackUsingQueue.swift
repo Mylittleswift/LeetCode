@@ -31,33 +31,57 @@ Notes:
 
  https://leetcode.com/problems/implement-stack-using-queues
  */
-
 class MyStack {
-    private var stack:[Int]
+
+    private var q1: [Int]
+    private var q2: [Int]
+    private var t: Int?
     /** Initialize your data structure here. */
     init() {
-        stack = [Int]()
+        q1 = [Int]()
+        q2 = [Int]()
     }
 
     /** Push element x onto stack. */
     func push(_ x: Int) {
-        stack.insert(x, at: 0)
+        q1.append(x)
+        t = x
     }
 
     /** Removes the element on top of the stack and returns that element. */
     func pop() -> Int {
-        guard !stack.isEmpty else { fatalError() }
-        return stack.removeFirst()
+
+        while q1.count > 1 {
+            q2.append(q1.removeFirst())
+        }
+
+        let result = q1.removeFirst()
+
+        var tmp = q1
+        q1 = q2
+        q2 = tmp
+
+        t = q1.last
+
+        return result
     }
 
     /** Get the top element. */
     func top() -> Int {
-        guard !stack.isEmpty else { fatalError() }
-        return stack.first!
+        return t!
     }
 
     /** Returns whether the stack is empty. */
     func empty() -> Bool {
-        return stack.isEmpty
+        return q1.isEmpty && q2.isEmpty
     }
 }
+
+/**
+ * Your MyStack object will be instantiated and called as such:
+ * let obj = MyStack()
+ * obj.push(x)
+ * let ret_2: Int = obj.pop()
+ * let ret_3: Int = obj.top()
+ * let ret_4: Bool = obj.empty()
+ */
