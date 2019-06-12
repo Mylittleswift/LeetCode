@@ -1,7 +1,7 @@
 func maxSlidingWindow(_ nums: [Int], _ k: Int) -> [Int] {
-    
+
     guard nums.count > 1 && k > 1 else { return nums }
-    
+
     var result = [Int]()
     var maxIndex = 0
 
@@ -31,6 +31,6 @@ func maxSlidingWindow(_ nums: [Int], _ k: Int) -> [Int] {
         }
         result.append(nums[maxIndex])
     }
-    
+
     return result
 }
