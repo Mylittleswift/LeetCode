@@ -80,7 +80,8 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | [Swift](./algorithms/swift/diagonalTraverse/diagonalTraverse.swift)|Medium|
 |547|[Friend Circles](https://leetcode.com/problems/friend-circles/) | [Swift](./algorithms/swift/friendCircles/friendCircles.swift)| Medium |
 |561|[Array Partition I](https://leetcode.com/problems/array-partition-i/) | [Swift](./algorithms/swift/arrayPartitionI/arrayPartitionI.swift)|Easy|
-|621|[Task Scheduler](https://leetcode.com/problems/task-scheduler/) | [Swift](./algorithms/swift/arrayPartitionI/arrayPartitionI.swift)|Easy|
+|621|[Task Scheduler](https://leetcode.com/problems/task-scheduler/) | [Swift](./algorithms/swift/arrayPartitionI/arrayPartitionI.swift)| Medium |
+|622|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | [Swift](./algorithms/swift/designCircularQueue/designCircularQueue.swift)| Medium |
 |697|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)| [Swift](./algorithms/swift/degreeOfAnArray/degreeOfAnArray.swift)|Easy|
 |703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [Swift](./algorithms/swift/kthLargestElementInAStream/kthLargestElementInAStream.swift)|Easy|
 |707|[Design Linked List](https://leetcode.com/problems/design-linked-list/) | [Java](./algorithms/java/designLinkedList/designLinkedList.java)|Easy|
