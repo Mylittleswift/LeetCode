@@ -47,19 +47,10 @@ class MedianFinder {
         var result = 0.0
         var max: Double = 0.0
         var min: Double = 0.0
-        if let m = maxHeap.peek() {
-            max = Double(m)
-        }
+        if let m = maxHeap.peek() { max = Double(m) }
+        if let m = minHeap.peek() { min = Double(m) }
 
-        if let m = minHeap.peek() {
-            min = Double(m)
-        }
-
-        if maxHeap.count == minHeap.count {
-            return Double((max + min) / 2.0)
-        } else {
-            return min
-        }
+        return maxHeap.count == minHeap.count ? Double((max + min) / 2.0) : min
     }
 }
 
