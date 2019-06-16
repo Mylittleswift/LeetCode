@@ -34,24 +34,31 @@ class MedianFinder {
 
     // make sure `maxHeap.count == minHeap.count || maxHeap.count == minHeap.count + 1`
     func addNum(_ num: Int) {
-        if maxHeap.count == 0 || maxHeap.peek()! >= num {
+        if maxHeap.count == minHeap.count {
             maxHeap.add(num)
-            if maxHeap.count > minHeap.count + 1 {
-                minHeap.add(maxHeap.extract()!)
-            }
+            minHeap.add(maxHeap.extract()!)
         } else {
             minHeap.add(num)
-            if minHeap.count > maxHeap.count {
-                maxHeap.add(minHeap.extract()!)
-            }
+            maxHeap.add(minHeap.extract()!)
         }
     }
     
     func findMedian() -> Double {
-        if maxHeap.count != minHeap.count {
-            return Double(maxHeap.peek()!)
+        var result = 0.0
+        var max: Double = 0.0
+        var min: Double = 0.0
+        if let m = maxHeap.peek() {
+            max = Double(m)
+        }
+
+        if let m = minHeap.peek() {
+            min = Double(m)
+        }
+
+        if maxHeap.count == minHeap.count {
+            return Double((max + min) / 2.0)
         } else {
-            return Double(maxHeap.peek()! + minHeap.peek()!) / 2
+            return min
         }
     }
 }
