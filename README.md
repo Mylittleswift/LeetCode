@@ -71,6 +71,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | [Swift](./algorithms/swift/slidingWindowMaximum/slidingWindowMaximum.swift), [Swift](./algorithms/swift/slidingWindowMaximum/slidingWindowMaximumII.swift),[Swift](./algorithms/swift/slidingWindowMaximum/slidingWindowMaximumIII.swift)|Hard|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Swift](./algorithms/swift/validAnagram/validAnagram.swift), [Swift](./algorithms/swift/validAnagram/validAnagramII.swift),|Easy|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Swift](./algorithms/swift/moveZeroes/moveZeroes.swift)|Easy|
+|**295**|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [Swift](./algorithms/swift/findMedianFromDataStream/findMedianFromDataStream.swift)|Hard|
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Swift](./algorithms/swift/longestIncreasingSubsequence/longestIncreasingSubsequence.swift), [Swift](./algorithms/swift/longestIncreasingSubsequence/longestIncreasingSubsequence-II.swift)| Medium |
 |322|[Coin Change](https://leetcode.com/problems/coin-change/) | [Swift](./algorithms/swift/coinChange/coinChange.swift)|Medium|
 |328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [Java](./algorithms/java/oddEvenLinkedList/oddEvenLinkedList.java)|Medium|
