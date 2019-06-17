@@ -79,6 +79,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/) | [Swift](./algorithms/swift/countingBits/countingBits.swift)|Medium|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/) | [Swift](./algorithms/swift/reverseString/reverseString.swift)|Easy|
 |367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | [Swift](./algorithms/swift/validPerfectSquare/validPerfectSquare.swift)|Easy|
+|373|[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | [Swift](./algorithms/swift/findKPairsWithSmallestSums/findKPairsWithSmallestSums.swift)|Medium|
 |**402**|[Remove K Digits](https://leetcode.com/problems/remove-k-digits/) | [Swift](./algorithms/swift/removeKDigits/removeKDigits.swift) |Medium|
 |430|[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [Java](./algorithms/java/flattenAMultilevelDoublyLinkedList/flattenAMultilevelDoublyLinkedList.java)|Medium|
 |**456**|[132 Pattern](https://leetcode.com/problems/132-pattern/) | [Swift](./algorithms/swift/132Pattern/132Pattern.swift)|Medium|
