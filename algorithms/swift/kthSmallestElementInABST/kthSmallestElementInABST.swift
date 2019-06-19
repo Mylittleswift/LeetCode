@@ -42,6 +42,7 @@ func kthSmallest(_ root: TreeNode?, _ k: Int) -> Int {
         k = k - 1
         if k == 0 {
             result = root.val
+            return
         }
         dfs(root.right)
     }
