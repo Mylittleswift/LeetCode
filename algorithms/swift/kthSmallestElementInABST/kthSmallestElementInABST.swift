@@ -33,16 +33,20 @@
 
 func kthSmallest(_ root: TreeNode?, _ k: Int) -> Int {
     guard let root = root else { return 0 }
-    var tree = [Int]()
+    var result: Int = 0
+    var k = k
     func dfs(_ root: TreeNode?) {
         guard let root = root else { return }
 
         dfs(root.left)
-        tree.append(root.val)
+        k = k - 1
+        if k == 0 {
+            result = root.val
+        }
         dfs(root.right)
     }
     // inorder tree
     dfs(root)
 
-    return tree[k-1]
+    return result
 }
