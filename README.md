@@ -63,6 +63,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |212|[Word Search II](https://leetcode.com/problems/word-search-ii/) | [Swift](./algorithms/swift/wordSearchII/wordSearchII.swift)|Hard|
 |224|[Basic Calculator](https://leetcode.com/problems/basic-calculator/) | [Swift](./algorithms/swift/basicCalculator/basicCalculator.swift) |Hard|
 |225|[Implement Stack using Queue](https://leetcode.com/problems/implement-stack-using-queues/) | [Swift](./algorithms/swift/implementStackUsingQueue/implementStackUsingQueue.swift)|Easy|
+|230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Swift](./algorithms/swift/kthSmallestElementInABST/kthSmallestElementInABST.swift)|Medium|
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/) | [Swift](./algorithms/swift/powerOfTwo/powerOfTwo.swift)|Easy|
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks) | [Swift](./algorithms/swift/implementQueueUsingStack/implementQueueUsingStack.swift)|Easy|
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Java](./algorithms/java/palindromeLinkedList/palindromeLinkedList.java)|Easy|
