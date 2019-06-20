@@ -67,7 +67,7 @@ func deleteNode(_ root: TreeNode?, _ key: Int) -> TreeNode? {
         if r.left == nil && r.right == nil {
             root = nil
         } else if r.left == nil {
-            r.val = successor(root)
+            r.val = successor(r)
             r.right = deleteNode(r.right, r.val)
         } else {
             r.val = predecessor(r)
