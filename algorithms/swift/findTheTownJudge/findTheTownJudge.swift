@@ -44,40 +44,31 @@
 5. 1 <= trust[i][0], trust[i][1] <= N
 
  */
-
 func findJudge(_ N: Int, _ trust: [[Int]]) -> Int {
     guard N > 0 else { return 0 }
     guard trust.count > 0, trust[0].count > 0 else { return 1 }
 
-    var graph = [[Int]]()
-    //init graph
-    for _ in 0..<N { graph.append([Int]()) }
+    // who trust me?
+    var trustIn = Array(repeating: 0, count: N)
+    // I trust who?
+    var trustOut = Array(repeating: 0, count: N)
 
     for a in trust {
-        guard let aa = a.first, let bb = a.last else { return -1 }
-        var ts = graph[aa-1]
-        ts.append(bb)
-        graph[aa-1] = ts
+        guard let tin = a.first, let tout = a.last else { return -1 }
+        trustIn[tout-1] = trustIn[tout-1] + 1
+        trustOut[tin-1] = trustOut[tin-1] + 1
     }
 
-    // find judge
-    var mayJudgeIndex = -1
-    for (index,result) in graph.enumerated() {
-        if result.isEmpty {
-            if mayJudgeIndex == -1 {
-                mayJudgeIndex = index + 1
-            } else {
-                return -1
-            }
+    var judgeIndex = -1
+
+    for i in 0..<trustIn.count {
+        // When N-1 trust me, and I trust no one,
+        // I am the Judge.
+        if trustOut[i] == 0 && trustIn[i] == N - 1 {
+            judgeIndex = i+1
         }
     }
-
-    for r in graph where !r.isEmpty {
-        if !r.contains(mayJudgeIndex) {
-            mayJudgeIndex = -1
-            break
-        }
-    }
-
-    return mayJudgeIndex
+    //if judgeIndex is -1, no Judge at all.
+    //otherwise, return judgeIndex
+    return judgeIndex
 }
