@@ -103,6 +103,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |**871**|[Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) | [Swift](./algorithms/swift/minimumNumberOfRefuelingStops/minimumNumberOfRefuelingStops.swift)|Hard|
 |938|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [Swift](./algorithms/swift/rangeSumOfBST/rangeSumOfBST.swift)|Easy|
 |946|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/) | [Swift](./algorithms/swift/validateStackSequences/validateStackSequences.swift)|Medium|
+|997|[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | [Swift](./algorithms/swift/findTheTownJudge/findTheTownJudge.swift)|Easy|
 
 
 ## Algorithms
