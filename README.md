@@ -34,6 +34,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Swift](./algorithms/swift/climbingStairs/climbingStairs.swift), [Swift](./algorithms/swift/climbingStairs/climbingStairs-II.swift)|Easy|
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance/) | [Swift](./algorithms/swift/editDistance/editDistance.swift)|Hard|
 |79|[Word Search](https://leetcode.com/problems/word-search/) | [Swift](./algorithms/swift/wordSearch/wordSearch.swift)|Medium|
+|**81**|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | [Swift](./algorithms/swift/searchInRotatedSortedArrayII/searchInRotatedSortedArrayII.swift)|Medium|
 |82|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | [Swift](./algorithms/swift/removeNthNodeFromEndOfList/removeNthNodeFromEndOfList.swift)|Medium|
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Swift](./algorithms/swift/validateBinarySearchTree/validateBinarySearchTree.swift), [Python](./algorithms/python/validateBinarySearchTree/validateBinarySearchTree.py) |Medium|
 |100|[Same Tree](https://leetcode.com/problems/same-tree/) | [Swift](./algorithms/swift/sameTree/sameTree.swift) |Easy|
