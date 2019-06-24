@@ -64,6 +64,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Java](./algorithms/java/reverseLinkedList/reverseLinkedList.java), [Swift](./algorithms/swift/reverseLinkedList/reverseLinkedList1.swift), [Swift](./algorithms/swift/reverseLinkedList/reverseLinkedList0.swift)|Easy|
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Swift](./algorithms/swift/implementTrie/implementTrie.swift)|Medium|
 |212|[Word Search II](https://leetcode.com/problems/word-search-ii/) | [Swift](./algorithms/swift/wordSearchII/wordSearchII.swift)|Hard|
+|215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Swift](./algorithms/swift/kthLargestElementInAnArray/kthLargestElementInAnArray.swift)|Medium|
 |224|[Basic Calculator](https://leetcode.com/problems/basic-calculator/) | [Swift](./algorithms/swift/basicCalculator/basicCalculator.swift) |Hard|
 |225|[Implement Stack using Queue](https://leetcode.com/problems/implement-stack-using-queues/) | [Swift](./algorithms/swift/implementStackUsingQueue/implementStackUsingQueue.swift)|Easy|
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Swift](./algorithms/swift/kthSmallestElementInABST/kthSmallestElementInABST.swift)|Medium|
