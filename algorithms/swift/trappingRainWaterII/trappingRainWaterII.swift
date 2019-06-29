@@ -25,17 +25,15 @@ https://leetcode.com/problems/trapping-rain-water-ii/
 
 class Solution {
 func trapRainWater(_ heightMap: [[Int]]) -> Int {
+
     guard heightMap.count > 0, heightMap[0].count > 0 else { return 0 }
-    
+ 
     let col = heightMap[0].count
     let row = heightMap.count
-    
     var visited = Set<Point>()
     
     // init minHeap, push all surrounding into minHeap
-    let minHeap = Heap { (p0, p1) -> Bool in
-        p0.height < p1.height
-    }
+    let minHeap = Heap { (p0, p1) -> Bool in p0.height < p1.height }
     
     for j in 0..<col {
         let p0 = Point(0, j, heightMap[0][j])
@@ -48,21 +46,15 @@ func trapRainWater(_ heightMap: [[Int]]) -> Int {
     }
     
     for i in 0..<row {
+	
         let p0 = Point(i, 0, heightMap[i][0])
-
-        if visited.contains(p0) {
-            continue
-        }
-        
-        
+        if visited.contains(p0) { continue }
+  
         minHeap.add(p0)
         visited.insert(p0)
         
         let p1 = Point(i, col-1, heightMap[i][col-1])
-        if visited.contains(p1) {
-            continue
-        }
-        
+        if visited.contains(p1) { continue }
         minHeap.add(p1)
         visited.insert(p1)
     }
@@ -74,7 +66,6 @@ func trapRainWater(_ heightMap: [[Int]]) -> Int {
     
     while !minHeap.isEmpty() {
         let p = minHeap.extract()!
-
         currentMax = max(p.height, currentMax)
         
         for d in dxy {
@@ -170,5 +161,4 @@ class Heap {
         return heap.first
     }
 }
-
 }
