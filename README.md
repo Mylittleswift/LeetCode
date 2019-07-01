@@ -106,6 +106,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |707|[Design Linked List](https://leetcode.com/problems/design-linked-list/) | [Java](./algorithms/java/designLinkedList/designLinkedList.java)|Easy|
 |708|[Insert into a Cyclic Sorted List](https://leetcode.com/problems/insert-into-a-cyclic-sorted-list/) | [Java](./algorithms/java/insertIntoACyclicSortedList/insertIntoACyclicSortedList.java)|Medium|
 |724|[Find Pivot Index](https://leetcode.com/articles/find-pivot-index/) | [Swift](./algorithms/swift/findPivotIndex/findPivotIndex.swift)|Easy|
+|743|[Network Delay Time](https://leetcode.com/problems/network-delay-time/) | [Swift](./algorithms/swift/networkDelayTime/networkDelayTime.swift)|Medium|
 |747|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/description/) | [Swift](./algorithms/swift/largestNumberAtLeastTwiceOfOthers/largestNumberAtLeastTwiceOfOthers.swift)|Easy|
 |**785**|[Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/) | [Swift](./algorithms/swift/isGraphBipartite/isGraphBipartite.swift)|Medium|
 |849|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/) | [Swift](./algorithms/swift/maximizeDistanceToClosestPerson/maximizeDistanceToClosestPerson.swift)|Easy|
