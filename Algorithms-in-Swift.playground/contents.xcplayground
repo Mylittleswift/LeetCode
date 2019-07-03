@@ -5,5 +5,6 @@
         <page name='LinkedList'/>
         <page name='Stack'/>
         <page name='Queue'/>
+        <page name='QueueRingBuffer'/>
     </pages>
 </playground>
