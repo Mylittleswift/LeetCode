@@ -164,7 +164,14 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 * [BTree](https://github.com/attaswift/BTree): Fast sorted collections for Swift using in-memory B-trees
 
 * [Origin of Quake3's Fast InvSqrt()](https://www.beyond3d.com/content/articles/8/)
+
 * [Swift Bitwise Operators](https://docs.swift.org/swift-book/LanguageGuide/AdvancedOperators.html)
+
+* [The Five Essential Phone-Screen Questions](https://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
+
+* [the coding interview](https://github.com/mre/the-coding-interview): Programming exercises, code katas and puzzles for your job interview training - or just for fun.
+
+* [pramp](https://www.pramp.com/): mock interview
 
 ## Courses
 
