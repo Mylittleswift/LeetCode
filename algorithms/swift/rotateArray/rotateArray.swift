@@ -25,9 +25,9 @@ Note:
 
 */
 func rotate(_ nums: inout [Int], _ k: Int) {
-    for _ in 0..<k {
-        let n = nums.last!
-        nums.removeLast()
-        nums.insert(n, at: 0)
-    }
+
+    guard k >= 1, nums.count > 0 else { return }
+    let n = nums.count
+    let pos = n - (k % n)
+    nums = Array(nums[pos..<n] + nums[0..<pos])
 }

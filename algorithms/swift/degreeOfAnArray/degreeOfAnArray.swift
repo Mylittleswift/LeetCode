@@ -22,29 +22,26 @@ Note:
 
 * nums.length will be between 1 and 50,000.
 * nums[i] will be an integer between 0 and 49,999.
-*/
 
+https://leetcode.com/problems/degree-of-an-array/
+
+*/
 func findShortestSubArray(_ nums: [Int]) -> Int {
-    
-    var dic = [Int:[Int]]()
-    var max = 0
-    for i in 0..<nums.count {
-        var count = 1
-        if var array = dic[nums[i]] {
-            array.append(i)
-            count = array.count
-            dic[nums[i]] = array
-        } else {
-            dic[nums[i]] = [i]
-        }
-        if count > max { max = count }
+
+    var dict : [Int: [Int]] = [:] // num : [indices]
+    for (i, num) in nums.enumerated() {
+        dict[num, default: []].append(i)
     }
-    var min = Int.max
-    for v in dic.values {
-        if v.count == max {
-            let t = v.last! - v.first!
-            if min > t { min = t }
+
+    var degree = 0
+    var minLength = 0
+    dict.forEach { (num, indices) in
+        if indices.count > degree {
+            degree = indices.count
+            minLength = indices[degree - 1] - indices[0] + 1
+        } else if indices.count == degree {
+            minLength = min(minLength, indices[degree-1] - indices[0] + 1)
         }
     }
-    return min+1
+    return minLength
 }

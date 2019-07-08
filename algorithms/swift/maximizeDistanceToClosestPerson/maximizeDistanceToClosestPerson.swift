@@ -27,6 +27,8 @@ Note:
 
 1. 1 <= seats.length <= 20000
 2. seats contains only 0s or 1s, at least one 0, and at least one 1.
+
+https://leetcode.com/problems/maximize-distance-to-closest-person/
 */
 
 func maxDistToClosest(_ seats: [Int]) -> Int {
@@ -39,7 +41,7 @@ func maxDistToClosest(_ seats: [Int]) -> Int {
     var m = taken[0]
     for j in 0..<taken.count-1 {
         let t = (taken[j+1] - taken[j])/2
-        if t > m { m = t }
+        m = max(m, t)
     }
     return max(m, seats.count-1-taken.last!)
 }
