@@ -25,20 +25,20 @@ Note:
 */
 
 func calculate(_ s: String) -> Int {
-    
+
     let cs: [Character] = Array(s)
     let ss = cs.map { String($0) }
-    
+
     var operators = [String]() // operator stack
     var nums = [Int]() // numbers stack
     var current: Int = -1
-    
-    
+
+
     for i in 0..<ss.count { // numbers
         if let n = Int(ss[i]) {
             if current == -1 { current = n}
             else { current = current * 10 + n }
-            
+
         } else if ss[i] == " " {
             continue
         } else {// operators
@@ -46,7 +46,7 @@ func calculate(_ s: String) -> Int {
                 nums.append(current)
                 current = -1
             }
-            
+
             // calculate
             if let op = operators.last, op != "(", ss[i] != "(" {
                 operators.popLast()
@@ -61,7 +61,7 @@ func calculate(_ s: String) -> Int {
             }
         }
     }
-    
+
     if current != -1 { nums.append(current) }
     if operators.count > 0 {
         if let op = operators.last {
@@ -71,7 +71,7 @@ func calculate(_ s: String) -> Int {
             }
         }
     }
-    
+
     return nums.last!
 }
 

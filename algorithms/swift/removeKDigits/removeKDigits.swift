@@ -37,6 +37,8 @@ func removeKdigits(_ num: String, _ k: Int) -> String {
     // if the previous character in stack is larger than the current one
     // then removing it will get a smaller number
     // but we can only do so when k is larger than 0
+    // "peak" digit: larger than its neighbor.
+    // remove all "peak" digit.
     for i in 0..<num.count {
         let c = num[i]
         while top > 0 && stack[top-1] > c && k > 0 {
@@ -62,7 +64,7 @@ func removeKdigits(_ num: String, _ k: Int) -> String {
 
 // Test Cases
 removeKdigits("1432219", 3)//1219
-removeKdigits("10200", 1)//200
+removekdigits("10200", 1)//200
 removeKdigits("112", 1)//11
 removeKdigits("10", 2)//0
 removeKdigits("10", 1)//0
