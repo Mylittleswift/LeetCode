@@ -27,9 +27,9 @@ func validateStackSequences(_ pushed: [Int], _ popped: [Int]) -> Bool {
     var j = 0
     for i in pushed {
         stack.append(i)
-        while !stack.isEmpty && j < pushed.count && stack.last! == popped[j] {
+        while !stack.isEmpty && stack.last! == popped[j] {
             stack.removeLast()
-            j = j + 1
+            j += 1
         }
     }
     return j == pushed.count
