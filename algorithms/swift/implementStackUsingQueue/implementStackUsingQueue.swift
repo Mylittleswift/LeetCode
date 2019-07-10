@@ -57,10 +57,8 @@ class MyStack {
 
         let result = q1.removeFirst()
 
-        var tmp = q1
-        q1 = q2
-        q2 = tmp
-
+        // swap q1 and q1
+        (q1, q2) = (q2, q1)
         t = q1.last
 
         return result
