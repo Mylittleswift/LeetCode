@@ -1,5 +1,5 @@
 /*
- Remove Nth Node From End of List
+ 19.Remove Nth Node From End of List
 
  Given a linked list, remove the n-th node from the end of list and return its head.
 
@@ -33,23 +33,25 @@
  */
 class Solution {
     func removeNthFromEnd(_ head: ListNode?, _ n: Int) -> ListNode? {
-        guard let _ = head else { return nil }
-        guard let _ = head?.next else { return nil }
+
+        guard let head = head, let _ = head.next else { return nil }
 
         let start = ListNode(0)
         start.next = head
         var fast: ListNode? = start
         var slow: ListNode? = start
 
+        // move fast first
         for i in 0..<n {
             fast = fast?.next
         }
 
+        // move fast and slow until list end
         while fast?.next != nil {
             fast = fast?.next
             slow = slow?.next
         }
-
+        // remove target
         var remove = slow?.next
         slow?.next = remove?.next
         remove = nil
