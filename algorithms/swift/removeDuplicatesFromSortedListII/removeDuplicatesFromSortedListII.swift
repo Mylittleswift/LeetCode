@@ -20,15 +20,18 @@ func deleteDuplicates(_ head: ListNode?) -> ListNode? {
     var prev: ListNode? = dummy
     var fast: ListNode? = dummy.next
     while prev?.next != nil {
+        // skip all duplicate
         while fast != nil, fast?.val == fast?.next?.val {
             fast = fast?.next
         }
-
+        // no duplicate
         if prev?.next === fast {
             prev = prev?.next
         } else {
+            // remove duplicate
             prev?.next = fast?.next
         }
+        // move fast
         fast = fast?.next
     }
     return dummy.next
