@@ -173,6 +173,8 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 
 * [pramp](https://www.pramp.com/): mock interview
 
+* [剑指Offer源码](https://github.com/zhedahht/CodingInterviewChinese2)
+
 ## Courses
 
 * [Skiena's Algorithms Lectures](http://www3.cs.stonybrook.edu/~algorith/video-lectures/)
