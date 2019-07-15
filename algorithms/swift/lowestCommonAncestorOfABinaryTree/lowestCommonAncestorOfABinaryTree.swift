@@ -1,4 +1,6 @@
 /*
+ 236. Lowest Common Ancestor of a Binary Tree
+
  Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.
 
  According to the definition of LCA on Wikipedia: “The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants (where we allow a node to be a descendant of itself).”
@@ -19,12 +21,12 @@
  */
 
 func lowestCommonAncestor(root: TreeNode?, p: TreeNode?, q: TreeNode?) -> TreeNode? {
-    
+
     guard let root = root else { return nil }
-    
+
     var stack = [TreeNode?]()
     var result = [TreeNode?]()
-    
+
     stack.append(root)
     let fake = TreeNode(0) // easy to calculate index
     result.append(fake)
@@ -34,21 +36,21 @@ func lowestCommonAncestor(root: TreeNode?, p: TreeNode?, q: TreeNode?) -> TreeNo
         if let n = node {
             stack.append(n.left)
             stack.append(n.right)
-            
+
             result.append(node?.left)
             result.append(node?.right)
 
         }
     }
-    
+
     let pIndex = result.firstIndex { node -> Bool in
         return node === p
     }
-    
+
     let qIndex = result.firstIndex { node -> Bool in
         return node === q
     }
-    
+
     if var pIndex = pIndex, var qIndex = qIndex {
         while pIndex != qIndex {
             if pIndex > qIndex {

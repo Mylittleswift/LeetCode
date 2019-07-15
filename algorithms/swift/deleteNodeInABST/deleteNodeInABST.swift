@@ -1,4 +1,6 @@
 /*
+ 450. Delete Node in a BST
+
  Given a root node reference of a BST and a key, delete the node with the given key in the BST. Return the root node reference (possibly updated) of the BST.
 
  Basically, the deletion can be divided into two stages:
@@ -38,8 +40,7 @@
  */
 
 func successor(_ root: TreeNode?) -> Int {
-    var root = root
-    root = root?.right
+    var root = root?.right
     while root?.left != nil {
         root = root?.left
     }
@@ -47,8 +48,7 @@ func successor(_ root: TreeNode?) -> Int {
 }
 
 func predecessor(_ root: TreeNode?) -> Int {
-    var root = root
-    root = root?.left
+    var root = root?.left
     while root?.right != nil {
         root = root?.right
     }
