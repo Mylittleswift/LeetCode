@@ -1,4 +1,6 @@
 /*
+ 785. Is Graph Bipartite?
+
  Given an undirected graph, return true if and only if it is bipartite.
 
  Recall that a graph is bipartite if we can split it's set of nodes into two independent subsets A and B such that every edge in the graph has one node in A and another node in B.
@@ -33,10 +35,12 @@
 2. graph[i] will contain integers in range [0, graph.length - 1].
 3. graph[i] will not contain i or duplicate values.
 4. The graph is undirected: if any element j is in graph[i], then i will be in graph[j].
+
+https://leetcode.com/problems/is-graph-bipartite/
 */
 
 class Solution {
-        enum Color {
+    enum Color {
         case blue
         case red
         case uncolor

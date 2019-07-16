@@ -1,4 +1,6 @@
 /*
+ 997. Find the Town Judge
+
  In a town, there are N people labelled from 1 to N.  There is a rumor that one of these people is secretly the town judge.
 
  If the town judge exists, then:
@@ -43,6 +45,7 @@
 4. trust[i][0] != trust[i][1]
 5. 1 <= trust[i][0], trust[i][1] <= N
 
+https://leetcode.com/problems/is-graph-bipartite/
  */
 func findJudge(_ N: Int, _ trust: [[Int]]) -> Int {
     guard N > 0 else { return 0 }
@@ -55,8 +58,8 @@ func findJudge(_ N: Int, _ trust: [[Int]]) -> Int {
 
     for a in trust {
         guard let tin = a.first, let tout = a.last else { return -1 }
-        trustIn[tout-1] = trustIn[tout-1] + 1
-        trustOut[tin-1] = trustOut[tin-1] + 1
+        trustIn[tout-1] += 1
+        trustOut[tin-1] += 1
     }
 
     var judgeIndex = -1
