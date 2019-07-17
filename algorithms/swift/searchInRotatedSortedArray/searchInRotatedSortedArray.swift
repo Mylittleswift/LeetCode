@@ -1,4 +1,6 @@
 /*
+ 33. Search in Rotated Sorted Array
+
 Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
 
 (i.e., [0,1,2,4,5,6,7] might become [4,5,6,7,0,1,2]).
@@ -18,45 +20,33 @@ Example 2:
 
 Input: nums = [4,5,6,7,0,1,2], target = 3
 Output: -1
-*/
+
+https://leetcode.com/problems/search-in-rotated-sorted-array/
+ */
 
 func search(_ nums: [Int], _ target: Int) -> Int {
-        
-        if nums.count == 1 {
-            return nums[0] == target ? 0 : -1
-        } else if nums.count == 2 {
-            let n1 = nums[0]
-            let n2 = nums[1]
-            if n1 == target { return 0 }
-            else { return n2 == target ? 1 : -1 }
-        }
-    
-        return helper(nums, 0, (nums.count-1)/2, nums.count-1, target)
-        
-    }
-    
-func helper(_ nums: [Int], _ lo: Int, _ mid: Int, _ hi: Int, _ target: Int) -> Int {
-    
-    guard lo < hi, lo < mid else { return -1 }
-    if nums[lo] == target { return lo }
-    else if nums[mid] == target { return mid }
-    else if nums[hi] == target { return hi }
-    
-    if nums[mid] > nums[lo] {
-        if target > nums[lo] && target < nums[mid] {
-            // search left
-            return helper(nums, lo, (mid-lo)/2 + lo, mid, target)
+    guard nums.count > 0 else { return -1 }
+
+    var lo = 0
+    var hi = nums.count - 1
+    while lo < hi {
+        let mid = lo + (hi - lo) / 2
+        // target and mid are on the same side
+        if (nums[mid] - nums[nums.count-1]) * (target - nums[nums.count-1]) > 0 {
+            if nums[mid] < target {
+                lo = mid + 1
+            } else {
+                hi = mid
+            }
+        } else if target > nums[nums.count-1] {
+            // target on the left side
+            hi = mid
         } else {
-            // search right
-            return helper(nums, mid, (hi-mid)/2 + mid, hi, target)
-        }
-    } else {
-        if target > nums[mid] && target < nums[hi] {
-            // search right
-            return helper(nums, mid, (hi-mid)/2 + mid, hi, target)
-        } else {
-            // search left
-            return helper(nums, lo, (mid-lo)/2 + lo, mid, target)
+            // target on the right side
+            lo = mid + 1
         }
     }
+
+    // hi == lo
+    return nums[lo] == target ? lo : -1
 }
