@@ -25,24 +25,23 @@
  */
 
 func findKthLargest(_ nums: [Int], _ k: Int) -> Int {
-        var nums = nums
-        var start = 0
-        var end = nums.count-1
 
-        var index = nums.count-k
-        while(start <= end){
-            var position = partition(&nums, start, end)
-
-            if(position == index){
-                return nums[position]
-            }else if(position < index){
-                start = position + 1
-            }else{
-                end = position - 1
-            }
+    var nums = nums
+    var start = 0
+    var end = nums.count-1
+    var index = nums.count-k
+    while(start <= end){
+        var position = partition(&nums, start, end)
+        if(position == index){
+            return nums[position]
+        } else if(position < index){
+            start = position + 1
+        } else{
+            end = position - 1
         }
-        return -1
     }
+    return -1
+}
 
 func partition(_ nums: inout [Int], _ start: Int, _ end:  Int) -> Int{
     var index = start
@@ -59,17 +58,11 @@ func partition(_ nums: inout [Int], _ start: Int, _ end:  Int) -> Int{
             end -= 1
         }
         if(start <= end){
-            swap(&nums, start, end)
+            nums.swapAt(start, end)
             start += 1
             end -= 1
         }
     }
-    swap(&nums, index, end)
+    nums.swapAt(index, end)
     return end
-}
-
-func swap(_ nums: inout [Int], _ start: Int, _ end: Int){
-    let temp = nums[start]
-    nums[start]  = nums[end]
-    nums[end] = temp
 }
