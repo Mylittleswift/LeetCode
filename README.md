@@ -175,6 +175,9 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 
 * [剑指Offer源码](https://github.com/zhedahht/CodingInterviewChinese2)
 
+* [interview internal reference](https://github.com/0voice/interview_internal_reference): 2019年最新总结，阿里，腾讯，百度，美团，头条等技术面试题目，以及答案，专家出题人分析汇总。
+
+
 ## Courses
 
 * [Skiena's Algorithms Lectures](http://www3.cs.stonybrook.edu/~algorith/video-lectures/)
