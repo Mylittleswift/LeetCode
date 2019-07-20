@@ -31,28 +31,18 @@ func numIslands(_ grid: [[Character]]) -> Int {
     var grid = grid.map { $0.map { Int(String($0))! } }
 
     func dfs(_ row: Int, _ col: Int) {
-        // up
-        if row - 1 >= 0 && grid[row-1][col] == 1 {
-            grid[row-1][col] = current
-            dfs(row-1, col)
-        }
 
-        // down
-        if row + 1 < grid.count && grid[row+1][col] == 1 {
-            grid[row+1][col] = current
-            dfs(row+1, col)
-        }
+        let dxy = [(0,1), (0,-1), (1,0), (-1,0)]
 
-        // left
-        if col - 1 >= 0 && grid[row][col-1] == 1 {
-            grid[row][col-1] = current
-            dfs(row, col-1)
-        }
-
-        // right
-        if col + 1 < grid[0].count && grid[row][col+1] == 1 {
-            grid[row][col+1] = current
-            dfs(row, col+1)
+        dxy.forEach { d in
+            let r = row+d.0
+            let c = col+d.1
+            if r >= 0 && r < grid.count &&
+               c >= 0 && c < grid[0].count &&
+               grid[r][c] == 1 {
+                grid[r][c] = current
+                dfs(row+d.0, col+d.1)
+            }
         }
     }
 
