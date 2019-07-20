@@ -192,4 +192,6 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 
 * [Planet](https://github.com/xiexiexx/Planet): 算法时空课程代码
 
+* [高频算法面试精讲](https://github.com/chlxydl/Algorithm_Class_Problem_Sample_Code)
+
 
