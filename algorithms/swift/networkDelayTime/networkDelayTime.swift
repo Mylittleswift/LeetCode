@@ -18,25 +18,25 @@ Note:
 */
 
 func networkDelayTime(_ times: [[Int]], _ N: Int, _ K: Int) -> Int {
-   
+
     var dist = Array(repeating: Int.max, count: N+1)
     dist[K] = 0
-    
+
     for _ in 0..<N {
         for edge in times {
             let u = edge[0]
             let v = edge[1]
             let w = edge[2]
-            
+
             if dist[u] != Int.max && dist[v] > dist[u] + w {
                 dist[v] = dist[u] + w
             }
         }
     }
-    
+
     var result = 0
     for i in 1...N {
         result = max(result, dist[i])
     }
-    return result == Int.max ? -1 : result  
+    return result == Int.max ? -1 : result
 }
