@@ -20,6 +20,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |**23**|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [Python2](./algorithms/python/mergeKSortedLists/mergeKSortedLists.py)|Hard|
 |24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | [Swift](./algorithms/swift/swapNodesInPairs/swapNodesInPairs.swift)|Medium|
 |25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Swift](./algorithms/swift/reverseNodesInKGroup/reverseNodesInKGroup.swift)|Hard|
+|26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Swift](./algorithms/swift/removeDuplicatesFromSortedArray/removeDuplicatesFromSortedArray.swift)|Easy|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/) | [Swift](./algorithms/swift/removeElement/removeElement.swift)|Easy|
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Swift](./algorithms/swift/implementStrStr/implementStrStr().swift)|Easy|
 |32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [Swift](./algorithms/swift/longestValidParentheses/longestValidParentheses.swift)|Hard|
