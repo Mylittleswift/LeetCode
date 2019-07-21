@@ -12,6 +12,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Java](./algorithms/java/longestCommonPrefix/longestCommonPrefix.swift)|Easy|
 |15|[3Sum](https://leetcode.com/problems/3sum/) | [Swift](./algorithms/swift/3Sum/3Sum.swift), [Python](./algorithms/python/3Sum/3Sum.py), [Python](./algorithms/python/3Sum/3SumII.py)|Medium|
 |16|[3Sum Closest](https://leetcode.com/problems/3sum-closest/) | [Swift](./algorithms/swift/3sumClosest/3sumClosest.swift)|Medium|
+|18|[4Sum](https://leetcode.com/problems/4sum/) | [Swift](./algorithms/swift/4sum/4sum.swift)|Medium|
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Java](./algorithms/java/removeNthNodeFromEndOfList/removeNthNodeFromEndOfList.java), [Swift](./algorithms/swift/removeNthNodeFromEndOfList/removeNthNodeFromEndOfList.swift)|Medium|
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | [Swift](./algorithms/swift/validParentheses/validParentheses.swift)|Easy|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Swift](./algorithms/java/mergeTwoSortedList/mergeTwoSortedList.java)|Easy|
