@@ -185,6 +185,8 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 
 * [interview internal reference](https://github.com/0voice/interview_internal_reference): 2019年最新总结，阿里，腾讯，百度，美团，头条等技术面试题目，以及答案，专家出题人分析汇总。
 
+* [iOS-InterviewQuestion-collection](https://github.com/liberalisman/iOS-InterviewQuestion-collection): iOS 开发者在面试过程中，常见的一些面试题，建议尽量弄懂了原理，并且多实践。
+
 
 ## Courses
 
