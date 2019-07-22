@@ -34,6 +34,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |52|[N-Queens II](https://leetcode.com/problems/n-queens/) | [Swift](./algorithms/swift/nQueensII/nQueensII.swift)|Hard|
 |53|[Maximum SubArray](https://leetcode.com/problems/maximum-subarray/) | [Swift](./algorithms/swift/maximumSubarray/maximumSubarray.swift)|Easy|
 |54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Swift](./algorithms/swift/spiralMatrix/spiralMatrix.swift)|Medium|
+|56|[Spiral Matrix](https://leetcode.com/problems/merge-intervals/) | [Swift](./algorithms/swift/mergeIntervals/mergeIntervals.swift)|Medium|
 |59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | [Swift](./algorithms/swift/spiralMatrixII/spiralMatrixII.swift)|Medium|
 |61|[Rotate List](https://leetcode.com/problems/rotate-list/) | [Java](./algorithms/java/rotateList/rotateList.java)|Medium|
 |66|[Plus One](https://leetcode.com/problems/plus-one) | [Swift](./algorithms/swift/plusOne/plusOne.swift)|Easy|
