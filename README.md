@@ -106,6 +106,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |**402**|[Remove K Digits](https://leetcode.com/problems/remove-k-digits/) | [Swift](./algorithms/swift/removeKDigits/removeKDigits.swift) |Medium|
 |**407**|[Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/) | [Swift](./algorithms/swift/trappingRainWaterII/trappingRainWaterII.swift) |Hard|
 |430|[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [Java](./algorithms/java/flattenAMultilevelDoublyLinkedList/flattenAMultilevelDoublyLinkedList.java)|Medium|
+|442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | [Swift](./algorithms/swift/findAllDuplicatesInAnArray/findAllDuplicatesInAnArray.swift)| Medium |
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Swift](./algorithms/swift/findAllNumbersDisappearedInAnArray/findAllNumbersDisappearedInAnArray.swift)| Easy |
 |**450**|[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) | [Swift](./algorithms/swift/deleteNodeInABST/deleteNodeInABST.swift)|Medium|
 |451|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [Swift](./algorithms/swift/sortCharactersByFrequency/sortCharactersByFrequency.swift)|Medium|
