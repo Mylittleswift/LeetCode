@@ -28,6 +28,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Swift](./algorithms/swift/searchInRotatedSortedArray/searchInRotatedSortedArray.swift)|Medium|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Swift](./algorithms/swift/validSudoku/validSudoku.swift)|Medium|
 |37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [Swift](./algorithms/swift/sudokuSolver/sudokuSolver.swift)|Hard|
+|39|[Combination Sum](https://leetcode.com/problems/combination-sum/) | [Swift](./algorithms/swift/combinationSum/combinationSum.swift)| Medium |
 |**42**|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Swift](./algorithms/swift/trappingRainWater/trappingRainWater.swift)|Hard|
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/) | [Swift](./algorithms/swift/rotateImage/rotateImage.swift)|Medium|
 |50|[Pow(x,n)](https://leetcode.com/problems/powx-n/) | [Swift](./algorithms/swift/pow/pow.swift), [Python](./algorithms/python/pow/pow.py)|Medium|
