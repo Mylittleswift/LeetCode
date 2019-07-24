@@ -84,6 +84,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | [Swift](./algorithms/swift/containsDuplicateII/containsDuplicateII.swift)|Easy|
 |224|[Basic Calculator](https://leetcode.com/problems/basic-calculator/) | [Swift](./algorithms/swift/basicCalculator/basicCalculator.swift) |Hard|
 |225|[Implement Stack using Queue](https://leetcode.com/problems/implement-stack-using-queues/) | [Swift](./algorithms/swift/implementStackUsingQueue/implementStackUsingQueue.swift)|Easy|
+|229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/) | [Swift](./algorithms/swift/majorityElement-II/majorityElement-II.swift)|Medium|
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Swift](./algorithms/swift/kthSmallestElementInABST/kthSmallestElementInABST.swift)|Medium|
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/) | [Swift](./algorithms/swift/powerOfTwo/powerOfTwo.swift)|Easy|
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks) | [Swift](./algorithms/swift/implementQueueUsingStack/implementQueueUsingStack.swift)|Easy|
@@ -152,6 +153,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 * [stanfordacm](https://github.com/jaehyunp/stanfordacm): Stanford ACM-ICPC related materials
 * [Google Interview University](https://github.com/jwasham/google-interview-university)
 * [Top 20 dynamic programming interview questions](https://www.geeksforgeeks.org/top-20-dynamic-programming-interview-questions/)
+* [Majority Voting Algorithm](https://gregable.com/2013/10/majority-vote-algorithm-find-majority.html)
 
 ## Leetcode
 * [Leetcode](https://github.com/Cee/Leetcode)
