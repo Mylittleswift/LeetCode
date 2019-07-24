@@ -84,6 +84,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | [Swift](./algorithms/swift/containsDuplicateII/containsDuplicateII.swift)|Easy|
 |224|[Basic Calculator](https://leetcode.com/problems/basic-calculator/) | [Swift](./algorithms/swift/basicCalculator/basicCalculator.swift) |Hard|
 |225|[Implement Stack using Queue](https://leetcode.com/problems/implement-stack-using-queues/) | [Swift](./algorithms/swift/implementStackUsingQueue/implementStackUsingQueue.swift)|Easy|
+|228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/) | [Swift](./algorithms/swift/summaryRanges/summaryRanges.swift)|Medium|
 |229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/) | [Swift](./algorithms/swift/majorityElement-II/majorityElement-II.swift)|Medium|
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Swift](./algorithms/swift/kthSmallestElementInABST/kthSmallestElementInABST.swift)|Medium|
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/) | [Swift](./algorithms/swift/powerOfTwo/powerOfTwo.swift)|Easy|
