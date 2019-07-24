@@ -94,6 +94,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Swift](./algorithms/swift/productOfArrayExceptSelf/productOfArrayExceptSelf.swift) |Medium|
 |239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | [Swift](./algorithms/swift/slidingWindowMaximum/slidingWindowMaximum.swift), [Swift](./algorithms/swift/slidingWindowMaximum/slidingWindowMaximumII.swift),[Swift](./algorithms/swift/slidingWindowMaximum/slidingWindowMaximumIII.swift)|Hard|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Swift](./algorithms/swift/validAnagram/validAnagram.swift), [Swift](./algorithms/swift/validAnagram/validAnagramII.swift)|Easy|
+|268|[Missing Number](https://leetcode.com/problems/missing-number/) | [Swift](./algorithms/swift/missingNumber/missingNumber.swift)|Easy|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Swift](./algorithms/swift/moveZeroes/moveZeroes.swift)|Easy|
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | [Swift](./algorithms/swift/findTheDuplicateNumber/findTheDuplicateNumber.swift)| Medium |
 |289|[Game of Life](https://leetcode.com/problems/game-of-life/) | [Swift](./algorithms/swift/gameOfLife/gameOfLife.swift)| Medium |
