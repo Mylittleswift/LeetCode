@@ -133,6 +133,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [Swift](./algorithms/swift/kthLargestElementInAStream/kthLargestElementInAStream.swift)|Easy|
 |707|[Design Linked List](https://leetcode.com/problems/design-linked-list/) | [Java](./algorithms/java/designLinkedList/designLinkedList.java)|Easy|
 |708|[Insert into a Cyclic Sorted List](https://leetcode.com/problems/insert-into-a-cyclic-sorted-list/) | [Java](./algorithms/java/insertIntoACyclicSortedList/insertIntoACyclicSortedList.java)|Medium|
+|717|[1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | [Swift](./algorithms/swift/1BitAnd2BitCharacters/1BitAnd2BitCharacters.swift)|Easy|
 |724|[Find Pivot Index](https://leetcode.com/articles/find-pivot-index/) | [Swift](./algorithms/swift/findPivotIndex/findPivotIndex.swift)|Easy|
 |743|[Network Delay Time](https://leetcode.com/problems/network-delay-time/) | [Swift](./algorithms/swift/networkDelayTime/networkDelayTime.swift)|Medium|
 |747|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/description/) | [Swift](./algorithms/swift/largestNumberAtLeastTwiceOfOthers/largestNumberAtLeastTwiceOfOthers.swift)|Easy|
