@@ -46,6 +46,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Swift](./algorithms/swift/sqrtx/sqrtx.swift), [Swift](./algorithms/swift/sqrtx/sqrtxII.swift)|Easy|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Swift](./algorithms/swift/climbingStairs/climbingStairs.swift), [Swift](./algorithms/swift/climbingStairs/climbingStairs-II.swift)|Easy|
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance/) | [Swift](./algorithms/swift/editDistance/editDistance.swift)|Hard|
+|73|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [Swift](./algorithms/swift/setMatrixZeroes/setMatrixZeroes.swift)|Medium|
 |78|[Subsets](https://leetcode.com/problems/subsets/) | [Swift](./algorithms/swift/subsets/subsets.swift)|Medium|
 |79|[Word Search](https://leetcode.com/problems/word-search/) | [Swift](./algorithms/swift/wordSearch/wordSearch.swift)|Medium|
 |**81**|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | [Swift](./algorithms/swift/searchInRotatedSortedArrayII/searchInRotatedSortedArrayII.swift)|Medium|
