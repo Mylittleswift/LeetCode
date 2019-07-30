@@ -127,7 +127,8 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |**456**|[132 Pattern](https://leetcode.com/problems/132-pattern/) | [Swift](./algorithms/swift/132Pattern/132Pattern.swift)|Medium|
 |498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | [Swift](./algorithms/swift/diagonalTraverse/diagonalTraverse.swift)|Medium|
 |547|[Friend Circles](https://leetcode.com/problems/friend-circles/) | [Swift](./algorithms/swift/friendCircles/friendCircles.swift)| Medium |
-|560|[Array Partition I](https://leetcode.com/problems/array-partition-i/) | [Swift](./algorithms/swift/subarraySumEqualsK/subarraySumEqualsK.swift)| Medium |
+|560|[Subarray Sum Equals K]( https://leetcode.com/problems/subarray-sum-equals-k/
+) | [Swift](./algorithms/swift/subarraySumEqualsK/subarraySumEqualsK.swift)| Medium |
 |561|[Array Partition I](https://leetcode.com/problems/array-partition-i/) | [Swift](./algorithms/swift/arrayPartitionI/arrayPartitionI.swift)|Easy|
 |621|[Task Scheduler](https://leetcode.com/problems/task-scheduler/) | [Swift](./algorithms/swift/arrayPartitionI/arrayPartitionI.swift)| Medium |
 |622|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | [Swift](./algorithms/swift/designCircularQueue/designCircularQueue.swift)| Medium |
