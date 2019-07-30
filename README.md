@@ -150,6 +150,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | [Swift](./algorithms/swift/sortArrayByParity/sortArrayByParity.swift)|Easy|
 |938|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [Swift](./algorithms/swift/rangeSumOfBST/rangeSumOfBST.swift)|Easy|
 |946|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/) | [Swift](./algorithms/swift/validateStackSequences/validateStackSequences.swift)|Medium|
+|950|[Reveal Cards In Increasing Order](https://leetcode.com/problems/reveal-cards-in-increasing-order/) | [Swift](./algorithms/swift/revealCardsInIncreasingOrder/revealCardsInIncreasingOrder.swift)|Medium|
 |**969**|[Pancake Sorting](https://leetcode.com/problems/pancake-sorting/) | [Swift](./algorithms/swift/pancakeSorting/pancakeSorting.swift)|Medium|
 |997|[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | [Swift](./algorithms/swift/findTheTownJudge/findTheTownJudge.swift)|Easy|
 
