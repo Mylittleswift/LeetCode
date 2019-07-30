@@ -145,6 +145,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | [Swift](./algorithms/swift/flippingAnImage/flippingAnImage.swift)|Easy|
 |849|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/) | [Swift](./algorithms/swift/maximizeDistanceToClosestPerson/maximizeDistanceToClosestPerson.swift)|Easy|
 |**871**|[Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) | [Swift](./algorithms/swift/minimumNumberOfRefuelingStops/minimumNumberOfRefuelingStops.swift), [Swift](./algorithms/swift/minimumNumberOfRefuelingStops/minimumNumberOfRefuelingStops-II.swift)|Hard|
+|905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | [Swift](./algorithms/swift/sortArrayByParity/sortArrayByParity.swift)|Easy|
 |938|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [Swift](./algorithms/swift/rangeSumOfBST/rangeSumOfBST.swift)|Easy|
 |946|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/) | [Swift](./algorithms/swift/validateStackSequences/validateStackSequences.swift)|Medium|
 |**969**|[Pancake Sorting](https://leetcode.com/problems/pancake-sorting/) | [Swift](./algorithms/swift/pancakeSorting/pancakeSorting.swift)|Medium|
