@@ -75,6 +75,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [Swift](./algorithms/swift/maximumProductSubArray/maximumProductSubArray.swift), [Swift](./algorithms/swift/maximumProductSubArray/maximumProductSubArray-II.swift), [Python](./algorithms/python/maximumProductSubArray/maximumProductSubArray.py), [Python](./algorithms/python/maximumProductSubArray/maximumProductSubArray-II.py)|Medium|
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Swift](./algorithms/swift/findMinimumInRotatedSortedArray/findMinimumInRotatedSortedArray.swift)|Medium|
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Java](./algorithms/java/intersectionOfTwoLinkedList/intersectionOfTwoLinkedList.java)|Easy|
+|162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/) | [Swift](./algorithms/swift/findPeakElement/findPeakElement.swift)| Medium |
 |167|[Two Sum II - input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Swift](./algorithms/swift/2SumII/2SumII.swift)|Easy|
 |169|[Majority Element](https://leetcode.com/problems/majority-element/) | [Swift](./algorithms/swift/majorityElement/majorityElement.swift)|Easy|
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/) | [Swift](./algorithms/swift/rotateArray/rotateArray.swift)|Easy|
