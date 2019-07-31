@@ -26,6 +26,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |31|[Next Permutation](https://leetcode.com/problems/next-permutation/) | [Swift](./algorithms/swift/nextPermutation/nextPermutation.swift)| Medium |
 |32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [Swift](./algorithms/swift/longestValidParentheses/longestValidParentheses.swift)|Hard|
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Swift](./algorithms/swift/searchInRotatedSortedArray/searchInRotatedSortedArray.swift)|Medium|
+|34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Swift](./algorithms/swift/findFirstAndLastPositionOfElementInSortedArray/findFirstAndLastPositionOfElementInSortedArray.swift)|Medium|
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Swift](./algorithms/swift/searchInsertPosition/searchInsertPosition.swift)|Easy|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Swift](./algorithms/swift/validSudoku/validSudoku.swift)|Medium|
 |37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [Swift](./algorithms/swift/sudokuSolver/sudokuSolver.swift)|Hard|
