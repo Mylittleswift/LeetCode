@@ -117,6 +117,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/) | [Swift](./algorithms/swift/reverseString/reverseString.swift)|Easy|
 |367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | [Swift](./algorithms/swift/validPerfectSquare/validPerfectSquare.swift)|Easy|
 |373|[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | [Swift](./algorithms/swift/findKPairsWithSmallestSums/findKPairsWithSmallestSums.swift)|Medium|
+|380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [Swift](./algorithms/swift/insertDeleteGetRandom/insertDeleteGetRandom.swift)|Medium|
 |**402**|[Remove K Digits](https://leetcode.com/problems/remove-k-digits/) | [Swift](./algorithms/swift/removeKDigits/removeKDigits.swift) |Medium|
 |**407**|[Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/) | [Swift](./algorithms/swift/trappingRainWaterII/trappingRainWaterII.swift) |Hard|
 |430|[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [Java](./algorithms/java/flattenAMultilevelDoublyLinkedList/flattenAMultilevelDoublyLinkedList.java)|Medium|
