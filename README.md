@@ -53,6 +53,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/) | [Swift](./algorithms/swift/sortColors/sortColors.swift)|Medium|
 |78|[Subsets](https://leetcode.com/problems/subsets/) | [Swift](./algorithms/swift/subsets/subsets.swift)|Medium|
 |79|[Word Search](https://leetcode.com/problems/word-search/) | [Swift](./algorithms/swift/wordSearch/wordSearch.swift)|Medium|
+|80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | [Swift](./algorithms/swift/removeDuplicatesFromSortedArray-II/removeDuplicatesFromSortedArray-II.swift)|Medium|
 |**81**|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | [Swift](./algorithms/swift/searchInRotatedSortedArrayII/searchInRotatedSortedArrayII.swift)|Medium|
 |82|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | [Swift](./algorithms/swift/removeNthNodeFromEndOfList/removeNthNodeFromEndOfList.swift)|Medium|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Swift](./algorithms/swift/mergeSortedArray/mergeSortedArray.swift)| Easy |
