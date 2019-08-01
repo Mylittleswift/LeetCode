@@ -89,6 +89,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |210|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | [Swift](./algorithms/swift/courseScheduleII/courseScheduleII.swift)|Medium|
 |212|[Word Search II](https://leetcode.com/problems/word-search-ii/) | [Swift](./algorithms/swift/wordSearchII/wordSearchII.swift)|Hard|
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Swift](./algorithms/swift/kthLargestElementInAnArray/kthLargestElementInAnArray.swift)|Medium|
+|216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | [Swift](./algorithms/swift/combinationSum-III/combinationSum-III.swift)|Medium|
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Swift](./algorithms/swift/containsDuplicate/containsDuplicate.swift)|Easy|
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | [Swift](./algorithms/swift/containsDuplicateII/containsDuplicateII.swift)|Easy|
 |224|[Basic Calculator](https://leetcode.com/problems/basic-calculator/) | [Swift](./algorithms/swift/basicCalculator/basicCalculator.swift) |Hard|
