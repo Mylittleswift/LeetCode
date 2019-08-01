@@ -133,6 +133,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |561|[Array Partition I](https://leetcode.com/problems/array-partition-i/) | [Swift](./algorithms/swift/arrayPartitionI/arrayPartitionI.swift)|Easy|
 |621|[Task Scheduler](https://leetcode.com/problems/task-scheduler/) | [Swift](./algorithms/swift/arrayPartitionI/arrayPartitionI.swift)| Medium |
 |622|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | [Swift](./algorithms/swift/designCircularQueue/designCircularQueue.swift)| Medium |
+|628|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)| [Swift](./algorithms/swift/maximumProductOfThreeNumbers/maximumProductOfThreeNumbers.swift)|Easy|
 |630|[Course Schedule III](https://leetcode.com/problems/course-schedule-iii/) | [Swift](./algorithms/swift/courseScheduleIII/courseScheduleIII.swift)| Hard |
 |695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/)| [Swift](./algorithms/swift/maxAreaOfIsland/maxAreaOfIsland.swift)| Medium |
 |697|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)| [Swift](./algorithms/swift/degreeOfAnArray/degreeOfAnArray.swift)|Easy|
