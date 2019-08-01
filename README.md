@@ -132,6 +132,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |547|[Friend Circles](https://leetcode.com/problems/friend-circles/) | [Swift](./algorithms/swift/friendCircles/friendCircles.swift)| Medium |
 |560|[Subarray Sum Equals K]( https://leetcode.com/problems/subarray-sum-equals-k/) | [Swift](./algorithms/swift/subarraySumEqualsK/subarraySumEqualsK.swift)| Medium |
 |561|[Array Partition I](https://leetcode.com/problems/array-partition-i/) | [Swift](./algorithms/swift/arrayPartitionI/arrayPartitionI.swift)|Easy|
+|566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | [Swift](./algorithms/swift/reshapeTheMatrix/reshapeTheMatrix.swift)|Easy|
 |621|[Task Scheduler](https://leetcode.com/problems/task-scheduler/) | [Swift](./algorithms/swift/arrayPartitionI/arrayPartitionI.swift)| Medium |
 |622|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | [Swift](./algorithms/swift/designCircularQueue/designCircularQueue.swift)| Medium |
 |628|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)| [Swift](./algorithms/swift/maximumProductOfThreeNumbers/maximumProductOfThreeNumbers.swift)|Easy|
