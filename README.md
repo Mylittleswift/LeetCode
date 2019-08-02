@@ -141,6 +141,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |622|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | [Swift](./algorithms/swift/designCircularQueue/designCircularQueue.swift)| Medium |
 |628|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)| [Swift](./algorithms/swift/maximumProductOfThreeNumbers/maximumProductOfThreeNumbers.swift)|Easy|
 |630|[Course Schedule III](https://leetcode.com/problems/course-schedule-iii/) | [Swift](./algorithms/swift/courseScheduleIII/courseScheduleIII.swift)| Hard |
+|667|[Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii/)| [Swift](./algorithms/swift/beautifulArrangement-II/beautifulArrangement-II.swift)| Medium |
 |695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/)| [Swift](./algorithms/swift/maxAreaOfIsland/maxAreaOfIsland.swift)| Medium |
 |697|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)| [Swift](./algorithms/swift/degreeOfAnArray/degreeOfAnArray.swift)|Easy|
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [Swift](./algorithms/swift/searchInABinarySearchTree/searchInABinarySearchTree.swift)|Easy|
