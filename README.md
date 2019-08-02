@@ -50,6 +50,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Swift](./algorithms/swift/climbingStairs/climbingStairs.swift), [Swift](./algorithms/swift/climbingStairs/climbingStairs-II.swift)|Easy|
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance/) | [Swift](./algorithms/swift/editDistance/editDistance.swift)|Hard|
 |73|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [Swift](./algorithms/swift/setMatrixZeroes/setMatrixZeroes.swift)|Medium|
+|74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Swift](./algorithms/swift/searchA2DMatrix/searchA2DMatrix.swift)|Medium|
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/) | [Swift](./algorithms/swift/sortColors/sortColors.swift)|Medium|
 |78|[Subsets](https://leetcode.com/problems/subsets/) | [Swift](./algorithms/swift/subsets/subsets.swift)|Medium|
 |79|[Word Search](https://leetcode.com/problems/word-search/) | [Swift](./algorithms/swift/wordSearch/wordSearch.swift)|Medium|
