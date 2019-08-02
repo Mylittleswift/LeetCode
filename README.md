@@ -152,6 +152,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |743|[Network Delay Time](https://leetcode.com/problems/network-delay-time/) | [Swift](./algorithms/swift/networkDelayTime/networkDelayTime.swift)|Medium|
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Swift](./algorithms/swift/minCostClimbingStairs/minCostClimbingStairs.swift)|Easy|
 |747|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/description/) | [Swift](./algorithms/swift/largestNumberAtLeastTwiceOfOthers/largestNumberAtLeastTwiceOfOthers.swift)|Easy|
+|766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/) | [Swift](./algorithms/swift/toeplitzMatrix/toeplitzMatrix.swift)|Easy|
 |**785**|[Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/) | [Swift](./algorithms/swift/isGraphBipartite/isGraphBipartite.swift)|Medium|
 |832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | [Swift](./algorithms/swift/flippingAnImage/flippingAnImage.swift)|Easy|
 |849|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/) | [Swift](./algorithms/swift/maximizeDistanceToClosestPerson/maximizeDistanceToClosestPerson.swift)|Easy|
