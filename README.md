@@ -178,6 +178,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |**974**|[Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/) | [Swift](./algorithms/swift/subarraySumsDivisibleByK/sumOfSubarrayMinimums.swift)|Medium|
 |997|[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | [Swift](./algorithms/swift/findTheTownJudge/findTheTownJudge.swift)|Easy|
 |1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/) | [Swift](./algorithms/swift/findCommonCharacters/findCommonCharacters.swift)|Easy|
+|1051|[Height Checker](https://leetcode.com/problems/height-checker/) | [Swift](./algorithms/swift/heightChecker/heightChecker.swift)|Easy|
 
 
 ## Algorithms
