@@ -43,6 +43,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | [Swift](./algorithms/swift/spiralMatrixII/spiralMatrixII.swift)|Medium|
 |61|[Rotate List](https://leetcode.com/problems/rotate-list/) | [Java](./algorithms/java/rotateList/rotateList.java)|Medium|
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths/) | [Swift](./algorithms/swift/uniquePaths/uniquePaths.swift)|Medium|
+|63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [Swift](./algorithms/swift/uniquePaths-II/uniquePaths-II.swift)|Medium|
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [Swift](./algorithms/swift/minimumPathSum/minimumPathSum.swift)|Medium|
 |66|[Plus One](https://leetcode.com/problems/plus-one) | [Swift](./algorithms/swift/plusOne/plusOne.swift)|Easy|
 |67|[Add Binary](https://leetcode.com/problems/add-binary/) | [Swift](./algorithms/swift/addBinary/addBinary.swift)|Easy|
