@@ -131,7 +131,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [Swift](./algorithms/swift/insertDeleteGetRandom/insertDeleteGetRandom.swift)|Medium|
 |**402**|[Remove K Digits](https://leetcode.com/problems/remove-k-digits/) | [Swift](./algorithms/swift/removeKDigits/removeKDigits.swift) |Medium|
 |**407**|[Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/) | [Swift](./algorithms/swift/trappingRainWaterII/trappingRainWaterII.swift) |Hard|
-|414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)| [Swift](./algorithms/swift/thirdMaximumNumber/thirdMaximumNumber.swift)|Easy|
+|414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)| [Swift](./algorithms/swift/thirdMaximumNumber/theirdMaximumNumber.swift)|Easy|
 |430|[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [Java](./algorithms/java/flattenAMultilevelDoublyLinkedList/flattenAMultilevelDoublyLinkedList.java)|Medium|
 |442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | [Swift](./algorithms/swift/findAllDuplicatesInAnArray/findAllDuplicatesInAnArray.swift)| Medium |
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Swift](./algorithms/swift/findAllNumbersDisappearedInAnArray/findAllNumbersDisappearedInAnArray.swift)| Easy |
@@ -180,6 +180,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |**871**|[Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) | [Swift](./algorithms/swift/minimumNumberOfRefuelingStops/minimumNumberOfRefuelingStops.swift), [Swift](./algorithms/swift/minimumNumberOfRefuelingStops/minimumNumberOfRefuelingStops-II.swift)|Hard|
 |905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | [Swift](./algorithms/swift/sortArrayByParity/sortArrayByParity.swift)|Easy|
 |**907**|[Sum of Subarray Minimus](https://leetcode.com/problems/sum-of-subarray-minimums/) | [Swift](./algorithms/swift/sumOfSubarrayMinimums/sumOfSubarrayMinimums.swift)| Medium |
+|922|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/) | [Swift](./algorithms/swift/sortArrayByParity-II/sortArrayByParity-II.swift)|Easy|
 |938|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [Swift](./algorithms/swift/rangeSumOfBST/rangeSumOfBST.swift)|Easy|
 |946|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/) | [Swift](./algorithms/swift/validateStackSequences/validateStackSequences.swift)|Medium|
 |950|[Reveal Cards In Increasing Order](https://leetcode.com/problems/reveal-cards-in-increasing-order/) | [Swift](./algorithms/swift/revealCardsInIncreasingOrder/revealCardsInIncreasingOrder.swift)|Medium|
