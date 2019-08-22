@@ -141,6 +141,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |628|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)| [Swift](./algorithms/swift/maximumProductOfThreeNumbers/maximumProductOfThreeNumbers.swift)|Easy|
 |485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)| [Swift](./algorithms/swift/maxConsecutiveOnes/maxConsecutiveOnes.swift)|Easy|
 |498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | [Swift](./algorithms/swift/diagonalTraverse/diagonalTraverse.swift)|Medium|
+|509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | [Swift](./algorithms/swift/fibonacciNumber/fibonacciNumber.swift)|Easy|
 |547|[Friend Circles](https://leetcode.com/problems/friend-circles/) | [Swift](./algorithms/swift/friendCircles/friendCircles.swift)| Medium |
 |560|[Subarray Sum Equals K]( https://leetcode.com/problems/subarray-sum-equals-k/) | [Swift](./algorithms/swift/subarraySumEqualsK/subarraySumEqualsK.swift)| Medium |
 |561|[Array Partition I](https://leetcode.com/problems/array-partition-i/) | [Swift](./algorithms/swift/arrayPartitionI/arrayPartitionI.swift)|Easy|
