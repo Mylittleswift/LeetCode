@@ -59,6 +59,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |**81**|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | [Swift](./algorithms/swift/searchInRotatedSortedArrayII/searchInRotatedSortedArrayII.swift)|Medium|
 |82|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | [Swift](./algorithms/swift/removeNthNodeFromEndOfList/removeNthNodeFromEndOfList.swift)|Medium|
 |83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Swift](./algorithms/swift/removeDuplicatesFromSortedList/removeDuplicatesFromSortedList.swift)| Easy |
+|86|[Partition List](https://leetcode.com/problems/partition-list/) | [Swift](./algorithms/swift/partitionList/partitionList.swift)|Medium|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Swift](./algorithms/swift/mergeSortedArray/mergeSortedArray.swift)| Easy |
 |90|[Subsets II](https://leetcode.com/problems/subsets-ii/) | [Swift](./algorithms/swift/subsets-II/subsets-II.swift)| Medium |
 |92|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | [Swift](./algorithms/swift/reverseLinkedList-II/reverseLinkedList-II.swift)| Medium |
