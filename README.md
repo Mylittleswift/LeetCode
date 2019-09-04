@@ -138,6 +138,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |**402**|[Remove K Digits](https://leetcode.com/problems/remove-k-digits/) | [Swift](./algorithms/swift/removeKDigits/removeKDigits.swift) |Medium|
 |**407**|[Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/) | [Swift](./algorithms/swift/trappingRainWaterII/trappingRainWaterII.swift) |Hard|
 |414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)| [Swift](./algorithms/swift/thirdMaximumNumber/theirdMaximumNumber.swift)|Easy|
+|426|[Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/) | [Java](./algorithms/java/convertBinarySearchTreeToSortedDoublyLinkedList/convertBinarySearchTreeToSortedDoublyLinkedList.java)|Medium|
 |430|[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [Java](./algorithms/java/flattenAMultilevelDoublyLinkedList/flattenAMultilevelDoublyLinkedList.java)|Medium|
 |442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | [Swift](./algorithms/swift/findAllDuplicatesInAnArray/findAllDuplicatesInAnArray.swift)| Medium |
 |445|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | [Swift](./algorithms/swift/addTwoNumbers-II/addTwoNumbers-II.swift)| Medium |
