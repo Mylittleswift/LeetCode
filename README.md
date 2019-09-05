@@ -134,6 +134,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/) | [Swift](./algorithms/swift/countingBits/countingBits.swift)|Medium|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/) | [Swift](./algorithms/swift/reverseString/reverseString.swift)|Easy|
 |367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | [Swift](./algorithms/swift/validPerfectSquare/validPerfectSquare.swift)|Easy|
+|369|[Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/) | [Swift](./algorithms/swift/plusOneLinkedList/plusOneLinkedList.swift)|Medium|
 |373|[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | [Swift](./algorithms/swift/findKPairsWithSmallestSums/findKPairsWithSmallestSums.swift)|Medium|
 |379|[Design Phone Directory](https://leetcode.com/problems/design-phone-directory/) | [Swift](./algorithms/swift/designPhoneDirectory/designPhoneDirectory.swift)|Medium|
 |380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [Swift](./algorithms/swift/insertDeleteGetRandom/insertDeleteGetRandom.swift)|Medium|
