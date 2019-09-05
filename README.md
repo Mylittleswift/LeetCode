@@ -209,6 +209,8 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/) | [Swift](./algorithms/swift/findCommonCharacters/findCommonCharacters.swift)|Easy|
 |**1019**|[Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/) | [Swift](./algorithms/swift/nextGreaterNodeInLinkedList/nextGreaterNodeInLinkedList.swift)|Medium|
 |1051|[Height Checker](https://leetcode.com/problems/height-checker/) | [Swift](./algorithms/swift/heightChecker/heightChecker.swift)|Easy|
+|**1171**|[Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/) | [Swift](./algorithms/swift/removeZeroSumConsecutiveNodesFromLinkedList/removeZeroSumConsecutiveNodesFromLinkedList.swift)| Medium |
+
 
 
 ## Algorithms
