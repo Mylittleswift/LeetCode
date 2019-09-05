@@ -207,6 +207,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Swift](./algorithms/swift/squaresOfASortedArray/squaresOfASortedArray.swift)| Easy |
 |997|[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | [Swift](./algorithms/swift/findTheTownJudge/findTheTownJudge.swift)|Easy|
 |1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/) | [Swift](./algorithms/swift/findCommonCharacters/findCommonCharacters.swift)|Easy|
+|**1019**|[Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/) | [Swift](./algorithms/swift/nextGreaterNodeInLinkedList/nextGreaterNodeInLinkedList.swift)|Medium|
 |1051|[Height Checker](https://leetcode.com/problems/height-checker/) | [Swift](./algorithms/swift/heightChecker/heightChecker.swift)|Easy|
 
 
