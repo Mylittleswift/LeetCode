@@ -86,6 +86,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |148|[Sort List](https://leetcode.com/problems/sort-list/) | [Swift](./algorithms/swift/sortList/sortList.swift) | Medium |
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [Swift](./algorithms/swift/maximumProductSubArray/maximumProductSubArray.swift), [Swift](./algorithms/swift/maximumProductSubArray/maximumProductSubArray-II.swift), [Python](./algorithms/python/maximumProductSubArray/maximumProductSubArray.py), [Python](./algorithms/python/maximumProductSubArray/maximumProductSubArray-II.py)|Medium|
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Swift](./algorithms/swift/findMinimumInRotatedSortedArray/findMinimumInRotatedSortedArray.swift)|Medium|
+|155|[Min Stack](https://leetcode.com/problems/min-stack/) | [Swift](./algorithms/swift/minStack/minStack.swift)| Easy |
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Java](./algorithms/java/intersectionOfTwoLinkedList/intersectionOfTwoLinkedList.java)|Easy|
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/) | [Swift](./algorithms/swift/findPeakElement/findPeakElement.swift)| Medium |
 |163|[Missing Ranges](https://leetcode.com/problems/missing-ranges/) | [Swift](./algorithms/swift/missingRanges/missingRanges.swift)| Medium |
