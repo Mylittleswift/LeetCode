@@ -84,6 +84,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |146|[LRU Cache](https://leetcode.com/problems/lru-cache/) | [Swift](./algorithms/swift/lruCache/lruCache.swift) | Medium |
 |147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) | [Swift](./algorithms/swift/insertionSortList/insertionSortList.swift) | Medium |
 |148|[Sort List](https://leetcode.com/problems/sort-list/) | [Swift](./algorithms/swift/sortList/sortList.swift) | Medium |
+|150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Swift](./algorithms/swift/evaluateReversePolishNotation/evaluateReversePolishNotation.swift) | Medium |
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [Swift](./algorithms/swift/maximumProductSubArray/maximumProductSubArray.swift), [Swift](./algorithms/swift/maximumProductSubArray/maximumProductSubArray-II.swift), [Python](./algorithms/python/maximumProductSubArray/maximumProductSubArray.py), [Python](./algorithms/python/maximumProductSubArray/maximumProductSubArray-II.py)|Medium|
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Swift](./algorithms/swift/findMinimumInRotatedSortedArray/findMinimumInRotatedSortedArray.swift)|Medium|
 |155|[Min Stack](https://leetcode.com/problems/min-stack/) | [Swift](./algorithms/swift/minStack/minStack.swift)| Easy |
