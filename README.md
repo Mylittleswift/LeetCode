@@ -153,8 +153,8 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |**450**|[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) | [Swift](./algorithms/swift/deleteNodeInABST/deleteNodeInABST.swift)|Medium|
 |451|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [Swift](./algorithms/swift/sortCharactersByFrequency/sortCharactersByFrequency.swift)|Medium|
 |**456**|[132 Pattern](https://leetcode.com/problems/132-pattern/) | [Swift](./algorithms/swift/132Pattern/132Pattern.swift)|Medium|
-|628|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)| [Swift](./algorithms/swift/maximumProductOfThreeNumbers/maximumProductOfThreeNumbers.swift)|Easy|
-|485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)| [Swift](./algorithms/swift/maxConsecutiveOnes/maxConsecutiveOnes.swift)|Easy|
+|485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)| [Swift](./algorithms/swift/nextGreaterElement-I/nextGreaterElement-I.swift)|Easy|
+|496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)| [Swift](./algorithms/swift/maxConsecutiveOnes/maxConsecutiveOnes.swift)|Easy|
 |498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | [Swift](./algorithms/swift/diagonalTraverse/diagonalTraverse.swift)|Medium|
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | [Swift](./algorithms/swift/fibonacciNumber/fibonacciNumber.swift)|Easy|
 |547|[Friend Circles](https://leetcode.com/problems/friend-circles/) | [Swift](./algorithms/swift/friendCircles/friendCircles.swift)| Medium |
