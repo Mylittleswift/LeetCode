@@ -49,6 +49,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |67|[Add Binary](https://leetcode.com/problems/add-binary/) | [Swift](./algorithms/swift/addBinary/addBinary.swift)|Easy|
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Swift](./algorithms/swift/sqrtx/sqrtx.swift), [Swift](./algorithms/swift/sqrtx/sqrtxII.swift)|Easy|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Swift](./algorithms/swift/climbingStairs/climbingStairs.swift), [Swift](./algorithms/swift/climbingStairs/climbingStairs-II.swift)|Easy|
+|71|[Simplify Path](https://https://leetcode.com/problems/simplify-path/) | [Swift](./algorithms/swift/simplifyPath/simplifyPath.swift)|Medium|
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance/) | [Swift](./algorithms/swift/editDistance/editDistance.swift)|Hard|
 |73|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [Swift](./algorithms/swift/setMatrixZeroes/setMatrixZeroes.swift)|Medium|
 |74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Swift](./algorithms/swift/searchA2DMatrix/searchA2DMatrix.swift)|Medium|
