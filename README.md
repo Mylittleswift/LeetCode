@@ -179,6 +179,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |665|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)| [Swift](./algorithms/swift/non-decreasingArray/non-decreasingArray.swift)|Easy|
 |667|[Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii/)| [Swift](./algorithms/swift/beautifulArrangement-II/beautifulArrangement-II.swift)| Medium |
 |674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)| [Swift](./algorithms/swift/longestContinuousIncreasingSubsequence/longestContinuousIncreasingSubsequence.swift)|Easy|
+|682|[Baseball Game](https://leetcode.com/problems/baseball-game/)| [Swift](./algorithms/swift/baseballGame/baseballGame.swift)| Medium |
 |695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/)| [Swift](./algorithms/swift/maxAreaOfIsland/maxAreaOfIsland.swift)| Medium |
 |697|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)| [Swift](./algorithms/swift/degreeOfAnArray/degreeOfAnArray.swift)|Easy|
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [Swift](./algorithms/swift/searchInABinarySearchTree/searchInABinarySearchTree.swift)|Easy|
