@@ -174,6 +174,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |622|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | [Swift](./algorithms/swift/designCircularQueue/designCircularQueue.swift)| Medium |
 |628|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)| [Swift](./algorithms/swift/maximumProductOfThreeNumbers/maximumProductOfThreeNumbers.swift)|Easy|
 |630|[Course Schedule III](https://leetcode.com/problems/course-schedule-iii/) | [Swift](./algorithms/swift/courseScheduleIII/courseScheduleIII.swift)| Hard |
+|636|[Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions/)| [Swift](./algorithms/swift/exclusiveTimeOfFunctions/exclusiveTimeOfFunctions.swift)| Medium |
 |643|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)| [Swift](./algorithms/swift/maximumAverageSubarray-I/maximumAverageSubarray-I.swift)|Easy|
 |661|[Image Smoother](https://leetcode.com/problems/image-smoother/)| [Swift](./algorithms/swift/imageSmoother/imageSmoother.swift)|Easy|
 |665|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)| [Swift](./algorithms/swift/non-decreasingArray/non-decreasingArray.swift)|Easy|
