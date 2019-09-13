@@ -85,6 +85,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [Java](./algorithms/java/linkedListCycleII/linkedListCycleII.java), [Swift](./algorithms/swift/linkedListCycleII/linkedListCycleII.swift)|Medium|
 |143|[Reorder List](https://leetcode.com/problems/reorder-list/) | [Swift](./algorithms/swift/reorderList/reorderList.swift) | Medium |
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Swift](./algorithms/swift/binaryTreePreorderTraversal/binaryTreePreorderTraversal.swift) | Medium |
+|145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Swift](./algorithms/swift/binaryTreePostorderTraversal/binaryTreePostorderTraversal.swift) | Hard |
 |146|[LRU Cache](https://leetcode.com/problems/lru-cache/) | [Swift](./algorithms/swift/lruCache/lruCache.swift) | Medium |
 |147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) | [Swift](./algorithms/swift/insertionSortList/insertionSortList.swift) | Medium |
 |148|[Sort List](https://leetcode.com/problems/sort-list/) | [Swift](./algorithms/swift/sortList/sortList.swift) | Medium |
