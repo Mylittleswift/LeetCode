@@ -245,6 +245,8 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 * [Google Interview University](https://github.com/jwasham/google-interview-university)
 * [Top 20 dynamic programming interview questions](https://www.geeksforgeeks.org/top-20-dynamic-programming-interview-questions/)
 * [Majority Voting Algorithm](https://gregable.com/2013/10/majority-vote-algorithm-find-majority.html)
+* [Algorithms-and-Coding-Interviews](https://github.com/liyin2015/Algorithms-and-Coding-Interviews): Open source content from a book in progress, Hands-on Algorithmic Problem Solving
+
 
 ## Leetcode
 * [Leetcode](https://github.com/Cee/Leetcode)
