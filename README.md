@@ -206,6 +206,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |817|[Linked List Components](https://leetcode.com/problems/linked-list-components/) | [Swift](./algorithms/swift/linkedListComponents/linkedListComponents.swift)|Medium|
 |832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | [Swift](./algorithms/swift/flippingAnImage/flippingAnImage.swift)|Easy|
 |849|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/) | [Swift](./algorithms/swift/maximizeDistanceToClosestPerson/maximizeDistanceToClosestPerson.swift)|Easy|
+|856|[Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | [Swift](./algorithms/swift/scoreOfParentheses/scoreOfParentheses.swift)|Medium|
 |867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | [Swift](./algorithms/swift/transposeMatrix/transposeMatrix.swift)|Easy|
 |**871**|[Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) | [Swift](./algorithms/swift/minimumNumberOfRefuelingStops/minimumNumberOfRefuelingStops.swift), [Swift](./algorithms/swift/minimumNumberOfRefuelingStops/minimumNumberOfRefuelingStops-II.swift)|Hard|
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Swift](./algorithms/swift/middleOfTheLinkedList/middleOfTheLinkedList.swift)|Easy|
