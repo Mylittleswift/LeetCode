@@ -207,6 +207,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |**785**|[Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/) | [Swift](./algorithms/swift/isGraphBipartite/isGraphBipartite.swift)|Medium|
 |817|[Linked List Components](https://leetcode.com/problems/linked-list-components/) | [Swift](./algorithms/swift/linkedListComponents/linkedListComponents.swift)|Medium|
 |832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | [Swift](./algorithms/swift/flippingAnImage/flippingAnImage.swift)|Easy|
+|844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | [Swift](./algorithms/swift/backspaceStringCompare/backspaceStringCompare.swift)|Easy|
 |849|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/) | [Swift](./algorithms/swift/maximizeDistanceToClosestPerson/maximizeDistanceToClosestPerson.swift)|Easy|
 |856|[Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | [Swift](./algorithms/swift/scoreOfParentheses/scoreOfParentheses.swift)|Medium|
 |867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | [Swift](./algorithms/swift/transposeMatrix/transposeMatrix.swift)|Easy|
