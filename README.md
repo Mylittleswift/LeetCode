@@ -140,6 +140,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |322|[Coin Change](https://leetcode.com/problems/coin-change/) | [Swift](./algorithms/swift/coinChange/coinChange.swift)|Medium|
 |328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [Java](./algorithms/java/oddEvenLinkedList/oddEvenLinkedList.java)|Medium|
 |329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | [Swift](./algorithms/swift/longestIncreasingPathInAMatrix/longestIncreasingPathInAMatrix.swift)|Hard|
+|331|[Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/) | [Swift](./algorithms/swift/verifyPreorderSerializationOfABinaryTree/verifyPreorderSerializationOfABinaryTree.swift)|Medium|
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/) | [Swift](./algorithms/swift/countingBits/countingBits.swift)|Medium|
 |341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) | [Swift](./algorithms/swift/flattenNestedListIterator/flattenNestedListIterator.swift)|Medium|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/) | [Swift](./algorithms/swift/reverseString/reverseString.swift)|Easy|
