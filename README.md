@@ -198,6 +198,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |718|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | [Swift](./algorithms/swift/maximumLengthOfRepeatedSubarray/maximumLengthOfRepeatedSubarray.swift)|Medium|
 |724|[Find Pivot Index](https://leetcode.com/articles/find-pivot-index/) | [Swift](./algorithms/swift/findPivotIndex/findPivotIndex.swift)|Easy|
 |725|[Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) | [Swift](./algorithms/swift/splitLinkedListInParts/splitLinkedListInParts.swift)|Medium|
+|735|[Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | [Swift](./algorithms/swift/asteroidCollision/asteroidCollision.swift)|Medium|
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Swift](./algorithms/swift/dailyTemperatures/dailyTemperatures.swift)|Medium|
 |743|[Network Delay Time](https://leetcode.com/problems/network-delay-time/) | [Swift](./algorithms/swift/networkDelayTime/networkDelayTime.swift)|Medium|
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Swift](./algorithms/swift/minCostClimbingStairs/minCostClimbingStairs.swift)|Easy|
