@@ -218,6 +218,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |888|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/) | [Swift](./algorithms/swift/fairCandySwap/fairCandySwap.swift)|Easy|
 |905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | [Swift](./algorithms/swift/sortArrayByParity/sortArrayByParity.swift)|Easy|
 |**907**|[Sum of Subarray Minimus](https://leetcode.com/problems/sum-of-subarray-minimums/) | [Swift](./algorithms/swift/sumOfSubarrayMinimums/sumOfSubarrayMinimums.swift)| Medium |
+|921|[Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | [Swift](./algorithms/swift/minimumAddToMakeParenthesesValid/minimumAddToMakeParenthesesValid.swift)| Medium |
 |922|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/) | [Swift](./algorithms/swift/sortArrayByParity-II/sortArrayByParity-II.swift)|Easy|
 |938|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [Swift](./algorithms/swift/rangeSumOfBST/rangeSumOfBST.swift)|Easy|
 |946|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/) | [Swift](./algorithms/swift/validateStackSequences/validateStackSequences.swift)|Medium|
