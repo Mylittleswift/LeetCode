@@ -231,6 +231,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |**1019**|[Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/) | [Swift](./algorithms/swift/nextGreaterNodeInLinkedList/nextGreaterNodeInLinkedList.swift)|Medium|
 |1021|[Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | [Swift](./algorithms/swift/removeOutermostParentheses/removeOutermostParentheses.swift)|Easy|
 |**1030**|[Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/) | [Swift](./algorithms/swift/minimumCostTreeFromLeafValues/minimumCostTreeFromLeafValues.swift)|Medium|
+|1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) | [Swift](./algorithms/swift/removeAllAdjacentDuplicatesInString/removeAllAdjacentDuplicatesInString.swift)|Easy|
 |1051|[Height Checker](https://leetcode.com/problems/height-checker/) | [Swift](./algorithms/swift/heightChecker/heightChecker.swift)|Easy|
 |**1171**|[Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/) | [Swift](./algorithms/swift/removeZeroSumConsecutiveNodesFromLinkedList/removeZeroSumConsecutiveNodesFromLinkedList.swift)| Medium |
 
