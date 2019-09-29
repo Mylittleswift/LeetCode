@@ -216,6 +216,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | [Swift](./algorithms/swift/transposeMatrix/transposeMatrix.swift)|Easy|
 |**871**|[Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) | [Swift](./algorithms/swift/minimumNumberOfRefuelingStops/minimumNumberOfRefuelingStops.swift), [Swift](./algorithms/swift/minimumNumberOfRefuelingStops/minimumNumberOfRefuelingStops-II.swift)|Hard|
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Swift](./algorithms/swift/middleOfTheLinkedList/middleOfTheLinkedList.swift)|Easy|
+|880|[Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index/) | [Swift](./algorithms/swift/decodedStringAtIndex/decodedStringAtIndex.swift)| Medium |
 |888|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/) | [Swift](./algorithms/swift/fairCandySwap/fairCandySwap.swift)|Easy|
 |901|[Online Stock Span](https://leetcode.com/problems/online-stock-span/) | [Swift](./algorithms/swift/onlineStockSpan/onlineStockSpan.swift)| Medium |
 |905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | [Swift](./algorithms/swift/sortArrayByParity/sortArrayByParity.swift)|Easy|
