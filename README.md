@@ -231,6 +231,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Swift](./algorithms/swift/squaresOfASortedArray/squaresOfASortedArray.swift)| Easy |
 |997|[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | [Swift](./algorithms/swift/findTheTownJudge/findTheTownJudge.swift)|Easy|
 |1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/) | [Swift](./algorithms/swift/findCommonCharacters/findCommonCharacters.swift)|Easy|
+|1003|[Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/) | [Swift](./algorithms/swift/checkIfWordIsValidAfterSubstitutions/checkIfWordIsValidAfterSubstitutions.swift)|Medium|
 |**1019**|[Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/) | [Swift](./algorithms/swift/nextGreaterNodeInLinkedList/nextGreaterNodeInLinkedList.swift)|Medium|
 |1021|[Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | [Swift](./algorithms/swift/removeOutermostParentheses/removeOutermostParentheses.swift)|Easy|
 |**1030**|[Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/) | [Swift](./algorithms/swift/minimumCostTreeFromLeafValues/minimumCostTreeFromLeafValues.swift)|Medium|
