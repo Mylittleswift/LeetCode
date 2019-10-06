@@ -23,7 +23,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Swift](./algorithms/swift/removeDuplicatesFromSortedArray/removeDuplicatesFromSortedArray.swift)|Easy|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/) | [Swift](./algorithms/swift/removeElement/removeElement.swift)|Easy|
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Swift](./algorithms/swift/implementStrStr/implementStrStr().swift)|Easy|
-|31|[Next Permutation](https://leetcode.com/problems/next-permutation/) | [Swift](./algorithms/swift/nextPermutation/nextPermutation.swift)| Medium |
+|**31**|[Next Permutation](https://leetcode.com/problems/next-permutation/) | [Swift](./algorithms/swift/nextPermutation/nextPermutation.swift)| Medium |
 |32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [Swift](./algorithms/swift/longestValidParentheses/longestValidParentheses.swift)|Hard|
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Swift](./algorithms/swift/searchInRotatedSortedArray/searchInRotatedSortedArray.swift)|Medium|
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Swift](./algorithms/swift/findFirstAndLastPositionOfElementInSortedArray/findFirstAndLastPositionOfElementInSortedArray.swift)|Medium|
