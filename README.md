@@ -144,6 +144,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/) | [Swift](./algorithms/swift/countingBits/countingBits.swift)|Medium|
 |341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) | [Swift](./algorithms/swift/flattenNestedListIterator/flattenNestedListIterator.swift)|Medium|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/) | [Swift](./algorithms/swift/reverseString/reverseString.swift)|Easy|
+|346|[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/) | [Swift](./algorithms/swift/movingAverageFromDataStream/movingAverageFromDataStream.swift)|Easy|
 |367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | [Swift](./algorithms/swift/validPerfectSquare/validPerfectSquare.swift)|Easy|
 |369|[Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/) | [Swift](./algorithms/swift/plusOneLinkedList/plusOneLinkedList.swift)|Medium|
 |373|[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | [Swift](./algorithms/swift/findKPairsWithSmallestSums/findKPairsWithSmallestSums.swift)|Medium|
@@ -239,6 +240,8 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |1051|[Height Checker](https://leetcode.com/problems/height-checker/) | [Swift](./algorithms/swift/heightChecker/heightChecker.swift)|Easy|
 |**1124**|[Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/) | [Swift](./algorithms/swift/rlongestWellPerformingInterval/longestWellPerformingInterval.swift)| Medium |
 |**1171**|[Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/) | [Swift](./algorithms/swift/removeZeroSumConsecutiveNodesFromLinkedList/removeZeroSumConsecutiveNodesFromLinkedList.swift)| Medium |
+|1190|[Reverse Substrings Between Each Pair of Parentheses](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/) | [Swift](./algorithms/swift/reverseSubstringsBetweenEachPairOfParentheses/reverseSubstringsBetweenEachPairOfParentheses.swift)| Medium |
+|1209|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | [Swift](./algorithms/swift/removeAllAdjacentDuplicatesInString-II/removeAllAdjacentDuplicatesInString-II.swift)| Medium |
 
 
 
