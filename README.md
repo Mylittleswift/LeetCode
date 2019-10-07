@@ -145,6 +145,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) | [Swift](./algorithms/swift/flattenNestedListIterator/flattenNestedListIterator.swift)|Medium|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/) | [Swift](./algorithms/swift/reverseString/reverseString.swift)|Easy|
 |346|[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/) | [Swift](./algorithms/swift/movingAverageFromDataStream/movingAverageFromDataStream.swift)|Easy|
+|353|[Design Snake Game](https://leetcode.com/problems/design-snake-game/) | [Swift](./algorithms/swift/designSnakeGame/designSnakeGame.swift)|Medium|
 |367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | [Swift](./algorithms/swift/validPerfectSquare/validPerfectSquare.swift)|Easy|
 |369|[Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/) | [Swift](./algorithms/swift/plusOneLinkedList/plusOneLinkedList.swift)|Medium|
 |373|[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | [Swift](./algorithms/swift/findKPairsWithSmallestSums/findKPairsWithSmallestSums.swift)|Medium|
