@@ -175,6 +175,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |565|[Array Nesting](https://leetcode.com/problems/array-nesting/) | [Swift](./algorithms/swift/arrayNesting/arrayNesting.swift)| Medium |
 |566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | [Swift](./algorithms/swift/reshapeTheMatrix/reshapeTheMatrix.swift)|Easy|
 |**581**|[Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | [Swift](./algorithms/swift/shortestUnsortedContinuousSubarray/shortestUnsortedContinuousSubarray.swift), [Swift](./algorithms/swift/shortestUnsortedContinuousSubarray/shortestUnsortedContinuousSubarray-II.swift)|Easy|
+|582|[Kill Process](https://leetcode.com/problems/kill-process/) | [Swift](./algorithms/swift/killProcess/killProcess.swift)| Medium |
 |605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | [Swift](./algorithms/swift/canPlaceFlowers/canPlaceFlowers.swift)|Easy|
 |611|[Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | [Swift](./algorithms/swift/validTriangleNumber/validTriangleNumber.swift)| Medium |
 |621|[Task Scheduler](https://leetcode.com/problems/task-scheduler/) | [Swift](./algorithms/swift/arrayPartitionI/arrayPartitionI.swift)| Medium |
