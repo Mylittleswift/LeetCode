@@ -181,6 +181,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |582|[Kill Process](https://leetcode.com/problems/kill-process/) | [Swift](./algorithms/swift/killProcess/killProcess.swift)| Medium |
 |605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | [Swift](./algorithms/swift/canPlaceFlowers/canPlaceFlowers.swift)|Easy|
 |611|[Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | [Swift](./algorithms/swift/validTriangleNumber/validTriangleNumber.swift)| Medium |
+|617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | [Swift](./algorithms/swift/mergeTwoBinaryTrees/mergeTwoBinaryTrees.swift)|Easy|
 |621|[Task Scheduler](https://leetcode.com/problems/task-scheduler/) | [Swift](./algorithms/swift/arrayPartitionI/arrayPartitionI.swift)| Medium |
 |622|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | [Swift](./algorithms/swift/designCircularQueue/designCircularQueue.swift)| Medium |
 |628|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)| [Swift](./algorithms/swift/maximumProductOfThreeNumbers/maximumProductOfThreeNumbers.swift)|Easy|
