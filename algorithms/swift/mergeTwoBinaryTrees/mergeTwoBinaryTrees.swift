@@ -42,12 +42,13 @@
  */
 class Solution {
     func mergeTrees(_ t1: TreeNode?, _ t2: TreeNode?) -> TreeNode? {
-        if let t1 = t1, let t2 = t2 {
-            t1.val = t1.val + t2.val
-            t1.left = mergeTrees(t1.left, t2.left)
-            t1.right = mergeTrees(t1.right, t2.right)
-            return t1
-        }
-        return t1 ?? t2
+
+        guard let tt1 = t1, let tt2 = t2 else { return t1 ?? t2 }
+
+        tt1.val = tt1.val + tt2.val
+        tt1.left = mergeTrees(tt1.left, tt2.left)
+        tt1.right = mergeTrees(tt1.right, tt2.right)
+        return tt1
     }
 }
+
