@@ -1,5 +1,6 @@
 /*
 https://leetcode.com/problems/maximum-binary-tree/discuss/244547/Swift-O(N)-faster-than-100.00
+https://leetcode.com/problems/maximum-binary-tree/discuss/106146/C%2B%2B-O(N)-solution
 */
 class Solution {
     
