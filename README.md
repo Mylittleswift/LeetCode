@@ -190,6 +190,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |636|[Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions/)| [Swift](./algorithms/swift/exclusiveTimeOfFunctions/exclusiveTimeOfFunctions.swift)| Medium |
 |641|[Design Circular Deque](https://leetcode.com/problems/design-circular-deque/)| [Swift](./algorithms/swift/designCircularDeque/designCircularDeque.swift)| Medium |
 |643|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)| [Swift](./algorithms/swift/maximumAverageSubarray-I/maximumAverageSubarray-I.swift)|Easy|
+|654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)| [Swift](./algorithms/swift/maximumBinaryTree/maximumBinaryTree.swift)| Medium |
 |661|[Image Smoother](https://leetcode.com/problems/image-smoother/)| [Swift](./algorithms/swift/imageSmoother/imageSmoother.swift)|Easy|
 |665|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)| [Swift](./algorithms/swift/non-decreasingArray/non-decreasingArray.swift)|Easy|
 |667|[Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii/)| [Swift](./algorithms/swift/beautifulArrangement-II/beautifulArrangement-II.swift)| Medium |
