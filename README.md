@@ -65,6 +65,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |90|[Subsets II](https://leetcode.com/problems/subsets-ii/) | [Swift](./algorithms/swift/subsets-II/subsets-II.swift)| Medium |
 |92|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | [Swift](./algorithms/swift/reverseLinkedList-II/reverseLinkedList-II.swift)| Medium |
 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Swift](./algorithms/swift/binaryTreeInorderTraversal/binaryTreeInorderTraversal.swift)| Medium |
+|96|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | [Swift](./algorithms/swift/uniqueBinarySearchTrees-II/uniqueBinarySearchTrees-II.swift)| Medium |
 |96|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | [Swift](./algorithms/swift/uniqueBinarySearchTrees/uniqueBinarySearchTrees.swift)| Medium |
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Swift](./algorithms/swift/validateBinarySearchTree/validateBinarySearchTree.swift), [Python](./algorithms/python/validateBinarySearchTree/validateBinarySearchTree.py) |Medium|
 |100|[Same Tree](https://leetcode.com/problems/same-tree/) | [Swift](./algorithms/swift/sameTree/sameTree.swift) |Easy|
