@@ -286,7 +286,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 * [Grandyang](https://www.cnblogs.com/grandyang/p/4606334.html): leetcode题目解析
 * [LeetCode-Go](https://github.com/halfrost/LeetCode-Go)
 * [leetcode](https://github.com/azl397985856/leetcode): LeetCode Solutions: A Record of My Problem Solving Journey.( leetcode题解，记录自己的leetcode解题之路。)
-
+* [leetcode](https://github.com/strengthen/LeetCode)
 
 ## Posts
 * [monotonous stack](https://leetcode.com/problems/sum-of-subarray-minimums/discuss/178876/stack-solution-with-very-detailed-explanation-step-by-step)
