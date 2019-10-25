@@ -324,6 +324,8 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 
 * [iOS-InterviewQuestion-collection](https://github.com/liberalisman/iOS-InterviewQuestion-collection): iOS 开发者在面试过程中，常见的一些面试题，建议尽量弄懂了原理，并且多实践。
 
+[resume](https://github.com/sb2nov/resume): Software developer resume in Latex http://sourabhbajaj.com
+
 
 ## Courses
 
