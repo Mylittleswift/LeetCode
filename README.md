@@ -120,6 +120,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | [Swift](./algorithms/swift/combinationSum-III/combinationSum-III.swift)|Medium|
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Swift](./algorithms/swift/containsDuplicate/containsDuplicate.swift)|Easy|
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | [Swift](./algorithms/swift/containsDuplicateII/containsDuplicateII.swift)|Easy|
+|222|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) | [Swift](./algorithms/swift/countCompleteTreeNodes/countCompleteTreeNodes.swift)|Medium|
 |224|[Basic Calculator](https://leetcode.com/problems/basic-calculator/) | [Swift](./algorithms/swift/basicCalculator/basicCalculator.swift) |Hard|
 |225|[Implement Stack using Queue](https://leetcode.com/problems/implement-stack-using-queues/) | [Swift](./algorithms/swift/implementStackUsingQueue/implementStackUsingQueue.swift)|Easy|
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Swift](./algorithms/swift/invertBinaryTree/invertBinaryTree.swift)|Easy|
