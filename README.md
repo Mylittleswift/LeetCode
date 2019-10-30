@@ -108,6 +108,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |173|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | [Swift](./algorithms/swift/binarySearchTreeIterator/binarySearchTreeIterator.swift)| Medium |
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/) | [Swift](./algorithms/swift/rotateArray/rotateArray.swift)|Easy|
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [Java](./algorithms/java/numberOf1Bits/numberOf1Bits.java), [Swift](./algorithms/swift/numberOf1Bits/numberOf1Bits.swift)|Easy|
+|199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | [Swift](./algorithms/swift/binaryTreeRightSideView/binaryTreeRightSideView.swift)| Medium |
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Swift](./algorithms/swift/numberOfIslands/numberOfIslands.swift)| Medium |
 |203|[Remove Linked List Element](https://leetcode.com/problems/remove-linked-list-elements/) | [Java](./algorithms/java/removeLinkedListElements/removeLinkedListElements.java), [Swift](./algorithms/swift/removeLinkedListElements/removeLinkedListElements.swift)|Easy|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Java](./algorithms/java/reverseLinkedList/reverseLinkedList.java), [Swift](./algorithms/swift/reverseLinkedList/reverseLinkedList1.swift), [Swift](./algorithms/swift/reverseLinkedList/reverseLinkedList0.swift)|Easy|
