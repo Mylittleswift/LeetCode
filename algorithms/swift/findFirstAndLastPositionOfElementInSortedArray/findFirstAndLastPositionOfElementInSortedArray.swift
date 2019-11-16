@@ -20,42 +20,43 @@
  */
 class Solution {
     func searchRange(_ nums: [Int], _ target: Int) -> [Int] {
+        guard !nums.isEmpty, 
+        target >= nums[0], 
+        target <= nums[nums.endIndex-1] else { 
+            return [-1, -1] 
+        }
 
-        var result = [-1,-1]
-        guard nums.count > 0 else { return result }
+        let index = binarySearch(nums, target)
+        guard index != -1 else { return [-1, -1] }
 
-        var low = 0
-        var high = nums.count - 1
+        var left = index
+        var right = index
 
-        //finding left point
-        while(low < high) {
-            let mid = low + (high - low) / 2
-            if(nums[mid] < target) {
-                low = mid + 1
+        while left > 0, nums[left] == nums[left-1] {
+            left -= 1
+        }
+
+        while right < nums.count-1, nums[right] == nums[right+1] {
+            right += 1
+        }
+
+        return [left, right]
+
+    }
+
+    func binarySearch(_ nums: [Int], _ target: Int) -> Int {
+        var lo = 0
+        var hi = nums.count - 1
+        while lo <= hi {
+            var mid = (hi - lo) / 2 + lo
+            if nums[mid] == target {
+                return mid
+            } else if nums[mid] > target {
+                hi = mid - 1
             } else {
-                high = mid
+                lo = mid + 1
             }
         }
-
-        guard nums[low] == target else {
-            return result
-        }
-
-        result[0] = low
-
-        //find right end
-        high = nums.count - 1
-        while (low < high) {
-            let mid = low + (high - low) / 2 + 1
-            if(nums[mid] > target) {
-                high = mid - 1
-            } else {
-                low = mid
-            }
-        }
-
-        result[1] = high
-
-        return result
+        return -1
     }
 }
