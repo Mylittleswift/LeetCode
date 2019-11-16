@@ -15,6 +15,7 @@
  https://leetcode.com/problems/ransom-note/
  */
 class Solution {
+
     func canConstruct(_ ransomNote: String, _ magazine: String) -> Bool {
         var dict = [Character: Int]()
         // count all characters in magazine
@@ -27,13 +28,11 @@ class Solution {
         }
 
         for c in ransomNote {
-            if let val = dict[c] {
-                dict[c] = val - 1
-                if val - 1 < 0 {
-                    return false
-                }
-            } else {
+            guard let val = dict[c] else { return false }
+            if val - 1 < 0 {
                 return false
+            } else {
+                dict[c] = val - 1
             }
         }
         return true

@@ -163,7 +163,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |373|[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | [Swift](./algorithms/swift/findKPairsWithSmallestSums/findKPairsWithSmallestSums.swift)|Medium|
 |379|[Design Phone Directory](https://leetcode.com/problems/design-phone-directory/) | [Swift](./algorithms/swift/designPhoneDirectory/designPhoneDirectory.swift)|Medium|
 |380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [Swift](./algorithms/swift/insertDeleteGetRandom/insertDeleteGetRandom.swift)|Medium|
-|383|[Ransom Note](https://leetcode.com/problems/ransom-note/) | [Swift](./algorithms/swift/ransomNote/ransomNote.swift)|Medium|
+|383|[Ransom Note](https://leetcode.com/problems/ransom-note/) | [Swift](./algorithms/swift/ransomNote/ransomNote.swift)|Easy|
 |385|[Mini Parser](https://leetcode.com/problems/mini-parser/) | [Swift](./algorithms/swift/miniParser/miniParser.swift)|Medium|
 |394|[Decode String](https://leetcode.com/problems/decode-string/) | [Swift](./algorithms/swift/decodeString/decodeString.swift)|Medium|
 |**402**|[Remove K Digits](https://leetcode.com/problems/remove-k-digits/) | [Swift](./algorithms/swift/removeKDigits/removeKDigits.swift) |Medium|
