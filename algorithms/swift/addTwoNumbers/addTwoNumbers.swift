@@ -1,6 +1,6 @@
 //
 //  addTwoNumbers.swift
-//  
+//
 //
 //  Created by Dong, Anyuan (133) on 2019/4/5.
 //
@@ -9,9 +9,9 @@ import Foundation
 
 /*
  You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
- 
+
  You may assume the two numbers do not contain any leading zero, except the number 0 itself.
- 
+
  https://leetcode.com/problems/add-two-numbers/
  */
 
@@ -34,7 +34,7 @@ class Solution {
         var current:ListNode? = result
         var needAddOne = false
         while (l1 != nil || l2 != nil) {
-            
+
             var v1 = 0
             if let l1 = l1 {
                 v1 = l1.val
@@ -43,7 +43,7 @@ class Solution {
             if let l2 = l2 {
                 v2 = l2.val
             }
-            
+
             var v = v1 + v2
             if (needAddOne) { v += 1 }
             if v >= 10 {
@@ -52,17 +52,17 @@ class Solution {
             } else {
                 needAddOne = false
             }
-            
+
             current?.next = ListNode(v)
             l1 = l1?.next
             l2 = l2?.next
             current = current?.next
         }
-        
+
         if needAddOne {
             current?.next = ListNode(1)
         }
-        
+
         return result.next
     }
 }
