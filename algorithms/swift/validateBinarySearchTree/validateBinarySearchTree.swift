@@ -10,29 +10,39 @@
  https://leetcode.com/problems/validate-binary-search-tree/
 
  */
-var stack = [TreeNode]()
-
-func isValidBST(_ root: TreeNode?) -> Bool {
-
-    guard let root = root else { return true }
-
-    pushNode(root)
-
-    for i in 0..<stack.count-1 {
-        let t1 = stack[i]
-        let t2 = stack[i+1]
-        if t1.val >= t2.val { return false }
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     public var val: Int
+ *     public var left: TreeNode?
+ *     public var right: TreeNode?
+ *     public init(_ val: Int) {
+ *         self.val = val
+ *         self.left = nil
+ *         self.right = nil
+ *     }
+ * }
+ */
+class Solution {
+    var inorder = [Int]()
+    func isValidBST(_ root: TreeNode?) -> Bool {
+        inorderTraversal(root)
+        for (index, _) in inorder.enumerated() where index < inorder.count-1 {
+            if inorder[index] >= inorder[index+1] {
+                return false
+            }
+        }
+        return true
     }
-    return true
-}
 
-func pushNode(_ node: TreeNode?) {
-    guard let node = node else { return }
-    if node.left == nil && node.right == nil {
-        stack.append(node)
-    } else {
-        pushNode(node.left)
-        stack.append(node)
-        pushNode(node.right)
+    func inorderTraversal(_ root: TreeNode?) {
+        guard let root = root else { return }
+        if root.left == nil, root.right == nil {
+            inorder.append(root.val)
+        } else {
+            inorderTraversal(root.left)
+            inorder.append(root.val)
+            inorderTraversal(root.right)
+        }
     }
 }
