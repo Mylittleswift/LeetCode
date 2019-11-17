@@ -32,6 +32,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [Swift](./algorithms/swift/sudokuSolver/sudokuSolver.swift)|Hard|
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/) | [Swift](./algorithms/swift/combinationSum/combinationSum.swift)| Medium |
 |**42**|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Swift](./algorithms/swift/trappingRainWater/trappingRainWater.swift)|Hard|
+|46|[Permutations](https://leetcode.com/problems/permutations/) | [Swift](./algorithms/swift/permutations/permutations.swift)|Medium|
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/) | [Swift](./algorithms/swift/rotateImage/rotateImage.swift)|Medium|
 |50|[Pow(x,n)](https://leetcode.com/problems/powx-n/) | [Swift](./algorithms/swift/pow/pow.swift), [Python](./algorithms/python/pow/pow.py)|Medium|
 |51|[N-Queens](https://leetcode.com/problems/n-queens/) | [Swift](./algorithms/swift/nQueens/nQueens.swift),[Swift](./algorithms/swift/nQueens/nQueensII.swift), [Python](./algorithms/python/nQueens/nQueens.py) |Hard|
@@ -112,7 +113,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | [Swift](./algorithms/swift/binaryTreeRightSideView/binaryTreeRightSideView.swift)| Medium |
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Swift](./algorithms/swift/numberOfIslands/numberOfIslands.swift)| Medium |
 |203|[Remove Linked List Element](https://leetcode.com/problems/remove-linked-list-elements/) | [Java](./algorithms/java/removeLinkedListElements/removeLinkedListElements.java), [Swift](./algorithms/swift/removeLinkedListElements/removeLinkedListElements.swift)|Easy|
-|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Java](./algorithms/java/reverseLinkedList/reverseLinkedList.java), [Swift](./algorithms/swift/reverseLinkedList/reverseLinkedList1.swift), [Swift](./algorithms/swift/reverseLinkedList/reverseLinkedList0.swift)|Easy|
+|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Java](./algorithms/java/reverseLinkedList/reverseLinkedList.java), [Swift](./algorithms/swift/reverseLinkedList/reverseLinkedList0.swift), [Swift](./algorithms/swift/reverseLinkedList/reverseLinkedList1.swift), [Swift](./algorithms/swift/reverseLinkedList/reverseLinkedList2.swift), [Swift](./algorithms/swift/reverseLinkedList/reverseLinkedList3.swift) |Easy|
 |207|[Course Schedule](https://leetcode.com/problems/course-schedule/) | [Swift](./algorithms/swift/courseSchedule/courseSchedule.swift)|Medium|
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Swift](./algorithms/swift/implementTrie/implementTrie.swift)|Medium|
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Swift](./algorithms/swift/minimumSizeSubarraySum/minimumSizeSubarraySum.swift)|Medium|
@@ -140,6 +141,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Swift](./algorithms/swift/validAnagram/validAnagram.swift), [Swift](./algorithms/swift/validAnagram/validAnagramII.swift)|Easy|
 |243|[Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/) | [Swift](./algorithms/swift/shortestWordDistance/shortestWordDistance.swift) |Easy|
 |255|[Verify Preorder Sequence in Binary Search Tree](https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree/) | [Swift](./algorithms/swift/verifyPreorderSequenceInBinarySearchTree/verifyPreorderSequenceInBinarySearchTree.swift)| Medium |
+|257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | [Swift](./algorithms/swift/binaryTreePaths/binaryTreePaths.swift)|Easy|
 |268|[Missing Number](https://leetcode.com/problems/missing-number/) | [Swift](./algorithms/swift/missingNumber/missingNumber.swift)|Easy|
 |277|[Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/) | [Swift](./algorithms/swift/findTheCelebrity/findTheCelebrity.py)| Medium |
 |280|[Wiggle Sort](https://leetcode.com/problems/wiggle-sort/) | [Swift](./algorithms/swift/wiggleSort/wiggleSort.swift)| Medium |
@@ -162,6 +164,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |373|[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | [Swift](./algorithms/swift/findKPairsWithSmallestSums/findKPairsWithSmallestSums.swift)|Medium|
 |379|[Design Phone Directory](https://leetcode.com/problems/design-phone-directory/) | [Swift](./algorithms/swift/designPhoneDirectory/designPhoneDirectory.swift)|Medium|
 |380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [Swift](./algorithms/swift/insertDeleteGetRandom/insertDeleteGetRandom.swift)|Medium|
+|383|[Ransom Note](https://leetcode.com/problems/ransom-note/) | [Swift](./algorithms/swift/ransomNote/ransomNote.swift)|Easy|
 |385|[Mini Parser](https://leetcode.com/problems/mini-parser/) | [Swift](./algorithms/swift/miniParser/miniParser.swift)|Medium|
 |394|[Decode String](https://leetcode.com/problems/decode-string/) | [Swift](./algorithms/swift/decodeString/decodeString.swift)|Medium|
 |**402**|[Remove K Digits](https://leetcode.com/problems/remove-k-digits/) | [Swift](./algorithms/swift/removeKDigits/removeKDigits.swift) |Medium|
@@ -249,6 +252,7 @@ Please feel free to send **Pull Request**, **Issue** or give this repo a big **S
 |**969**|[Pancake Sorting](https://leetcode.com/problems/pancake-sorting/) | [Swift](./algorithms/swift/pancakeSorting/pancakeSorting.swift)|Medium|
 |**974**|[Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/) | [Swift](./algorithms/swift/subarraySumsDivisibleByK/sumOfSubarrayMinimums.swift)|Medium|
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Swift](./algorithms/swift/squaresOfASortedArray/squaresOfASortedArray.swift)| Easy |
+|**979**|[Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/) | [Swift](./algorithms/swift/distributeCoinsInBinaryTree/distributeCoinsInBinaryTree.swift)|Medium|
 |997|[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | [Swift](./algorithms/swift/findTheTownJudge/findTheTownJudge.swift)|Easy|
 |1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/) | [Swift](./algorithms/swift/findCommonCharacters/findCommonCharacters.swift)|Easy|
 |1003|[Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/) | [Swift](./algorithms/swift/checkIfWordIsValidAfterSubstitutions/checkIfWordIsValidAfterSubstitutions.swift)|Medium|
